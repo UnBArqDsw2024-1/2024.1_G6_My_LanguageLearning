@@ -31,7 +31,7 @@ A documentação do projeto estará disponivel no <a target="_blank" href=""> Pa
 
 
 
-## Tecnologia
+## ⚙️ Instruções para contribuições
 
 A geração do site estático é realizada utilizando o [docsify](https://docsify.js.org/).
 
