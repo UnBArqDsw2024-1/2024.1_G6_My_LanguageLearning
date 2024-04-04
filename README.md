@@ -8,7 +8,7 @@ Website que ensina um idioma. Criado pela equipe 6 da disciplina de arquitetura 
 
 ## 📒 Documentação
 
-A documentação do projeto estará disponivel no <a target="_blank" href=""> Pages </a>.
+A documentação do projeto estará disponivel no <a target="_blank" href="https://unbarqdsw2024-1.github.io/2024.1_G6_My_LanguageLearning/#/"> Pages </a>.
 
 ## 👥 Colaboradores
 
