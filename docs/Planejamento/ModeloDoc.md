@@ -27,15 +27,13 @@
 
 ## **Legenda**
 
-<p align="justify">
-<h6 align = "center"> Figura/Tabela n: Nome da figura/tabela.</h6>
-<h4 align = "center">
+<h6 align="center">Figura/Tabela n: Nome da figura/tabela.</h6>
+<div align="center">
   
-(Coloque a Figura/Tabela aqui)
+(Coloque a Figura/Tabela aqui, lembrando que tem que haver um espaço acima e embaixo da Figura/Tabela para não quebrar a tabela no .md)
 
-</h4>
-<h6 align = "center"> Fonte: <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>; <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>. 2024.</h6>
-</p>
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>; <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>. 2024.</h6>
 
 ## **Links**
 <p align="justify">
@@ -52,15 +50,14 @@
 &emsp;&emsp;A tabela n representa o histórico de versão do documento.
 </p>
 
-<center> 
-<p align="justify">
-<h6 align = "center"> Figura/Tabela n: Histórico de Versão.</h6>
-<h4 align = "center">
+<h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
+<div align="center">
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| ------ | ---- | --------- | --------- | ---------- |
-| `1.0`  | dd/mm/2023 | breve descrição do que você fez no arquivo | nomes | nomes |
+| Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
+| ------ | --------- | ------------------------------------------- | --------- | ---------- |
+| `1.0`  | dd/mm/2023| breve descrição do que você fez no arquivo  | nomes     | nomes       |
 
-</h4>
-<h6 align = "center"> Fonte: <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>; <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>. 2024.</h6>
-</p>
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>; <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>. 2024.</h6>
+
+
