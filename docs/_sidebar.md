@@ -39,6 +39,7 @@
     - [4.3. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md)
 
 - **Reuniões**
-  - [5.Reuniões](/Reunioes/5.Reuniao01.md)
-  - [5.1Reuniões](/Reunioes/5.1.Reuniao02.md)
+  - [5.Reunião 1](/Reunioes/5.Reuniao01.md)
+  - [5.1.Reunião 2](/Reunioes/5.1.Reuniao02.md)
+  - [5.2.Reunião 3](/Reunioes/5.2.Reuniao03.md)
 
