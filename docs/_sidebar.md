@@ -10,7 +10,7 @@
     - [1.2. Módulo Processos/Metodologias/Abordagens](/Base/1.2.ProcessosMetodologiasAbordagens.md)
     - [1.3. Participações - Base](/Base/1.3.ParticipacoesBase.md)
     - [1.4. Design Sprint](/Base/1.4.DesignSprint.md)
-    - [1.4.1.Introdução](\Base\1.4.DesignSprint\1.4.1.Introducao.md)
+    - [1.4.1.Introdução](/Base/1.4.DesignSprint/1.4.1.Introducao.md)
     - [1.4.2.Brainstorming](/Base/1.4.DesignSprint/1.4.2.Brainstorming.md)
     - [1.4.3.RichPicture](/Base/1.4.DesignSprint/1.4.3.RichPicture.md)
     - [1.4.4.Protótipo](/Base/1.4.DesignSprint/1.4.4.Prototipo.md)
