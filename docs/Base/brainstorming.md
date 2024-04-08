@@ -1,5 +1,20 @@
 # ***Brainstorming***
 
+## Participantes
+
+| Nome                    |
+|-------------------------|
+| [Carolina Barbosa](https://github.com/CarolinaBarb)      |
+| [Felipe Direito](https://github.com/FelipeDireito)      |
+| [Felipe Hansen](https://github.com/fhansen98)          |
+| [Gabriela Lemos](https://github.com/heylisten64)        |
+|[João Lucas](https://github.com/Jlmsousa) |
+| [Julia Souza](https://github.com/JuliaSSouza)          |
+| [Laura Pinos](https://github.com/laurapinos)          |
+| [Maria Eduarda Barbosa](https://github.com/Madu01)        |
+| [Maria Eduarda Marques](https://github.com/EduardaSMarques)|
+|[Marina](https://github.com/The-Boss-Nina)|
+
 ## **Introdução**
 <p align="justify">
 &emsp;&emsp; O brainstorming é uma técnica informal que consiste em uma ou várias reuniões voltadas para explorar novas ideias, solucionar problemas, desenvolver projetos e principalmente para estimular a criatividade em um grupo de pessoas. O intuito é de produzir o máximo de ideias possíveis dentro de um ambiente seguro, onde qualquer ideia é bem-vinda, longe de julgamentos. Esse cenário favorece para que a imaginação flua livremente. 
