@@ -12,8 +12,8 @@
     - [1.4. Design Sprint](/Base/1.4.DesignSprint.md)
     - [1.4.1.Introdução](\Base\1.4.DesignSprint\1.4.1.Introducao.md)
     - [1.4.2.Brainstorming](/Base/1.4.DesignSprint/1.4.2.Brainstorming.md)
-    - [1.4.3.RichPicture](\Base\1.4.DesignSprint\1.4.3.RichPicture.md)
-    - [1.4.4.Protótipo](\Base\1.4.DesignSprint\1.4.4.Prototipo.md)
+    - [1.4.3.RichPicture](/Base/1.4.DesignSprint/1.4.3.RichPicture.md)
+    - [1.4.4.Protótipo](/Base/1.4.DesignSprint/1.4.4.Prototipo.md)
     - [1.4.5.5W2H](/Base/1.4.DesignSprint/1.4.5.W2H.md)
     - [1.4.6.PlanoDeRisco](/Base/1.4.DesignSprint/1.4.6.PlanoDeRisco.md)
 
