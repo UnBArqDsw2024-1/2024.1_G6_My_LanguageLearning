@@ -1,0 +1,45 @@
+name: Título da Tarefa
+description: Sugira uma ideia para este projeto! Toda contribuição é bem vinda!
+labels: ["nova-tarefa"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por dedicar seu tempo para preencher os dados desta tarefa!
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumo
+      description: Breve descrição sobre o que se trata a tarefa.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Tarefas
+      description: Passo a passo do que deve ser feito para concluir a tarefa.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Critérios de Aceitação
+      description: Descreva o que é necessario para considerar a tarefa concluída
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conduta
+      description: Ao enviar este problema, você concorda em seguir nosso [Código de Conduta](../blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: Concordo em seguir o Código de Conduta deste projeto
+          required: true
+#   - type: input
+#    id: contact
+#    attributes:
+#      label: Contato (opcional)
+#      description: Como podemos entrar em contato caso seja necessário mais informações?
+#      placeholder: ex. email@exemplo.com
+#    validations:
+#      required: false
