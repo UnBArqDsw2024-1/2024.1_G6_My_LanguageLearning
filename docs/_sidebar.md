@@ -15,6 +15,7 @@
       - [1.4.4.Protótipo](/Base/1.4.DesignSprint/1.4.4.Prototipo.md)
       - [1.4.5.5W2H](/Base/1.4.DesignSprint/1.4.5.W2H.md)
       - [1.4.6.PlanoDeRisco](/Base/1.4.DesignSprint/1.4.6.PlanoDeRisco.md)
+      - [1.4.7.Entrevista](/Base/1.4.DesignSprint/1.4.7.ValidaçãoDoPrototipo.md)
      - [1.5. Glossário](./Base/1.5.Glossario.md)
 
 
