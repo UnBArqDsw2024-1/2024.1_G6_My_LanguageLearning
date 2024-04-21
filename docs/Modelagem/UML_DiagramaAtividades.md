@@ -1,4 +1,4 @@
-# ***Nome do Artefato***
+# ***Diagrama de atividades***
 
 ## **Introdução**
 <p align="justify">
