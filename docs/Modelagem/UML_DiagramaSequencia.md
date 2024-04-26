@@ -18,7 +18,7 @@
 </p>
 
 ## **Diagrama de Sequência**
-![Sequencia1](https://i.ibb.co/d25nswF/Blank-diagram.png)<h6 align="center">Fonte: <a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
+![Sequencia1](../img/diagrama_sequencial.jpeg)<h6 align="center">Fonte: <a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
 </p>
 
 ## **Tópico 1: Autenticação e Menu**
@@ -87,6 +87,7 @@
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |       |
-| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama.      | Marina Márcia     |       |
+| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama.      | Marina Márcia     |   Felipe Direito    |
+| `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama.      | Felipe Direito     |       |
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
