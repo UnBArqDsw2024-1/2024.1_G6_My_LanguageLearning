@@ -2,12 +2,12 @@
 
 ## **Introdução**
 <p align="justify">
-&emsp;&emsp;Texto ....(introduz ao que se trata o artefato)
+&emsp;&emsp;Os Diagrama de Sequência são frequentemente usados para modelar o comportamento dinâmico de um sistema, especialmente durante a fase de modelagem e análise. Existem várias formas de representar um diagrama sequencial, mas geralmente ele inclui componentes como objetos, classes, módulos ou funções, bem como as mensagens ou eventos que são trocados entre esses componentes durante a execução do sistema.
 </p>
 
 ## **Objetivo**
 <p align="justify">
-&emsp;&emsp;Texto .... (coloque os objetivos)
+&emsp;&emsp;O objetivo do Diagrama Sequencial é facilitar a análise e a compreensão das possíveis interações entre várias partes do software. Para isso, é necessário mapear diversos fluxos que os usuários podem seguir dentro da aplicação, permitindo um entendimento mais aprofundado da mesma. Este processo auxilia na elaboração, construção e refinamento da arquitetura do software.
 </p>
 
 ## **Metodologia**
@@ -88,6 +88,6 @@
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |       |
 | `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama.      | Marina Márcia     |   Felipe Direito    |
-| `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama.      | Felipe Direito     |       |
+| `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama e adição da Introdução e Objetivos      | Felipe Direito     |       |
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
