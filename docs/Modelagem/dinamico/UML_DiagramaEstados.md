@@ -12,21 +12,13 @@
 
 ## **Metodologia**
 <p align="justify">
-&emsp;&emsp;A metodologia adotada para o desenvolvimento do diagrama envolveu a realização de duas reuniões estratégicas. Na primeira reunião, os responsáveis apresentaram suas ideias e, com base em conteúdos e exemplos relacionados ao diagrama de atividades, colaboraram na criação de um esboço inicial. Durante essa fase, a equipe avaliou diferentes exemplos para determinar as melhores práticas a serem aplicadas na confecção do artefato, identificando elementos e fluxos que seriam mais adequados para o projeto.
+&emsp;&emsp;A metodologia adotada para o desenvolvimento do diagrama envolveu a realização de duas reuniões. Na primeira reunião, os responsáveis apresentaram suas ideias e com base em conteúdos e exemplos relacionados ao diagrama de estados, colaboraram na criação de um esboço inicial. Durante essa fase, a equipe avaliou diferentes exemplos para determinar as melhores práticas a serem aplicadas no desenvolvimento do diagrama, identificando elementos e estados que seriam mais adequados para o projeto, mas ainda surgiu dúvidas se estava correto. Antes da segunda reunião, os responsáveis mostraram o diagrama para a professora com o intuito de retirar dúvidas e aplicar melhorias.
 
-&emsp;&emsp;Na segunda reunião, o foco foi a finalização do diagrama e a organização das responsabilidades para a elaboração do artefato do diagrama de atividades, no caso este documento. Nesse encontro, os membros da equipe trabalharam em conjunto para melhorar o esboço inicial, com correções a respeito do que foi percebido que havia de errado. 
+&emsp;&emsp;Na segunda reunião, o foco foi a finalização do diagrama e a organização das responsabilidades para a elaboração do artefato do diagrama de estados, no caso este documento. Nesse encontro, os membros da equipe trabalharam em conjunto para melhorar o esboço inicial, com correções a respeito do que foi percebido que havia de errado e pelas dicas da professora. 
 
 </p>
 
-## **Tópico n**
-<p align="justify">
-&emsp;&emsp;Texto .... (Desenvolva o artefato por aqui)
-</p>
-
-## **Conclusão**
-<p align="justify">
-&emsp;&emsp;Texto .... (explique a conclusão que se teve a respeito do desenvolvimento do artefato)
-</p>
+## **Diagramas de Estado**
 
 ## **Legenda**
 
@@ -37,6 +29,17 @@
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>; <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>. 2024.</h6>
+
+
+<p align="justify">
+&emsp;&emsp;Texto .... (Desenvolva o artefato por aqui)
+</p>
+
+## **Conclusão**
+<p align="justify">
+&emsp;&emsp;Texto .... (explique a conclusão que se teve a respeito do desenvolvimento do artefato)
+</p>
+
 
 ## **Links**
 <p align="justify">
@@ -59,6 +62,7 @@
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |       |
+| `1.1`  | 20/04/2024| Atualização da metodologia  | Maria eduarda Barbosa     |       |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
