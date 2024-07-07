@@ -16,20 +16,33 @@
 
 &emsp;&emsp;Na segunda reunião, o foco foi a finalização do diagrama e a organização das responsabilidades para a elaboração do artefato do diagrama de estados, no caso este documento. Nesse encontro, os membros da equipe trabalharam em conjunto para melhorar o esboço inicial, com correções a respeito do que foi percebido que havia de errado e pelas dicas da professora. 
 
+&emsp;&emsp;Vale ressaltar que o diagrama foi criado no software diagrams.net, o qual possui seu próprio tipo de modelo mas segue as regras da linguagem-padrão UML.
+
 </p>
 
 ## **Diagramas de Estado**
 
-## **Legenda**
+### **Legenda**
 
-<h6 align="center">Figura/Tabela n: Nome da figura/tabela.</h6>
+<h6 align="center">Figura 1: legenda do diagrama de estados.</h6>
 <div align="center">
   
-(Coloque a Figura/Tabela aqui, lembrando que tem que haver um espaço acima e embaixo da Figura/Tabela para não quebrar a tabela no .md)
+<img src="../docs/Modelagem/img/diag-estados-legenda.jpg" alt="" width="3000"/> </br>
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>; <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>. 2024.</h6>
+<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">BARBOSA, maria eduarda</a>.
 
+<h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
+<div align="center">
+
+| Nome | Descrição | 
+| ---- | --------- |
+| `1.0` | 20/04/2024 |
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+
+### **Diagramas**
 
 <p align="justify">
 &emsp;&emsp;Texto .... (Desenvolva o artefato por aqui)
@@ -47,9 +60,14 @@
 </p>
 
 ## **Bibliografia**
-> <a href="https://Link_da_fonte">[1]</a> Fonte 1
 
-> <a href="https://Link_da_fonte">[2]</a> Fonte 2
+> <a href="https://Link_da_fonte">[1]</a> UML DIAGRAMS. State Machine Diagrams. 2023. Disponível em: <https://www.uml-diagrams.org/state-machine-diagrams.html>. Acesso em: 4 jul. 2024.
+
+> <a href="https://Link_da_fonte">[2]</a> SERRANO, milene. 06d - VideoAula - DSW-Modelagem - Estados. [Vídeo]. 2020. Stream. Disponível em: <https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F06d%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Estados%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E44d12a9d%2Db41e%2D4015%2Da3ef%2D490962423f81>. Acesso em: 4 jul. 2024.
+
+> <a href="https://Link_da_fonte">[3]</a> Diagrama de estados. [imagem]. 2024. Aprender 3. Disponível em: <https://aprender3.unb.br/pluginfile.php/2790248/mod_label/intro/State%20Diagram%20Example.png>. Acesso em: 4 jul. 2024.
+
+> <a href="https://Link_da_fonte">[4]</a> LUCIDCHART. O que é diagrama de máquina de estados UML. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml>. Acesso em: 4 jul. 2024.
 
 ## **Histórico de Versão**
 <p align="justify">
