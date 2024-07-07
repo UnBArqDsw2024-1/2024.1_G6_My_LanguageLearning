@@ -53,11 +53,41 @@
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
 
-### **Diagramas**
+### **Diagrama**
 
+#### **Diagrama geral**
+
+<h6 align="center">Figura 2: estado geral.</h6>
+<div align="center">
+
+![estadoGeral](../img/estadoGeral-diagramaEstados.jpg)
+
+</div>
+<h6 align="center">Fonte: <a href="">Todos responsáveis pela elaboração</a>.</h6>
+
+<br>
 <p align="justify">
-&emsp;&emsp;Texto .... (Desenvolva o artefato por aqui)
+&emsp;&emsp;A <b>Figura 2</b> demonstra de forma geral o resultado final do diagrama de estados. Os estados compostos posteriores é uma vizualização mais focada.
 </p>
+
+#### **Logando**
+
+<h6 align="center">Figura 3: estado composto logando.</h6>
+<div align="center">
+
+![estadoGeral](../img/diag-estados-logando.jpg)
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+
+<br>
+<p align="justify">
+&emsp;&emsp;Na <b>Figura 3</b> que representa o estado composto logando, inicia com o subestado <b>"entrando dados de credenciais"</b> esse estado seria o preenchimento do usuário nos campos de login, a mudança de estado ocorre logo em seguida, com a presença de uma Escolha representado pelo simbolo observado na <b>Figura 1</b> e explicado na <b>Tabela 1</b>, nele ha duas escolhas a que o resultado deu validado, esse sendo a primeira saída dos subestados, e o resultado de invalidado, que representa quando os dados do usuário não são compatíveis aos que estão cadastrado no banco de dados, neste o caminho é diferente do validado, indo para o subestado <b>"entrando dados de recuperação"</b>, representando o estado em que o usuário insere dados para a recuperação de senha, em seguida vem o <b>"enviando instruções de recuperação"</b>, o qual o sistema enviará por email do usuário a redefinição de senha, no estado posterior <b>"recuperando senha"</b> é o estado em que o usuário estará seguindo as instruções do sistema pelo email e assim que concluir irá retorna para o primeiro estado <b>"entrando dados de credenciais"</b> para acessar o sistema. 
+
+&emsp;&emsp;E por fim, a outra saída é quando o estado composto de logando muda e vai para outros que aparecem quando o usuário esta logado no sistema, o símbolo de Escolha é utilizado para representar essa ideia de escolha para os outros estados compostos. 
+
+</p>
+
 
 ## **Conclusão**
 <p align="justify">
@@ -91,7 +121,9 @@
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | Maria eduarda Barbosa     |       |
-| `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda para o diagrama de estados | Maria eduarda Barbosa     |       |
+| `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | Maria eduarda Barbosa     |       |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+
+
