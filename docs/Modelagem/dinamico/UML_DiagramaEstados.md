@@ -26,18 +26,23 @@
 
 <h6 align="center">Figura 1: legenda do diagrama de estados.</h6>
 <div align="center">
-  
-<img src="../docs/Modelagem/img/diag-estados-legenda.jpg" alt="" width="3000"/> </br>
+
+![legendaEstado](../img/diag-estados-legenda.jpg)
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/fulanodetal">BARBOSA, maria eduarda</a>.
 
-<h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
+<h6 align="center">Tabela 1: Descrição da legenda.</h6>
 <div align="center">
 
 | Nome | Descrição | 
 | ---- | --------- |
-| `1.0` | 20/04/2024 |
+| Escolha |  |
+| Ponto de entrada |  |
+| Ponto de saída |  |
+| Estado simples |  |
+| Transição |  |
+| Estado composto |  |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
