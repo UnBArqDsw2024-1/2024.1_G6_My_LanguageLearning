@@ -1,5 +1,19 @@
 # ***Diagrama de pacotes***
 
+## Participantes
+
+| Nome                    |
+|-------------------------|
+| [Gabriela Lemos](https://github.com/heylisten64)           |
+| [Pedro Augusto](https://github.com/PedroSiq)               |
+| [Luis Henrique](https://github.com/luishenrrique)          |
+| [Felipe Hansen](https://github.com/fhansen98)              |
+| [Felipe Direito](https://github.com/FelipeDireito)         |
+| [Marina Márcia](https://github.com/The-Boss-Nina)          |
+| [Matheus Moreira](https://github.com/MatheusPerillo)       |
+
+
+
 ## **Introdução**
 <p align="justify">
 &emsp;&emsp;Neste documento, é abordado o conteúdo de diagrama de pacotes, como ele foi realizado e também a explicação do diagrama criado. Os responsáveis pela criação do diagrama de pacotes foram: Maria eduarda barbosa, ______. E no desenvolvimento do artefato foi a maria eduarda barbosa.
@@ -88,7 +102,7 @@
 
 ## **Histórico de Versão**
 <p align="justify">
-&emsp;&emsp;A tabela n representa o histórico de versão do documento.
+&emsp;&emsp;A tabela 2 representa o histórico de versão do documento.
 </p>
 
 <h6 align="center">Tabela 2: Histórico de Versão.</h6>
@@ -96,8 +110,9 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |   Maria eduarda Marques    |
-| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão.  | Maria eduarda Barbosa     |   Maria eduarda Marques    |
+| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
+| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão.  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
+| `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical.  | Maria Márcia     |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
