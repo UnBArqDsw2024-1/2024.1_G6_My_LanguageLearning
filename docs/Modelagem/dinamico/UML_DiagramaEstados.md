@@ -74,7 +74,7 @@
 ![estadoGeral](../img/diagrama-estados-geral.jpg)
 
 </div>
-<h6 align="center">Fonte: <a href="">Todos responsáveis pela elaboração</a>.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 <br>
 <p align="justify">
@@ -91,7 +91,7 @@
 ![estadoGeral](../img/diag-estados-logando.jpg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 <br>
 <p align="justify">
@@ -110,7 +110,7 @@
 ![estadoCadastro](../img/diag-estado-cadastrando.jpg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/EduardaSMarques">MARQUES, Maria eduarda</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 <br>
 <p align="justify">
