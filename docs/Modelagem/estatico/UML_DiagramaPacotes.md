@@ -4,12 +4,13 @@
 
 | Nome                    |
 |-------------------------|
-| [Pedro Augusto](https://github.com/PedroSiq)               |
+| [Maria Eduarda Barbosa](https://github.com/Madu01)         |
 | [Luis Henrique](https://github.com/luishenrrique)          |
 | [Felipe Hansen](https://github.com/fhansen98)              |
 | [Felipe Direito](https://github.com/FelipeDireito)         |
 | [Marina Márcia](https://github.com/The-Boss-Nina)          |
 | [Matheus Moreira](https://github.com/MatheusPerillo)       |
+| [Pedro Augusto](https://github.com/PedroSiq)               |
 
 
 
