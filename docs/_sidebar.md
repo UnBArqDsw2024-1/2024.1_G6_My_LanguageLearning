@@ -28,7 +28,7 @@
         - [2.1.1.2. Diagrama de Classes](/Modelagem/estatico/UML_DiagramaClasses.md)
       - [2.1.2. Notação UML – Diagramas Dinâmicos](/Modelagem/2.1.2.UMLDinamicos.md)
         - [2.1.2.1. Diagrama de Sequência](/Modelagem/dinamico/UML_DiagramaSequencia.md)
-        - [2.1.2.2. Diagrama de Estados](/Modelagem//dinamico/UML_DiagramaEstados.md)
+        - [2.1.2.2. Diagrama de Estados](/Modelagem/dinamico/UML_DiagramaEstados.md)
     - [2.2. Participações - Modelagem](/Modelagem/2.2.ParticipacoesModelagem.md)
 
 - **Padrões de Projeto**
