@@ -35,6 +35,24 @@
 &emsp;&emsp;Texto .... (Desenvolva o artefato por aqui)
 </p>
 
+#### **Estado composto Cadastrando**
+
+<h6 align="center">Figura 4: estado composto cadastrando.</h6>
+<div align="center">
+
+![estadoCadastro](../img/diag-estado-cadastrando.jpg)
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/EduardaSMarques">MARQUES, Maria eduarda</a>. 2024.</h6>
+
+<br>
+<p align="justify">
+&emsp;&emsp;A <b>Figura 4</b>, representa o estado composto cadastrando, iniciando-se pelo estado simples, <b>Entrando dados cadastrais </b>, onde irá ocorrer a entrada de dados do usuário para o cadastramento dele no sistema. Logo após o cadastramento,irá ocorrer uma mudança de evento, que estará sendo representado pelo símbolo de escolha, onde levará a dois caminhos, o primeiro sendo o de <b>Invalidado</b>, que ocorrerá quando o usuário entrar com algum dado incorreto, fazendo que ocorra o estado simples <b>Enviando identificação de erro
+</b>, que criará um pop-up para o usuário fazer as correções e logo após retornar novamente para a tela de cadastro. Por fim, quando o usuário adicionar os dados corretamentes, o segundo caminho será o de <b>Validado</b> que acontece quando o usuário finaliza o cadastro e faz com que ocorra um novo evento para ir para o próximo estado composto.
+
+</p>
+
+
 ## **Conclusão**
 <p align="justify">
 &emsp;&emsp;Texto .... (explique a conclusão que se teve a respeito do desenvolvimento do artefato)
@@ -63,6 +81,8 @@
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |       |
 | `1.1`  | 20/04/2024| Atualização da metodologia  | Maria eduarda Barbosa     |       |
+| `1.2`  | 20/04/2024| Adição da introdução e dos objetivos | Maria eduarda Marques    |   Felipe Direito    |
+| `1.3`  | 20/04/2024| Adição do tópico Estado composto Cadastrando, da imagem e da referência  | Maria eduarda Marques    |   Felipe Direito    |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
