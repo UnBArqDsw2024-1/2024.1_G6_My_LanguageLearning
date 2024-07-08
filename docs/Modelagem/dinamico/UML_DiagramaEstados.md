@@ -91,7 +91,7 @@
 
 ## **Conclusão**
 <p align="justify">
-&emsp;&emsp;Texto .... (explique a conclusão que se teve a respeito do desenvolvimento do artefato)
+&emsp;&emsp;O Diagrama de Estados elaborado nos ofereceu uma representação visual clara dos estados de um objeto e as transições entre esses estados, facilitando a compreensão do comportamento do sistema ao longo do tempo. Esse diagrama também permite uma visão detalhada das respostas do sistema a diversos eventos, auxiliando na identificação de possíveis melhorias e na previsão de comportamentos.
 </p>
 
 
@@ -122,6 +122,7 @@
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | Maria eduarda Barbosa     |       |
 | `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | Maria eduarda Barbosa     |       |
+| `1.2`  | 08/07/2024| Adição da conclusão| [Julia Souza](https://github.com/JuliaSSouza)    |    [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
