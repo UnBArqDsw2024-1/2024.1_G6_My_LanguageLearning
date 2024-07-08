@@ -1,13 +1,13 @@
-# ***Diagrama de atividades***
+# ***Diagrama de Estados***
 
 ## **Introdução**
 <p align="justify">
-&emsp;&emsp;Texto ....(introduz ao que se trata o artefato)
+&emsp;&emsp;Diagrama de estados é uma ferramenta essencial na modelagem dos aspectos dinâmicos de sistemas. Elas são utilizadas para especificar as sequências de estados que um objeto atravessa durante sua vida em resposta a eventos, bem como as respostas desses objetos a esses eventos. Um estado representa uma condição ou situação durante a vida de um objeto na qual ele satisfaz determinadas condições, realiza atividades ou espera por eventos. Eventos são ocorrências significativas que podem desencadear transições de estado, enquanto transições são relações entre estados que indicam mudanças específicas quando eventos ocorrem e condições são satisfeitas. Diagrama de estados, que representam graficamente esses conceitos, são fundamentais para entender e documentar o comportamento de objetos dentro de um sistema <a href="">[5]</a> .
 </p>
 
 ## **Objetivo**
 <p align="justify">
-&emsp;&emsp;Texto .... (coloque os objetivos)
+&emsp;&emsp;O objetivo deste documento é complementar a descrição das classes, documentando os estados possíveis que os objetos de uma certa classe podem assumir e os eventos do sistema que geram tais mudanças. Este documento busca especificar a dinâmica do sistema através de diagrama de estados, reunindo o comportamento completo de uma classe em todos os casos de uso relevantes. Assim, o diagrama de estados oferece uma visão global do comportamento dos objetos de uma classe, permitindo prever todos os comportamentos possíveis de um objeto de acordo com os eventos que ele possa sofrer. Além disso, o documento visa esclarecer quando e como utilizar diagramas de estado, destacando suas notações e a importância de analisar a mudança de estados para capturar o ciclo de vida dos objetos, subsistemas e sistemas.
 </p>
 
 ## **Metodologia**
@@ -49,12 +49,12 @@
 ## **Bibliografia**
 > <a href="https://Link_da_fonte">[1]</a> Fonte 1
 
-> <a href="https://Link_da_fonte">[2]</a> Fonte 2
+> <a href="https://Link_da_fonte">[5]</a> BOOCH, G. et al. The Unified Modeling Language User Guide Medeiros, E. Desenvolvendo Software com UML 2.0: Definitivo, Makron Books, 2006.
 
 ## **Histórico de Versão**
 <p align="justify">
 &emsp;&emsp;A tabela n representa o histórico de versão do documento.
-</p>
+</p>  
 
 <h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
 <div align="center">
