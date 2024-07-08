@@ -60,7 +60,7 @@
 <h6 align="center">Figura 2: estado geral.</h6>
 <div align="center">
 
-![estadoGeral](../img/estadoGeral-diagramaEstados.jpg)
+![estadoGeral](../img/diagrama-estados-geral.jpg)
 
 </div>
 <h6 align="center">Fonte: <a href="">Todos responsáveis pela elaboração</a>.</h6>
@@ -70,7 +70,7 @@
 &emsp;&emsp;A <b>Figura 2</b> demonstra de forma geral o resultado final do diagrama de estados. Os estados compostos posteriores é uma vizualização mais focada.
 </p>
 
-#### **Logando**
+#### **Estado composto Logando**
 
 <h6 align="center">Figura 3: estado composto logando.</h6>
 <div align="center">
