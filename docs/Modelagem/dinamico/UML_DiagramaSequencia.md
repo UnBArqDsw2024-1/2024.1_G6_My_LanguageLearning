@@ -1,5 +1,18 @@
 # ***Diagrama de sequência***
 
+## Participantes
+
+| Nome                    |
+|-------------------------|
+| [Gabriela Lemos](https://github.com/heylisten64)           |
+| [Pedro Augusto](https://github.com/PedroSiq)               |
+| [Luis Henrique](https://github.com/luishenrrique)          |
+| [Felipe Hansen](https://github.com/fhansen98)              |
+| [Felipe Direito](https://github.com/FelipeDireito)         |
+| [Marina](https://github.com/The-Boss-Nina)                 |
+
+
+
 ## **Introdução**
 <p align="justify">
 &emsp;&emsp;Os Diagrama de Sequência são frequentemente usados para modelar o comportamento dinâmico de um sistema, especialmente durante a fase de modelagem e análise. Existem várias formas de representar um diagrama sequencial, mas geralmente ele inclui componentes como objetos, classes, módulos ou funções, bem como as mensagens ou eventos que são trocados entre esses componentes durante a execução do sistema.
@@ -18,7 +31,7 @@
 </p>
 
 ## **Diagrama de Sequência**
-![Sequencia1](../img/diagrama_sequencial.jpeg)<h6 align="center">Fonte: <a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
+![Sequencia1](../../img/diagrama_sequencial.jpeg)<h6 align="center">Fonte: <a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
 </p>
 
 ## **Tópico 1: Autenticação e Menu**
@@ -63,31 +76,36 @@
 
 ## **Conclusão**
 <p align="justify">
-&emsp;&emsp;Texto .... (explique a conclusão que se teve a respeito do desenvolvimento do artefato)
+&emsp;&emsp;Os Diagramas de Sequência tratam-se de artefatos fundamentais na modelagem do comportamento dinâmico do sistema, visto como uma base instrumental na fase de modelagem e análise de software. A partir dele é possível observar informações detalhadas a respeito das interações dos componentes presentes no sistema ao longo do tempo. 
+
+&emsp;&emsp;Neste contexto, utilizamos a técnica para mapear fluxos de seleção de níveis e aulas, autenticação e interação com o perfil do usuário. Assim, com o artefato elaborado temos uma base robusta para o exame e desenvolvimento contínuo do sistema. Ou seja, o diagrama não só apresenta elementos que auxiliam no entendimento das interações como também oferece uma referência para futuras expansões e aperfeiçoamentos no sistema, o que contribui significativamente para a eficácia do desenvolvimento do software. Com base nesta técnica todas as interações possíveis são devidamente mapeadas e compreendidas pelo time de desenvolvimento.
 </p>
 
+<!--
 ## **Links**
 <p align="justify">
 <a href="link de referência">nome a ser referenciado</a>
 </p>
+-->
 
 ## **Bibliografia**
-> <a href="https://Link_da_fonte">[1]</a> Fonte 1
+> <a href="https://Link_da_fonte">[1]</a> Bóson Treinamentos. Curso de UML - O que é um Diagrama de Sequência. Disponível em: https://www.youtube.com/watch?v=UVkj3ed0ZuM. Acesso em: 08 jul. 2024.
 
-> <a href="https://Link_da_fonte">[2]</a> Fonte 2
+> <a href="https://Link_da_fonte">[2]</a> Diagramas de Seqüência. Disponível em: https://www.ibm.com/docs/pt-br/rsm/7.5.0?topic=uml-sequence-diagrams. Acesso em: 08 jul. 2024.
 
 ## **Histórico de Versão**
 <p align="justify">
-&emsp;&emsp;A tabela n representa o histórico de versão do documento.
+&emsp;&emsp;A tabela 1 representa o histórico de versão do documento.
 </p>
 
-<h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
+<h6 align="center">Tabela 1: Histórico de Versão.</h6>
 <div align="center">
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |       |
+| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |      |
 | `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama.      | Marina Márcia     |   Felipe Direito    |
 | `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama e adição da Introdução e Objetivos      | Felipe Direito     |       |
+| `1.3`  | 08/07/2024| Ajuste na imagem do diagrama e adição da conclusão, bibliografia e tabela de participação      | Gabriela Lemos     |       |
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
