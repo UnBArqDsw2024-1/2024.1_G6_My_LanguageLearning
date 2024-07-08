@@ -52,7 +52,7 @@
 <img src="../img/diag-pacotes-legenda.jpeg" alt="legendaPacotes" style="width: 40%; height: auto;">
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">BARBOSA, maria eduarda</a>.
+<h6 align="center">Fonte: Autoria própria. 2024.</a>.
 
 <h6 align="center">Tabela 1: Descrição da legenda.</h6>
 <div align="center">
@@ -66,7 +66,7 @@
 | Banco de dados | Representação da base ou banco de dados do sistema. |
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 
 <h6 align="center">Imagem 2: diagrama de pacotes.</h6>
@@ -75,7 +75,7 @@
 ![DiagPacotes](../img/diag-pacotes.jpeg)
 
 </div>
-<h6 align="center">Fonte: Todos os participantes</h6>
+<h6 align="center">Fonte: Autoria própria . 2024.</h6>
 
 
 <p align="justify">
