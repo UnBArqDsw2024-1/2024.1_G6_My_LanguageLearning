@@ -10,7 +10,7 @@
 | [Felipe Hansen](https://github.com/fhansen98)              |
 | [Felipe Direito](https://github.com/FelipeDireito)         |
 | [Marina Márcia](https://github.com/The-Boss-Nina)          |
-
+| [Matheus Moreira](https://github.com/MatheusPerillo)       |
 
 
 ## **Introdução**
@@ -25,9 +25,7 @@
 
 ## **Metodologia**
 <p align="justify">
-&emsp;&emsp;A metodologia adotada para o desenvolvimento do diagrama envolveu a realização de duas reuniões estratégicas. Na primeira reunião, os responsáveis apresentaram suas ideias e, com base em conteúdos e exemplos relacionados ao diagrama de atividades, colaboraram na criação de um esboço inicial. Durante essa fase, a equipe avaliou diferentes exemplos para determinar as melhores práticas a serem aplicadas na confecção do artefato, identificando elementos e fluxos que seriam mais adequados para o projeto.
-
-&emsp;&emsp;Na segunda reunião, o foco foi a finalização do diagrama e a organização das responsabilidades para a elaboração do artefato do diagrama de atividades, no caso este documento. Nesse encontro, os membros da equipe trabalharam em conjunto para melhorar o esboço inicial, com correções a respeito do que foi percebido que havia de errado. 
+&emsp;&emsp;A metodologia adotada para o desenvolvimento do diagrama envolveu.....
 </p>
 
 ## **Diagrama de Sequência**
@@ -103,11 +101,10 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |      |
-| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama      | Marina Márcia     |       |
+| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama      | Marina Márcia     |    Maria Eduarda Barbosa   |
 | `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama e adição da Introdução e Objetivos      | Felipe Direito     |       |
 | `1.3`  | 08/07/2024| Ajuste na imagem do diagrama e adição da conclusão, bibliografia e tabela de participação      | Gabriela Lemos     |       |
-| `1.4`  | 08/07/2024| Correção da imagem do diagrama de sequência      | Marina Márcia     |       |
+| `1.4`  | 08/07/2024| Correção da imagem do diagrama de sequência      | Marina Márcia     |   Maria Eduarda Barbosa    |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
