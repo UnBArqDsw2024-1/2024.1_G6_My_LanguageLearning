@@ -118,6 +118,22 @@
 </b>, que criará um pop-up para o usuário fazer as correções e logo após retornar novamente para a tela de cadastro. Por fim, quando o usuário adicionar os dados corretamentes, o segundo caminho será o de <b>Validado</b> que acontece quando o usuário finaliza o cadastro e faz com que ocorra um novo evento para ir para o próximo estado composto.
 </p>
 
+#### **Estado composto Ranking acessado**
+
+<h6 align="center">Figura 5: estado Ranking acessado.</h6>
+<div align="center">
+
+![estadoGeral](../img/diag-estados-ranking.jpeg)
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/Jlmsousa">SOUSA, João Lucas</a>. 2024.</h6>
+
+<br>
+<p align="justify">
+&emsp;&emsp;Na <b>Figura 5</b>, se representa o estado composto ranking acessado começa no estado simples <b>Processando os pontos<b>, onde ocorre a coleta e o cálculo dos pontos dos usuários que participam do ranking. Em seguida, avança para o estado simples <b>Classificando pontuação<b>, onde as pontuações são organizadas em ordem, classificando os usuários de acordo com seus pontos. Depois disso, segue para o estado <b>Exibindo pontuação ordenada<b>, onde o ranking com todas as pontuações ordenadas são exibidos. O processo termina no ponto de saída, ou continua para o próximo estado composto, conforme necessário.
+</p>
+
+
 ## **Conclusão**
 <p align="justify">
 &emsp;&emsp;O Diagrama de Estados elaborado nos ofereceu uma representação visual clara dos estados de um objeto e as transições entre esses estados, facilitando a compreensão do comportamento do sistema ao longo do tempo. Esse diagrama também permite uma visão detalhada das respostas do sistema a diversos eventos, auxiliando na identificação de possíveis melhorias e na previsão de comportamentos.
@@ -151,9 +167,10 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | Maria eduarda Barbosa     |       |
-| `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | Maria eduarda Barbosa     |       |
+| `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | [Maria eduarda Barbosa](https://github.com/Madu01)     |   [Marina Márcia](https://github.com/The-Boss-Nina)    |
+| `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | [Maria eduarda Barbosa](https://github.com/Madu01)    |   [Marina Márcia](https://github.com/The-Boss-Nina)   |
 | `1.2`  | 08/07/2024| Adição da conclusão| [Julia Souza](https://github.com/JuliaSSouza)    |    [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
+| `1.3`  | 08/07/2024| Adição do tópico Estado composto Ranking acessado, da imagem e da referência  | [João Lucas](https://github.com/Jlmsousa)    |       |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
