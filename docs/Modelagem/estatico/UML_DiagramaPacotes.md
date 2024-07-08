@@ -75,7 +75,7 @@
 ![DiagPacotes](../img/diag-pacotes.jpeg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">BARBOSA, maria eduarda</a>.</h6>
+<h6 align="center">Fonte: Todos os participantes</h6>
 
 
 <p align="justify">
