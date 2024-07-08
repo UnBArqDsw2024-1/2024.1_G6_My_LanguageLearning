@@ -1,6 +1,15 @@
-
 # ***Diagrama de Estados***
 
+## Participantes
+
+| Nome                    |
+|-------------------------|
+| [Carolina Barbosa] (https://github.com/CarolinaBarb)           |
+| [Maria Eduarda Barbosa] (https://github.com/Madu01)            |
+| [João Lucas] (https://github.com/Jlmsousa)                     |
+| [Júlia Souza] (https://github.com/JuliaSSouza)                 |
+| [Laura Pinos] (https://github.com/laurapinos)                  |   
+| [Maria Eduarda Marques] (https://github.com/EduardaSMarques)   |
 
 ## **Introdução**
 <p align="justify">
