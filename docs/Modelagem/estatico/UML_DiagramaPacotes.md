@@ -4,7 +4,6 @@
 
 | Nome                    |
 |-------------------------|
-| [Gabriela Lemos](https://github.com/heylisten64)           |
 | [Pedro Augusto](https://github.com/PedroSiq)               |
 | [Luis Henrique](https://github.com/luishenrrique)          |
 | [Felipe Hansen](https://github.com/fhansen98)              |
@@ -15,10 +14,9 @@
 
 
 ## **Introdução**
+
 <p align="justify">
-&emsp;&emsp;Neste documento, é abordado o conteúdo de diagrama de pacotes, como ele foi realizado e também a explicação do diagrama criado. Os responsáveis pela criação do diagrama de pacotes foram: Maria eduarda barbosa, ______. E no desenvolvimento do artefato foi a maria eduarda barbosa.
-<p align="justify">
-&emsp;&emsp;O diagrama de pacotes mostra a estrutura organizacional da arquitetura de qualquer classificador UML, no caso desse projeto, do software. Os elementos nesse tipo de diagrama seguindo o padrão UML, são relacionados, sendo pacotes, classes e documentos, possuindo hierarquia entre eles. Um pacote é uma pasta que possui arquivos do sistema ou de um projeto UML, ele também pode conter outro pacote além de classes e documentos. Para mais explicação sobre os elementos utilizados, observa a <b>imagem 1</b> e <b>tabela 1</b> além da explicação do tópico <b>Diagrama</b>. 
+&emsp;&emsp;Neste documento, é abordado o conteúdo de diagrama de pacotes, como ele foi realizado e também a explicação do diagrama criado. O diagrama de pacotes mostra a estrutura organizacional da arquitetura de qualquer classificador UML, no caso desse projeto, do software. Os elementos nesse tipo de diagrama seguindo o padrão UML, são relacionados, sendo pacotes, classes e documentos, possuindo hierarquia entre eles. Um pacote é uma pasta que possui arquivos do sistema ou de um projeto UML, ele também pode conter outro pacote além de classes e documentos. Para mais explicação sobre os elementos utilizados, observa a <b>imagem 1</b> e <b>tabela 1</b> além da explicação do tópico <b>Diagrama</b>. 
 </p>
 
 ## **Objetivo**
@@ -50,7 +48,7 @@
 <h6 align="center">Imagem 1: legenda do diagrama de pacotes.</h6>
 <div align="center">
 
-![legendaPacotes](../img/diag-pacotes-legenda.jpeg)
+<img src="../img/diag-pacotes-legenda.jpeg" alt="legendaPacotes" style="width: 40%; height: auto;">
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/fulanodetal">BARBOSA, maria eduarda</a>.
