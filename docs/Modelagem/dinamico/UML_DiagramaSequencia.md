@@ -10,7 +10,7 @@
 | [Felipe Hansen](https://github.com/fhansen98)              |
 | [Felipe Direito](https://github.com/FelipeDireito)         |
 | [Marina Márcia](https://github.com/The-Boss-Nina)          |
-
+| [Matheus Moreira](https://github.com/MatheusPerillo)       |
 
 
 ## **Introdução**
