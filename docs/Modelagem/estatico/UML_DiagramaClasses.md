@@ -1,5 +1,17 @@
 # ***Diagrama de classes***
 
+## Participantes
+
+| Nome                    |
+|-------------------------|
+| [Carolina Barbosa] (https://github.com/CarolinaBarb)           |
+| [Gabriela Lemos](https://github.com/heylisten64)               |
+| [João Lucas] (https://github.com/Jlmsousa)                     |
+| [Júlia Souza] (https://github.com/JuliaSSouza)                 |
+| [Laura Pinos] (https://github.com/laurapinos)                  |   
+| [Maria Eduarda Marques] (https://github.com/EduardaSMarques)   |
+
+
 ## **Introdução**
 <p align="justify">
 &emsp;&emsp;Texto ....(introduz ao que se trata o artefato)
