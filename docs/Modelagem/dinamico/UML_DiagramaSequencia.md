@@ -9,7 +9,7 @@
 | [Luis Henrique](https://github.com/luishenrrique)          |
 | [Felipe Hansen](https://github.com/fhansen98)              |
 | [Felipe Direito](https://github.com/FelipeDireito)         |
-| [Marina](https://github.com/The-Boss-Nina)                 |
+| [Marina Márcia](https://github.com/The-Boss-Nina)                 |
 
 
 
