@@ -20,10 +20,35 @@
 
 </p>
 
-## **Tópico n**
+## **Diagrama**
+
+<h6 align="center">Figura 2: Diagrama de classes.</h6>
+<div align="center">
+
+![estadoCadastro](../img/diag-classes.jpg)
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/EduardaSMarqus">Autoria própria </a>. 2024.</h6>
+
+<br>
 <p align="justify">
-&emsp;&emsp;Texto .... (Desenvolva o artefato por aqui)
+&emsp;&emsp;A <b>Figura 2</b>, mostra quais serão as classes desenvolvidas neste projeto. No contexto deste projeto, temos as seguintes classes principais: Agendamento, Usuário, Curso, Ranking, Lição e Pontuação. Cada uma dessas classes possui atributos e métodos específicos que definem seu comportamento e funcionalidade dentro do sistema.
+
+&emsp;&emsp; A classe <b>Usuário</b> é central nesse sistema, ela está relacionada a várias outras classes, indicando as diferentes interações que um usuário pode ter dentro do sistema.
+
+&emsp;&emsp;A classe <b>Agendamento</b> está diretamente relacionada à classe Usuário,a relação indica que um usuário pode criar múltiplos agendamentos e cada agendamento está associado a um único usuário.
+
+&emsp;&emsp; A classe <b>Curso</b>, está relacionada com Usuário e a classe <b>Lição</b>, a cardianalidade com o usuário sendo, nenhum ou muitos usuários só podem está matriculados em um curso e um curso pode pertencer a muitos usuários, e a relação entre Curso e Lição, mostra que um curso pode ter várias lições, mas cada lição pertence a um único curso.
+
+&emsp;&emsp;Já na classe <b>Ranking</b>, mostra que um usuário pode ter uma posição em um ranking e o rank pode ter muitos usuário, e o rank pode ter muitas pontuações, entretanto essas pontuações só podem pertencer a um ranking.
+
+&emsp;&emsp;E por último temos a classe <b>Pontuação</b>, que além do que já foi dito acima, ela também pode pertencer ao usuário, indicando que um usuário pode possuir muitos pontos, mas uma pontuação só pode pertencer a um usuário.
+
+
+
+
 </p>
+
 
 ## **Conclusão**
 <p align="justify">
@@ -60,7 +85,8 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 21/04/2024| Criação do arquivo  | [Felipe Hansen](https://github.com/FHansen98)    |       |
+| `1.0`  | 21/04/2024| Criação do arquivo  | Felipe Hansen    |    Maria Eduarda Barbosa   |
+| `1.1`  | 08/07/2024| Adicionando o diagrama de classes e as explicação das relações de cada classe | Maria eduarda Marques    |   Maria Eduarda Barbosa  |
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+<h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>

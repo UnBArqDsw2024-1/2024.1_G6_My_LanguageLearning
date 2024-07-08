@@ -79,10 +79,10 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |       |
-| `1.1`  | 20/04/2024| Atualização da metodologia  | Maria eduarda Barbosa     |       |
-| `1.2`  | 20/04/2024| Adição da introdução e dos objetivos | Maria eduarda Marques    |   Felipe Direito    |
-| `1.3`  | 20/04/2024| Adição do tópico Estado composto Cadastrando, da imagem e da referência  | Maria eduarda Marques    |   Felipe Direito    |
+| `1.0`  | 08/07/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |       |
+| `1.1`  | 08/07/2024| Atualização da metodologia  | Maria eduarda Barbosa     |       |
+| `1.2`  | 08/07/2024| Adição da introdução e dos objetivos | Maria eduarda Marques    |   Felipe Direito    |
+| `1.3`  | 08/07/2024| Adição do tópico Estado composto Cadastrando, da imagem e da referência  | Maria eduarda Marques    |   Felipe Direito    |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
