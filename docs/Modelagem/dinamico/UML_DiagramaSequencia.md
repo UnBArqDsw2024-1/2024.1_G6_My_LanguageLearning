@@ -9,7 +9,7 @@
 | [Luis Henrique](https://github.com/luishenrrique)          |
 | [Felipe Hansen](https://github.com/fhansen98)              |
 | [Felipe Direito](https://github.com/FelipeDireito)         |
-| [Marina Márcia](https://github.com/The-Boss-Nina)                 |
+| [Marina Márcia](https://github.com/The-Boss-Nina)          |
 
 
 
@@ -104,8 +104,10 @@
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria eduarda Barbosa     |      |
-| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama.      | Marina Márcia     |   Felipe Direito    |
+| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama      | Marina Márcia     |       |
 | `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama e adição da Introdução e Objetivos      | Felipe Direito     |       |
 | `1.3`  | 08/07/2024| Ajuste na imagem do diagrama e adição da conclusão, bibliografia e tabela de participação      | Gabriela Lemos     |       |
+| `1.4`  | 08/07/2024| Correção da imagem do diagrama de sequência      | Marina Márcia     |       |
+
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
