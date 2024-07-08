@@ -4,17 +4,21 @@
 
 | Nome                    |
 |-------------------------|
-| [Carolina Barbosa] (https://github.com/CarolinaBarb)           |
+| [Carolina Barbosa](https://github.com/CarolinaBarb)           |
 | [Gabriela Lemos](https://github.com/heylisten64)               |
-| [João Lucas] (https://github.com/Jlmsousa)                     |
-| [Júlia Souza] (https://github.com/JuliaSSouza)                 |
-| [Laura Pinos] (https://github.com/laurapinos)                  |   
-| [Maria Eduarda Marques] (https://github.com/EduardaSMarques)   |
+| [João Lucas](https://github.com/Jlmsousa)                     |
+| [Júlia Souza](https://github.com/JuliaSSouza)                 |
+| [Laura Pinos](https://github.com/laurapinos)                  |   
+| [Maria Eduarda Marques](https://github.com/EduardaSMarques)   |
 
 
 ## **Introdução**
 <p align="justify">
-&emsp;&emsp;Texto ....(introduz ao que se trata o artefato)
+&emsp;&emsp;O Diagrama de Classe é um diagrama estático da UML (Unified Modeling Language) que fornece uma linguagem visual elementar da estrutura do sistema de software. Nele é possível visualizar as classes, os atributos, os métodos e os relacionamentos entre objetos. Esses elementos, apresentados na notação UML, auxiliam no desenvolvimento da estrutura interna do sistema e tornam o projeto compreensível tanto para a equipe de desenvolvimento quanto para os usuários das áreas de negócio. 
+
+&emsp;&emsp;Na notação as classes são representadas por retângulos dividido em três partes - nome, atributos e métodos - e possuem relacionamentos entre si que podem ser de associação, generalização, dependência, agregação, composição e realização. Os atributos são propriedades da classe, enquanto os métodos são as operações que a classe pode executar. 
+
+&emsp;&emsp;Os Diagramas de Classe são geralmente utilizados nas fases de análise e design do ciclo de vida do desenvolvimento do sistema e são eles que comunicam a base da estrutura interna do sistema aos desenvolvedores afim de trazer maior organização, eficiência e clareza para o desenvolvimento do software.
 </p>
 
 ## **Objetivo**
@@ -99,6 +103,6 @@
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 21/04/2024| Criação do arquivo  | Felipe Hansen    |    Maria Eduarda Barbosa   |
 | `1.1`  | 08/07/2024| Adicionando o diagrama de classes e as explicação das relações de cada classe | Maria eduarda Marques    |   Maria Eduarda Barbosa  |
-
+| `1.2`  | 08/07/2024| Adicionando introdução do artefato e realizando pequeno ajuste na tabela de participação | Gabriela Lemos    |     |
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>
