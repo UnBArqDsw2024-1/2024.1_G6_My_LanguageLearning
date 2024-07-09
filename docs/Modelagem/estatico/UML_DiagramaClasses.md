@@ -91,18 +91,18 @@ Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 -->
 
 ## **Bibliografia**
-> <a href="https://Link_da_fonte">[1]</a> O que é um diagrama de classe UML? Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml. Acesso em: 08 jul. de 2024.
+> <a href="https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml">[1]</a> O que é um diagrama de classe UML? Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml. Acesso em: 08 jul. de 2024.
 
-> <a href="https://Link_da_fonte">[2]</a> Linguagem de Modelagem Unificada - UML. Disponível em: http://www.etelg.com.br/paginaete/downloads/informatica/apostila_uml.pdf. Acesso em: 08 jul. de 2024.
+> <a href="http://www.etelg.com.br/paginaete/downloads/informatica/apostila_uml.pdf">[2]</a> Linguagem de Modelagem Unificada - UML. Disponível em: http://www.etelg.com.br/paginaete/downloads/informatica/apostila_uml.pdf. Acesso em: 08 jul. de 2024.
 
-> <a href="https://Link_da_fonte">[3]</a> FAKHROUTDINOV, Kirill. Visão geral dos Diagramas de Classes e objetos UML. 6 ago. 2011. Disponível em: https://www.uml-diagrams.org/class-diagrams-overview.html. Acesso em: 08 jul. 2024.
+> <a href="https://www.uml-diagrams.org/class-diagrams-overview.html">[3]</a> FAKHROUTDINOV, Kirill. Visão geral dos Diagramas de Classes e objetos UML. 6 ago. 2011. Disponível em: https://www.uml-diagrams.org/class-diagrams-overview.html. Acesso em: 08 jul. 2024.
 
 ## **Histórico de Versão**
 <p align="justify">
-&emsp;&emsp;A tabela n representa o histórico de versão do documento.
+&emsp;&emsp;A tabela 1 representa o histórico de versão do documento.
 </p>
 
-<h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
+<h6 align="center">Tabela 1: Histórico de Versão.</h6>
 <div align="center">
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
