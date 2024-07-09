@@ -102,12 +102,11 @@ Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 21/04/2024| Criação do arquivo  | Felipe Hansen    |    Maria Eduarda Barbosa   |
-| `1.1`  | 08/07/2024| Adicionando o diagrama de classes e as explicação das relações de cada classe | Maria eduarda Marques    |   Maria Eduarda Barbosa  |
-| `1.2`  | 08/07/2024| Adicionando introdução do artefato e realizando pequeno ajuste na tabela de participação | Gabriela Lemos    |     |
-| `1.3`  | 08/07/2024| Adicionando a conclusão do artefato | João Lucas    |  Marina Márcia   |
-| `1.4`  | 08/07/2024| Adicao da legenda | [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)                                        |
-
+| `1.0`  | 21/04/2024| Criação do arquivo  | [Felipe Hansen](https://github.com/FHansen98)    |    [Maria Eduarda Barbosa](https://github.com/Madu01)   |
+| `1.1`  | 08/07/2024| Adicionando o diagrama de classes e as explicação das relações de cada classe | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |   [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `1.2`  | 08/07/2024| Adicionando introdução do artefato e realizando pequeno ajuste na tabela de participação | [Gabriela Lemos](https://github.com/heylisten64)    |  [Felipe Direito](https://github.com/FelipeDireito)   |
+| `1.3`  | 08/07/2024| Adicionando a conclusão do artefato | [João Lucas](https://github.com/Jlmsousa)    |  [Marina Márcia](https://github.com/The-Boss-Nina)   |
+| `1.4`  | 08/07/2024| Adicao da legenda | [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)   
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>

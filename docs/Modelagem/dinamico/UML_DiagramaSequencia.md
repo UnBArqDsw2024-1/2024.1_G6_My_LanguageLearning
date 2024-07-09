@@ -101,10 +101,10 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama      | Marina Márcia     |    Maria Eduarda Barbosa   |
-| `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama e adição da Introdução e Objetivos      | Felipe Direito     |       |
-| `1.3`  | 08/07/2024| Ajuste na imagem do diagrama e adição da conclusão, bibliografia e tabela de participação      | Gabriela Lemos     |       |
-| `1.4`  | 08/07/2024| Correção da imagem do diagrama de sequência      | Marina Márcia     |   Maria Eduarda Barbosa    |
+| `1.1`  | 26/04/2024| Adição do diagrama de sequência e tópicos explicativos sobre o diagrama      | [Marina Márcia](https://github.com/The-Boss-Nina)     |    [Maria Eduarda Barbosa](https://github.com/Madu01)   |
+| `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama e adição da Introdução e Objetivos      | [Felipe Direito](https://github.com/FelipeDireito)     |     [Gabriela Lemos](https://github.com/heylisten64)  |
+| `1.3`  | 08/07/2024| Ajuste na imagem do diagrama e adição da conclusão, bibliografia e tabela de participação      | [Gabriela Lemos](https://github.com/heylisten64)     |    [Felipe Direito](https://github.com/FelipeDireito)   |
+| `1.4`  | 08/07/2024| Correção da imagem do diagrama de sequência      | [Marina Márcia](https://github.com/The-Boss-Nina)     |   [Maria Eduarda Barbosa](https://github.com/Madu01)    |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>

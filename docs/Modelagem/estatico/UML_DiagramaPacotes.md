@@ -111,10 +111,10 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
-| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
-| `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical  | Marina Márcia     | João Lucas |
-| `1.3`  | 08/07/2024| Correções de layout  | Felipe Hansen     | Felipe Direito |
+| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | [Maria Eduarda Barbosa](https://github.com/Madu01)     |   [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão  | [Maria Eduarda Barbosa](https://github.com/Madu01)     |   [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical  | [Marina Márcia](https://github.com/The-Boss-Nina)     | [João Lucas](https://github.com/Jlmsousa) |
+| `1.3`  | 08/07/2024| Correções de layout  | [Felipe Hansen](https://github.com/FHansen98)     | [Felipe Direito](https://github.com/FelipeDireito) |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
