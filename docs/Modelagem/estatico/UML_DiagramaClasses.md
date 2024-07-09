@@ -68,11 +68,6 @@
 </p>
 
 
-## **Conclusão**
-<p align="justify">
-&emsp;&emsp;Um diagrama estático de classes é uma representação visual que mostra as classes de um sistema de software, junto com seus atributos, métodos e os relacionamentos entre essas classes. Ele ajuda a entender a estrutura estática do sistema, ou seja, como as partes do sistema estão organizadas e interagem entre si. Ele mostra como as principais entidades do sistema, como Usuário, Curso, Lição, Pontuação, Ranking e Agendamento, se inter-relacionam para proporcionar uma experiência de aprendizagem eficiente e personalizada.
-</p>
-
 ## **Legenda**
 
 <h6 align="center">Figura 2: legenda do diagrama de classes.</h6>
@@ -90,6 +85,11 @@ Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 <a href="link de referência">nome a ser referenciado</a>
 </p>
 -->
+
+## **Conclusão**
+<p align="justify">
+&emsp;&emsp;Um diagrama estático de classes é uma representação visual que mostra as classes de um sistema de software, junto com seus atributos, métodos e os relacionamentos entre essas classes. Ele ajuda a entender a estrutura estática do sistema, ou seja, como as partes do sistema estão organizadas e interagem entre si. Ele mostra como as principais entidades do sistema, como Usuário, Curso, Lição, Pontuação, Ranking e Agendamento, se inter-relacionam para proporcionar uma experiência de aprendizagem eficiente e personalizada.
+</p>
 
 ## **Bibliografia**
 > <a href="https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml">[1]</a> O que é um diagrama de classe UML? Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml. Acesso em: 08 jul. de 2024.
@@ -115,5 +115,6 @@ Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 | `1.4`  | 08/07/2024| Adicao da legenda | [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
 | `1.5`  | 09/07/2024| Adição da bibliografia | [Gabriela Lemos](https://github.com/heylisten64)    |  [Felipe Direito](https://github.com/FelipeDireito)   |
 | `1.6`  | 09/07/2024| Adição do objetivo | [Laura Pinos](https://github.com/laurapinos)    |  [Felipe Direito](https://github.com/FelipeDireito)   |
+| `1.7`  | 09/07/2024| Fazendo correções nos posicionamentos dos tópicos | [Maria Eduarda Marques](https://github.com/EduardaSMarques)   |   [Maria Eduarda Barbosa](https://github.com/Madu01)  |
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>
