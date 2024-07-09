@@ -102,7 +102,7 @@
 
 </p>
   
- #### **Estado composto Cadastrando**
+#### **Estado composto Cadastrando**
 
 <h6 align="center">Figura 4: estado composto cadastrando.</h6>
 <div align="center">
@@ -186,7 +186,10 @@
 | 1.2    | 08/07/2024| Adição da conclusão                                                                             | [Julia Souza](https://github.com/JuliaSSouza)          | [Felipe Aguiar Hansen](https://github.com/fhansen98) |
 | 1.3    | 08/07/2024| Adição do estado composto Agendamento                                                           | Carolina Barbosa Brito                                 | Luis Henrique Luz Costa                         |
 | 1.4    | 08/07/2024| Adição do tópico Estado composto Ranking acessado, da imagem e da referência                    | [João Lucas](https://github.com/Jlmsousa)              |                                                 |
-| 1.5   | 08/07/2024| Correção tabela        |  [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)                                        |
+| 1.5   | 08/07/2024| Correção tabela        |  [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)    
+| `1.6`  | 20/04/2024| Adição da introdução e dos objetivos | Maria eduarda Marques    |   Felipe Direito    |
+| `1.7`  | 20/04/2024| Adição do tópico Estado composto Cadastrando, da imagem e da referência  | Maria eduarda Marques    |   Felipe Direito    |
+|
 
 
 </div>
