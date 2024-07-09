@@ -4,21 +4,20 @@
 
 | Nome                    |
 |-------------------------|
-| [Gabriela Lemos](https://github.com/heylisten64)           |
-| [Pedro Augusto](https://github.com/PedroSiq)               |
+| [Maria Eduarda Barbosa](https://github.com/Madu01)         |
 | [Luis Henrique](https://github.com/luishenrrique)          |
 | [Felipe Hansen](https://github.com/fhansen98)              |
 | [Felipe Direito](https://github.com/FelipeDireito)         |
 | [Marina Márcia](https://github.com/The-Boss-Nina)          |
 | [Matheus Moreira](https://github.com/MatheusPerillo)       |
+| [Pedro Augusto](https://github.com/PedroSiq)               |
 
 
 
 ## **Introdução**
+
 <p align="justify">
-&emsp;&emsp;Neste documento, é abordado o conteúdo de diagrama de pacotes, como ele foi realizado e também a explicação do diagrama criado. Os responsáveis pela criação do diagrama de pacotes foram: Maria eduarda barbosa, ______. E no desenvolvimento do artefato foi a maria eduarda barbosa.
-<p align="justify">
-&emsp;&emsp;O diagrama de pacotes mostra a estrutura organizacional da arquitetura de qualquer classificador UML, no caso desse projeto, do software. Os elementos nesse tipo de diagrama seguindo o padrão UML, são relacionados, sendo pacotes, classes e documentos, possuindo hierarquia entre eles. Um pacote é uma pasta que possui arquivos do sistema ou de um projeto UML, ele também pode conter outro pacote além de classes e documentos. Para mais explicação sobre os elementos utilizados, observa a <b>imagem 1</b> e <b>tabela 1</b> além da explicação do tópico <b>Diagrama</b>. 
+&emsp;&emsp;Neste documento, é abordado o conteúdo de diagrama de pacotes, como ele foi realizado e também a explicação do diagrama criado. O diagrama de pacotes mostra a estrutura organizacional da arquitetura de qualquer classificador UML, no caso desse projeto, do software. Os elementos nesse tipo de diagrama seguindo o padrão UML, são relacionados, sendo pacotes, classes e documentos, possuindo hierarquia entre eles. Um pacote é uma pasta que possui arquivos do sistema ou de um projeto UML, ele também pode conter outro pacote além de classes e documentos. Para mais explicação sobre os elementos utilizados, observa a <b>imagem 1</b> e <b>tabela 1</b> além da explicação do tópico <b>Diagrama</b>. 
 </p>
 
 ## **Objetivo**
@@ -50,10 +49,10 @@
 <h6 align="center">Imagem 1: legenda do diagrama de pacotes.</h6>
 <div align="center">
 
-![legendaPacotes](../img/diag-pacotes-legenda.jpeg)
+<img src="../../Modelagem/img/diag-pacotes-legenda.jpeg" alt="legendaPacotes" style="width: 40%; height: auto;">
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">BARBOSA, maria eduarda</a>.
+<h6 align="center">Fonte: Autoria própria. 2024.</a>
 
 <h6 align="center">Tabela 1: Descrição da legenda.</h6>
 <div align="center">
@@ -67,16 +66,18 @@
 | Banco de dados | Representação da base ou banco de dados do sistema. |
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 
 <h6 align="center">Imagem 2: diagrama de pacotes.</h6>
 <div align="center">
 
-![DiagPacotes](../img/diag-pacotes.jpeg)
+<!-- ![DiagPacotes](../img/diag-pacotes.jpeg) -->
+<img src="../../Modelagem/img/diag-pacotes.jpeg" alt="legendaPacotes" style="width: 70%; height: auto;">
+
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">BARBOSA, maria eduarda</a>.</h6>
+<h6 align="center">Fonte: Autoria própria . 2024.</h6>
 
 
 <p align="justify">
@@ -110,9 +111,10 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
-| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão.  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
-| `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical.  | Maria Márcia     |
+| `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | [Maria Eduarda Barbosa](https://github.com/Madu01)     |   [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão  | [Maria Eduarda Barbosa](https://github.com/Madu01)     |   [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical  | [Marina Márcia](https://github.com/The-Boss-Nina)     | [João Lucas](https://github.com/Jlmsousa) |
+| `1.3`  | 08/07/2024| Correções de layout  | [Felipe Hansen](https://github.com/FHansen98)     | [Felipe Direito](https://github.com/FelipeDireito) |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
