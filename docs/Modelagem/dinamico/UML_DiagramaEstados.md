@@ -141,7 +141,7 @@
 ![estadoGeral](../img/diag-estados-ranking.jpeg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Jlmsousa">SOUSA, João Lucas</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 <br>
 <p align="justify">
@@ -156,7 +156,7 @@
 ![estadoGeral](../img/Diagrama%20de%20Estados-Agendando.jpg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/CarolinaBarb">BRITO, Carolina Barbosa</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 <br>
 <p align="justify">
@@ -218,12 +218,13 @@
 | 1.0    | 06/07/2024 | Criação do arquivo e do conteúdo na metodologia                                                                | [Maria Eduarda Barbosa](https://github.com/Madu01) | [Marina Márcia](https://github.com/The-Boss-Nina)    |
 | 1.1    | 06/07/2024 | Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | [Maria Eduarda Barbosa](https://github.com/Madu01) | [Marina Márcia](https://github.com/The-Boss-Nina)    |
 | 1.2    | 08/07/2024 | Adição da conclusão                                                                                            | [Julia Souza](https://github.com/JuliaSSouza)      | [Felipe Aguiar Hansen](https://github.com/fhansen98) |
-| 1.3    | 08/07/2024 | Adição do estado composto Agendamento                                                                          | Carolina Barbosa Brito                             | Luis Henrique Luz Costa                              |
+| 1.3    | 08/07/2024 | Adição do estado composto Agendamento                                                                          | [Carolina Barbosa Brito](https://github.com)               | [Luis Henrique Luz Costa ](https://github.com)                          |
 | 1.4    | 08/07/2024 | Adição do tópico Estado composto Ranking acessado, da imagem e da referência                                   | [João Lucas](https://github.com/Jlmsousa)          |                                                      |
 | 1.5    | 08/07/2024 | Correção tabela                                                                                                | [Julia Souza](https://github.com/JuliaSSouza)      | [Felipe Aguiar Hansen](https://github.com/fhansen98) |
-| 1.6    | 20/04/2024 | Adição da introdução e dos objetivos                                                                           | Maria eduarda Marques                              | Felipe Direito                                       |
-| 1.7    | 20/04/2024 | Adição do tópico Estado composto Cadastrando, da imagem e da referência                                        | Maria eduarda Marques                              | Felipe Direito                                       |
+| 1.6    | 20/04/2024 | Adição da introdução e dos objetivos                                                                           | [Maria eduarda Marques](https://github.com) | [Felipe Direito](https://github.com)                        |
+| 1.7    | 20/04/2024 | Adição do tópico Estado composto Cadastrando, da imagem e da referência                                        | [Maria eduarda Marques](https://github.com)                          |  [Felipe Direito](https://github.com)                           |
 | 1.8    | 06/07/2024 | adicuonando conteúdo nos tópicos do estado composto de nivel acessado e de perfil acessado                     | [Maria Eduarda Barbosa](https://github.com/Madu01) | [Marina Márcia](https://github.com/The-Boss-Nina)    |
+| 1.9   | 20/04/2024 | Correção das fontes                                      | [Maria eduarda Marques](https://github.com)                          |  [Felipe Direito](https://github.com)                           |
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
