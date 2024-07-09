@@ -110,8 +110,8 @@
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
 | `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
-| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão.  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
-| `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical.  | Maria Márcia     |
+| `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
+| `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical  | Marina Márcia     | João Lucas |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>

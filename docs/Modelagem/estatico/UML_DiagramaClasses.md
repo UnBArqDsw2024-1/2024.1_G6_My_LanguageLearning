@@ -68,7 +68,7 @@
 
 ## **Conclusão**
 <p align="justify">
-&emsp;&emsp;Texto .... (explique a conclusão que se teve a respeito do desenvolvimento do artefato)
+&emsp;&emsp;Um diagrama estático de classes é uma representação visual que mostra as classes de um sistema de software, junto com seus atributos, métodos e os relacionamentos entre essas classes. Ele ajuda a entender a estrutura estática do sistema, ou seja, como as partes do sistema estão organizadas e interagem entre si. Ele mostra como as principais entidades do sistema, como Usuário, Curso, Lição, Pontuação, Ranking e Agendamento, se inter-relacionam para proporcionar uma experiência de aprendizagem eficiente e personalizada.
 </p>
 
 ## **Legenda**
@@ -104,5 +104,7 @@
 | `1.0`  | 21/04/2024| Criação do arquivo  | Felipe Hansen    |    Maria Eduarda Barbosa   |
 | `1.1`  | 08/07/2024| Adicionando o diagrama de classes e as explicação das relações de cada classe | Maria eduarda Marques    |   Maria Eduarda Barbosa  |
 | `1.2`  | 08/07/2024| Adicionando introdução do artefato e realizando pequeno ajuste na tabela de participação | Gabriela Lemos    |     |
+| `1.3`  | 08/07/2024| Adicionando a conclusão do artefato | João Lucas    |  Marina Márcia   |
+
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>
