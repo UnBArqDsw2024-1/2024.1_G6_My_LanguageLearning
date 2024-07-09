@@ -167,7 +167,7 @@
 
 #### **Estado composto perfil acessado**
 
-<h6 align="center">Figura 8: estado composto nivel acessado.</h6>
+<h6 align="center">Figura 8: estado composto perfil acessado.</h6>
 <div align="center">
 
 ![estadoGeral](../img/)
