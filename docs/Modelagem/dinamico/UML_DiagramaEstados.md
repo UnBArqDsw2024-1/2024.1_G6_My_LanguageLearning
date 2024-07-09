@@ -133,6 +133,21 @@
 &emsp;&emsp;Na <b>Figura 5</b>, se representa o estado composto ranking acessado começa no estado simples <b>Processando os pontos<b>, onde ocorre a coleta e o cálculo dos pontos dos usuários que participam do ranking. Em seguida, avança para o estado simples <b>Classificando pontuação<b>, onde as pontuações são organizadas em ordem, classificando os usuários de acordo com seus pontos. Depois disso, segue para o estado <b>Exibindo pontuação ordenada<b>, onde o ranking com todas as pontuações ordenadas são exibidos. O processo termina no ponto de saída, ou continua para o próximo estado composto, conforme necessário.
 </p>
 
+#### **Estado composto Agendamento**
+
+<h6 align="center">Figura 4: estado composto agendando.</h6>
+<div align="center">
+
+![estadoGeral](../img/Diagrama%20de%20Estados-Agendando.jpg)
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/CarolinaBarb">BRITO, Carolina Barbosa</a>. 2024.</h6>
+
+<br>
+<p align="justify">
+&emsp;&emsp;Na <b>figura 4</b> que representa o estado composto do acesso a agenda, inicia com o sub-estado <b>"Exibindo a agenda"</b> esse estado seria o primeiro contato do usuario com a sessão de agendamento onde ele visualizaria os agendamentos que ele já possui caso já tivesse realizado algum, a mudança de estado ocorre logo em seguida, com a presença de uma Escolha representado pelo simbolo observado na <b>Figura 1</b> e explicado na <b>Tabela 1</b>, nele ha três escolhas, a que o resultado já direciona para uma saída caso o usuário só deseje visualizar seus agendamentos, o resultado que cadastra, esse sendo uma escolha do sub-estado <b>"Recebendo novos dados para o agendamento"</b> que o usuario insere os dados para agendar um dia e horario para realizar lições, e o resultado de edita, esse sendo uma escolha do sub-estado <b>"Recebendo solitação de alteração da data do agendamento"</b> que representa a permissão dos usuários alterarem o dia e horario de um agendamento já realizado, seguindo por este caminho o fluxo volta para o sub-estado <b>"Recebendo novos dados para o agendamento"</b>, seguindo em frente para o subestado <b>"Analisando solicitação de agendamento"</b>, onde o sistema processa os dados inseridos pelo usuário estado, após esse subestado nos deparamos com mais uma situação de escolha, onde a primeira é invalidado que direciona para o subestado<b>"Enviando identificação de erro"</b> que representa que o sistema retorna-rá para o usuário uma mensagem de erro, a outra escolha é validada levando novamente ao subestado inicial <b>"Exibindo a agenda"</b> que mostra que o processo deu certo e assim encerrando o ciclo. 
+</p>
+
 
 ## **Conclusão**
 <p align="justify">
@@ -167,10 +182,12 @@
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
+
 | `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | [Maria eduarda Barbosa](https://github.com/Madu01)     |   [Marina Márcia](https://github.com/The-Boss-Nina)    |
 | `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | [Maria eduarda Barbosa](https://github.com/Madu01)    |   [Marina Márcia](https://github.com/The-Boss-Nina)   |
 | `1.2`  | 08/07/2024| Adição da conclusão| [Julia Souza](https://github.com/JuliaSSouza)    |    [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
-| `1.3`  | 08/07/2024| Adição do tópico Estado composto Ranking acessado, da imagem e da referência  | [João Lucas](https://github.com/Jlmsousa)    |       |
+| `1.3`| 08/07/2024 |Adição do estado composto Agendamento| Carolina Barbosa Brito| Luis Henrique Luz Costa|
+| `1.4`  | 08/07/2024| Adição do tópico Estado composto Ranking acessado, da imagem e da referência  | [João Lucas](https://github.com/Jlmsousa)    |       |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
