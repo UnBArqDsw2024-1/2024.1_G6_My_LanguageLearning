@@ -176,20 +176,19 @@
 <p align="justify">
 &emsp;&emsp;A tabela n representa o histórico de versão do documento.
 </p>  
-
-<h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
+<h6 align="center">Tabela 2: Histórico de Versão.</h6>
 <div align="center">
 
-| Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
-| ------ | --------- | ------------------------------------------- | --------- | ---------- |
+| Versão | Data      | Descrição                                                                                       | Autor(es)                                              | Revisor(es)                                     |
+|--------|-----------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------|
+| 1.0    | 06/07/2024| Criação do arquivo e do conteúdo na metodologia                                                 | [Maria Eduarda Barbosa](https://github.com/Madu01)     | [Marina Márcia](https://github.com/The-Boss-Nina) |
+| 1.1    | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | [Maria Eduarda Barbosa](https://github.com/Madu01)     | [Marina Márcia](https://github.com/The-Boss-Nina) |
+| 1.2    | 08/07/2024| Adição da conclusão                                                                             | [Julia Souza](https://github.com/JuliaSSouza)          | [Felipe Aguiar Hansen](https://github.com/fhansen98) |
+| 1.3    | 08/07/2024| Adição do estado composto Agendamento                                                           | Carolina Barbosa Brito                                 | Luis Henrique Luz Costa                         |
+| 1.4    | 08/07/2024| Adição do tópico Estado composto Ranking acessado, da imagem e da referência                    | [João Lucas](https://github.com/Jlmsousa)              |                                                 |
+| 1.5   | 08/07/2024| Correção tabela        |  [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)                                        |
 
-| `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | [Maria eduarda Barbosa](https://github.com/Madu01)     |   [Marina Márcia](https://github.com/The-Boss-Nina)    |
-| `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | [Maria eduarda Barbosa](https://github.com/Madu01)    |   [Marina Márcia](https://github.com/The-Boss-Nina)   |
-| `1.2`  | 08/07/2024| Adição da conclusão| [Julia Souza](https://github.com/JuliaSSouza)    |    [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
-| `1.3`| 08/07/2024 |Adição do estado composto Agendamento| Carolina Barbosa Brito| Luis Henrique Luz Costa|
-| `1.4`  | 08/07/2024| Adição do tópico Estado composto Ranking acessado, da imagem e da referência  | [João Lucas](https://github.com/Jlmsousa)    |       |
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
-
+<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>. 2024.</h6>
 
