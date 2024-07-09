@@ -1,13 +1,24 @@
-# ***Diagrama de estados***
+# ***Diagrama de Estados***
+
+## Participantes
+
+| Nome                    |
+|-------------------------|
+| [Carolina Barbosa](https://github.com/CarolinaBarb)           |
+| [Maria Eduarda Barbosa](https://github.com/Madu01)            |
+| [João Lucas](https://github.com/Jlmsousa)                     |
+| [Júlia Souza](https://github.com/JuliaSSouza)                 |
+| [Laura Pinos](https://github.com/laurapinos)                  |   
+| [Maria Eduarda Marques](https://github.com/EduardaSMarques)   |
 
 ## **Introdução**
 <p align="justify">
-&emsp;&emsp;Texto ....(introduz ao que se trata o artefato)
+&emsp;&emsp;Diagrama de estados é uma ferramenta essencial na modelagem dos aspectos dinâmicos de sistemas. Elas são utilizadas para especificar as sequências de estados que um objeto atravessa durante sua vida em resposta a eventos, bem como as respostas desses objetos a esses eventos. Um estado representa uma condição ou situação durante a vida de um objeto na qual ele satisfaz determinadas condições, realiza atividades ou espera por eventos. Eventos são ocorrências significativas que podem desencadear transições de estado, enquanto transições são relações entre estados que indicam mudanças específicas quando eventos ocorrem e condições são satisfeitas. Diagrama de estados, que representam graficamente esses conceitos, são fundamentais para entender e documentar o comportamento de objetos dentro de um sistema <a href="">[5]</a> .
 </p>
 
 ## **Objetivo**
 <p align="justify">
-&emsp;&emsp;Texto .... (coloque os objetivos)
+&emsp;&emsp;O objetivo deste documento é complementar a descrição das classes, documentando os estados possíveis que os objetos de uma certa classe podem assumir e os eventos do sistema que geram tais mudanças. Este documento busca especificar a dinâmica do sistema através de diagrama de estados, reunindo o comportamento completo de uma classe em todos os casos de uso relevantes. Assim, o diagrama de estados oferece uma visão global do comportamento dos objetos de uma classe, permitindo prever todos os comportamentos possíveis de um objeto de acordo com os eventos que ele possa sofrer. Além disso, o documento visa esclarecer quando e como utilizar diagramas de estado, destacando suas notações e a importância de analisar a mudança de estados para capturar o ciclo de vida dos objetos, subsistemas e sistemas.
 </p>
 
 ## **Metodologia**
@@ -63,12 +74,14 @@
 ![estadoGeral](../img/diagrama-estados-geral.jpg)
 
 </div>
-<h6 align="center">Fonte: <a href="">Todos responsáveis pela elaboração</a>.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 <br>
 <p align="justify">
 &emsp;&emsp;A <b>Figura 2</b> demonstra de forma geral o resultado final do diagrama de estados. Os estados compostos posteriores é uma vizualização mais focada.
 </p>
+
+
 
 #### **Estado composto Logando**
 
@@ -78,7 +91,7 @@
 ![estadoGeral](../img/diag-estados-logando.jpg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 
 <br>
 <p align="justify">
@@ -86,6 +99,38 @@
 
 &emsp;&emsp;E por fim, a outra saída é quando o estado composto de logando muda e vai para outros que aparecem quando o usuário esta logado no sistema, o símbolo de Escolha é utilizado para representar essa ideia de escolha para os outros estados compostos. 
 
+
+</p>
+  
+ #### **Estado composto Cadastrando**
+
+<h6 align="center">Figura 4: estado composto cadastrando.</h6>
+<div align="center">
+
+![estadoCadastro](../img/diag-estado-cadastrando.jpg)
+
+</div>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
+
+<br>
+<p align="justify">
+&emsp;&emsp;A <b>Figura 4</b>, representa o estado composto cadastrando, iniciando-se pelo estado simples, <b>Entrando dados cadastrais </b>, onde irá ocorrer a entrada de dados do usuário para o cadastramento dele no sistema. Logo após o cadastramento,irá ocorrer uma mudança de evento, que estará sendo representado pelo símbolo de escolha, onde levará a dois caminhos, o primeiro sendo o de <b>Invalidado</b>, que ocorrerá quando o usuário entrar com algum dado incorreto, fazendo que ocorra o estado simples <b>Enviando identificação de erro
+</b>, que criará um pop-up para o usuário fazer as correções e logo após retornar novamente para a tela de cadastro. Por fim, quando o usuário adicionar os dados corretamentes, o segundo caminho será o de <b>Validado</b> que acontece quando o usuário finaliza o cadastro e faz com que ocorra um novo evento para ir para o próximo estado composto.
+</p>
+
+#### **Estado composto Ranking acessado**
+
+<h6 align="center">Figura 5: estado Ranking acessado.</h6>
+<div align="center">
+
+![estadoGeral](../img/diag-estados-ranking.jpeg)
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/Jlmsousa">SOUSA, João Lucas</a>. 2024.</h6>
+
+<br>
+<p align="justify">
+&emsp;&emsp;Na <b>Figura 5</b>, se representa o estado composto ranking acessado começa no estado simples <b>Processando os pontos<b>, onde ocorre a coleta e o cálculo dos pontos dos usuários que participam do ranking. Em seguida, avança para o estado simples <b>Classificando pontuação<b>, onde as pontuações são organizadas em ordem, classificando os usuários de acordo com seus pontos. Depois disso, segue para o estado <b>Exibindo pontuação ordenada<b>, onde o ranking com todas as pontuações ordenadas são exibidos. O processo termina no ponto de saída, ou continua para o próximo estado composto, conforme necessário.
 </p>
 
 #### **Estado composto Agendamento**
@@ -106,7 +151,7 @@
 
 ## **Conclusão**
 <p align="justify">
-&emsp;&emsp;Texto .... (explique a conclusão que se teve a respeito do desenvolvimento do artefato)
+&emsp;&emsp;O Diagrama de Estados elaborado nos ofereceu uma representação visual clara dos estados de um objeto e as transições entre esses estados, facilitando a compreensão do comportamento do sistema ao longo do tempo. Esse diagrama também permite uma visão detalhada das respostas do sistema a diversos eventos, auxiliando na identificação de possíveis melhorias e na previsão de comportamentos.
 </p>
 
 
@@ -125,19 +170,24 @@
 
 > <a href="https://Link_da_fonte">[4]</a> LUCIDCHART. O que é diagrama de máquina de estados UML. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml>. Acesso em: 4 jul. 2024.
 
+> <a href="https://Link_da_fonte">[5]</a> BOOCH, G. et al. The Unified Modeling Language User Guide Medeiros, E. Desenvolvendo Software com UML 2.0: Definitivo, Makron Books, 2006.
+
 ## **Histórico de Versão**
 <p align="justify">
 &emsp;&emsp;A tabela n representa o histórico de versão do documento.
-</p>
+</p>  
 
 <h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
 <div align="center">
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
 | ------ | --------- | ------------------------------------------- | --------- | ---------- |
-| `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | Maria eduarda Barbosa     |       |
-| `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | Maria eduarda Barbosa     |       |
-| `1.2`| 08/07/2024 |Adição do estado composto Agendamento| Carolina Barbosa Brito| Luis Henrique Luz Costa|
+
+| `1.0`  | 06/07/2024| Criação do arquivo e do conteúdo na metodologia  | [Maria eduarda Barbosa](https://github.com/Madu01)     |   [Marina Márcia](https://github.com/The-Boss-Nina)    |
+| `1.1`  | 06/07/2024| Atualização da metodologia e adição do conteúdo da legenda, do diagrama geral, e do estado composto de logando | [Maria eduarda Barbosa](https://github.com/Madu01)    |   [Marina Márcia](https://github.com/The-Boss-Nina)   |
+| `1.2`  | 08/07/2024| Adição da conclusão| [Julia Souza](https://github.com/JuliaSSouza)    |    [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
+| `1.3`| 08/07/2024 |Adição do estado composto Agendamento| Carolina Barbosa Brito| Luis Henrique Luz Costa|
+| `1.4`  | 08/07/2024| Adição do tópico Estado composto Ranking acessado, da imagem e da referência  | [João Lucas](https://github.com/Jlmsousa)    |       |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
