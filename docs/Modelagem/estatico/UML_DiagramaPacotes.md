@@ -49,10 +49,10 @@
 <h6 align="center">Imagem 1: legenda do diagrama de pacotes.</h6>
 <div align="center">
 
-![legendaPacotes](../img/diag-pacotes-legenda.jpeg)
+<img src="../../Modelagem/img/diag-pacotes-legenda.jpeg" alt="legendaPacotes" style="width: 40%; height: auto;">
 
 </div>
-<h6 align="center">Fonte: Autoria própria. 2024.</a>.
+<h6 align="center">Fonte: Autoria própria. 2024.</a>
 
 <h6 align="center">Tabela 1: Descrição da legenda.</h6>
 <div align="center">
