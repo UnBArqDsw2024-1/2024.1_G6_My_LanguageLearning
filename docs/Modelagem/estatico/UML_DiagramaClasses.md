@@ -24,7 +24,8 @@
 
 ## **Objetivo**
 <p align="justify">
-&emsp;&emsp;Texto .... (coloque os objetivos)
+&emsp;&emsp;Um diagrama de classes tem como objetivo representar a estrutura de um sistema de software, destacando as classes que o compõem, seus atributos, métodos e as relações entre elas. Esse diagrama é uma ferramenta essencial na modelagem orientada a objetos e oferece diversas vantagens. Primeiramente, ele ajuda a visualizar a arquitetura e organização das classes no sistema, facilitando a compreensão geral. Além disso, serve como documentação valiosa para desenvolvedores, analistas e outros stakeholders, proporcionando uma referência clara do funcionamento do sistema.
+  O diagrama apresentado representa a estrutura do projeto de aprendizado de linguas e seus componentes. 
 </p>
 
 ## **Metodologia**
@@ -113,6 +114,6 @@ Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 | `1.3`  | 08/07/2024| Adicionando a conclusão do artefato | [João Lucas](https://github.com/Jlmsousa)    |  [Marina Márcia](https://github.com/The-Boss-Nina)   |
 | `1.4`  | 08/07/2024| Adicao da legenda | [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
 | `1.5`  | 09/07/2024| Adição da bibliografia | [Gabriela Lemos](https://github.com/heylisten64)    |  [Felipe Direito](https://github.com/FelipeDireito)   |
-
+| `1.6`  | 09/07/2024| Adição do objetivo | [Laura Pinos](https://github.com/laurapinos)    |  [Felipe Direito](https://github.com/FelipeDireito)   |
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>
