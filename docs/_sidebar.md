@@ -17,6 +17,8 @@
       - [1.4.6.PlanoDeRisco](/Base/1.4.DesignSprint/1.4.6.PlanoDeRisco.md)
       - [1.4.7.Entrevista](/Base/1.4.DesignSprint/1.4.7.ValidaçãoDoPrototipo.md)
      - [1.5. Glossário](./Base/1.5.Glossario.md)
+  - [Correções Realizadas](/Base/correcoes/correcao.md)
+    - [1.4.7.Entrevista (corrigida)](/Base/correcoes/1.4.7.ValidaçãoDoPrototipo.md)
 
 
 - **Modelagem**
