@@ -102,7 +102,7 @@
 
 </p>
   
-#### **Estado composto Cadastrando**
+#### Estado composto Cadastrando
 
 <h6 align="center">Figura 4: estado composto cadastrando.</h6>
 <div align="center">
@@ -145,7 +145,7 @@
 
 <br>
 <p align="justify">
-&emsp;&emsp;Na <b>Figura 6</b>, se representa o estado composto ranking acessado começa no estado simples <b>Processando os pontos<b>, onde ocorre a coleta e o cálculo dos pontos dos usuários que participam do ranking. Em seguida, avança para o estado simples <b>Classificando pontuação<b>, onde as pontuações são organizadas em ordem, classificando os usuários de acordo com seus pontos. Depois disso, segue para o estado <b>Exibindo pontuação ordenada</b>, onde o ranking com todas as pontuações ordenadas são exibidos. O processo termina no ponto de saída, ou continua para o próximo estado composto, conforme necessário.
+&emsp;&emsp;Na <b>Figura 6</b>, se representa o estado composto ranking acessado começa no estado simples <b>Processando os pontos</b>, onde ocorre a coleta e o cálculo dos pontos dos usuários que participam do ranking. Em seguida, avança para o estado simples <b>Classificando pontuação</b>, onde as pontuações são organizadas em ordem, classificando os usuários de acordo com seus pontos. Depois disso, segue para o estado <b>Exibindo pontuação ordenada</b>, onde o ranking com todas as pontuações ordenadas são exibidos. O processo termina no ponto de saída, ou continua para o próximo estado composto, conforme necessário.
 </p>
 
 #### **Estado composto Agendamento**
@@ -208,7 +208,7 @@
 ## **Histórico de Versão**
 
 <p align="justify">
-&emsp;&emsp;A tabela n representa o histórico de versão do documento.
+&emsp;&emsp;A tabela 2 representa o histórico de versão do documento.
 </p>  
 <h6 align="center">Tabela 2: Histórico de Versão.</h6>
 <div align="center">
