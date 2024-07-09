@@ -49,7 +49,8 @@
 <h6 align="center">Imagem 1: legenda do diagrama de pacotes.</h6>
 <div align="center">
 
-<img src="../../Modelagem/img/diag-pacotes-legenda.jpeg" alt="legendaPacotes" style="width: 40%; height: auto;">
+![DiagPacotesLegenda](../img/diag-pacotes-legenda.jpeg)
+<!-- <img src="../../Modelagem/img/diag-pacotes-legenda.jpeg" alt="legendaPacotes" style="width: 40%; height: auto;"> -->
 
 </div>
 <h6 align="center">Fonte: Autoria própria. 2024.</a>
@@ -60,7 +61,7 @@
 | Nome | Descrição | 
 | ---- | --------- |
 | Pacote | Representa uma pasta que pode conter os elementos UML. |
-| Notações de dependência: << import >> | Dependência representado pela "seta" demonstra a relação entre os elementos, que nesse caso especifica um import, ou seja, usada quando ha uma importação de dados de um elemento para o outro. |
+| Notações de dependência: << import >>    | Dependência representado pela "seta" demonstra a relação entre os elementos, que nesse caso especifica um import, ou seja, usada quando ha uma importação de dados de um elemento para o outro. |
 | Notações de dependência: << access >> | Essa dependência indica uma relção mais íntima entre os elementos, pois um precisa utilizar os dados ou funções do outro. |
 | Notações de dependência: << use >> | Indica que um elemento utiliza dados ou funções do outro elemento. |
 | Banco de dados | Representação da base ou banco de dados do sistema. |
@@ -72,8 +73,8 @@
 <h6 align="center">Imagem 2: diagrama de pacotes.</h6>
 <div align="center">
 
-<!-- ![DiagPacotes](../img/diag-pacotes.jpeg) -->
-<img src="../../Modelagem/img/diag-pacotes.jpeg" alt="legendaPacotes" style="width: 70%; height: auto;">
+![DiagPacotes](../img/diag-pacotes.jpeg)
+<!-- <img src="../../Modelagem/img/diag-pacotes.jpeg" alt="legendaPacotes" style="width: 70%; height: auto;"> -->
 
 
 </div>
