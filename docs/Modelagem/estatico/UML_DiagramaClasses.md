@@ -83,22 +83,26 @@
 <p align="center">
 Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 
+<!--
 ## **Links**
 <p align="justify">
 <a href="link de referência">nome a ser referenciado</a>
 </p>
+-->
 
 ## **Bibliografia**
-> <a href="https://Link_da_fonte">[1]</a> Fonte 1
+> <a href="https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml">[1]</a> O que é um diagrama de classe UML? Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml. Acesso em: 08 jul. de 2024.
 
-> <a href="https://Link_da_fonte">[2]</a> Fonte 2
+> <a href="http://www.etelg.com.br/paginaete/downloads/informatica/apostila_uml.pdf">[2]</a> Linguagem de Modelagem Unificada - UML. Disponível em: http://www.etelg.com.br/paginaete/downloads/informatica/apostila_uml.pdf. Acesso em: 08 jul. de 2024.
+
+> <a href="https://www.uml-diagrams.org/class-diagrams-overview.html">[3]</a> FAKHROUTDINOV, Kirill. Visão geral dos Diagramas de Classes e objetos UML. 6 ago. 2011. Disponível em: https://www.uml-diagrams.org/class-diagrams-overview.html. Acesso em: 08 jul. 2024.
 
 ## **Histórico de Versão**
 <p align="justify">
-&emsp;&emsp;A tabela n representa o histórico de versão do documento.
+&emsp;&emsp;A tabela 1 representa o histórico de versão do documento.
 </p>
 
-<h6 align="center">Figura/Tabela n: Histórico de Versão.</h6>
+<h6 align="center">Tabela 1: Histórico de Versão.</h6>
 <div align="center">
 
 | Versão | Data      | Descrição                                   | Autor(es) | Revisor(es) |
@@ -107,7 +111,8 @@ Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 | `1.1`  | 08/07/2024| Adicionando o diagrama de classes e as explicação das relações de cada classe | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |   [Maria Eduarda Barbosa](https://github.com/Madu01)  |
 | `1.2`  | 08/07/2024| Adicionando introdução do artefato e realizando pequeno ajuste na tabela de participação | [Gabriela Lemos](https://github.com/heylisten64)    |  [Felipe Direito](https://github.com/FelipeDireito)   |
 | `1.3`  | 08/07/2024| Adicionando a conclusão do artefato | [João Lucas](https://github.com/Jlmsousa)    |  [Marina Márcia](https://github.com/The-Boss-Nina)   |
-| `1.4`  | 08/07/2024| Adicao da legenda | [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)   
+| `1.4`  | 08/07/2024| Adicao da legenda | [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)   |
+| `1.5`  | 09/07/2024| Adição da bibliografia | [Gabriela Lemos](https://github.com/heylisten64)    |  [Felipe Direito](https://github.com/FelipeDireito)   |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>

@@ -29,8 +29,7 @@
 Em seguida, identificamos os principais casos de uso que precisavam ser detalhados no diagrama de sequência. Depois, definimos os participantes e as interações entre eles para cada caso de uso, detalhando as interações passo a passo.
 
 &emsp;&emsp;Usamos uma ferramenta de modelagem UML para criar os diagramas de sequência, garantindo que todos os elementos e interações fossem representados corretamente. Revisamos o diagrama com os membros e a professora na aula de dúvidas do dia 05/07, ajustando conforme o feedback. 
-O diagrama final foi incluído na documentação do projeto com explicações detalhadas e um registro das alterações. 
-Mantemos um processo contínuo de feedback e atualização dos diagramas para refletir quaisquer mudanças no sistema ou novos requisitos identificados.
+O diagrama final foi incluído na documentação do projeto com explicações detalhadas e um registro das alterações. Mantemos um processo contínuo de feedback e atualização dos diagramas para refletir quaisquer mudanças no sistema ou novos requisitos identificados.
 </p>
 
 ## **Diagrama de Sequência**
@@ -110,6 +109,7 @@ Mantemos um processo contínuo de feedback e atualização dos diagramas para re
 | `1.2`  | 26/04/2024| Ajuste no tamanho da imagem do diagrama e adição da Introdução e Objetivos      | [Felipe Direito](https://github.com/FelipeDireito)     |     [Gabriela Lemos](https://github.com/heylisten64)  |
 | `1.3`  | 08/07/2024| Ajuste na imagem do diagrama e adição da conclusão, bibliografia e tabela de participação      | [Gabriela Lemos](https://github.com/heylisten64)     |    [Felipe Direito](https://github.com/FelipeDireito)   |
 | `1.4`  | 08/07/2024| Correção da imagem do diagrama de sequência      | [Marina Márcia](https://github.com/The-Boss-Nina)     |   [Maria Eduarda Barbosa](https://github.com/Madu01)    |
+| `1.5`  | 09/07/2024| Adição da metodologia e ajuste de formatação      | [Marina Márcia](https://github.com/The-Boss-Nina)     |   [Maria Eduarda Barbosa](https://github.com/Madu01)    |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
