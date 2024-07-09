@@ -28,7 +28,8 @@
 &emsp;&emsp;A metodologia adotada para o desenvolvimento do diagrama envolveu algumas etapas fundamentais. Primeiro, realizamos uma reunião online com todos os membros envolvidos nele, para entender os principais processos do sistema e coletar os requisitos necessários. 
 Em seguida, identificamos os principais casos de uso que precisavam ser detalhados no diagrama de sequência. Depois, definimos os participantes e as interações entre eles para cada caso de uso, detalhando as interações passo a passo.
 
-&emsp;&emsp;Usamos uma ferramenta de modelagem UML para criar os diagramas de sequência, garantindo que todos os elementos e interações fossem representados corretamente. Revisamos o diagrama com os membros e a professora na aula de dúvidas do dia 05/07, ajustando conforme o feedback. 
+&emsp;&emsp;Usamos uma ferramenta de modelagem UML para criar os diagramas de sequência, garantindo que todos os elementos e interações fossem representados corretamente. 
+Revisamos o diagrama com os membros e a professora na aula de dúvidas do dia 05/07, ajustando conforme o feedback. 
 O diagrama final foi incluído na documentação do projeto com explicações detalhadas e um registro das alterações. 
 Mantemos um processo contínuo de feedback e atualização dos diagramas para refletir quaisquer mudanças no sistema ou novos requisitos identificados.
 </p>
