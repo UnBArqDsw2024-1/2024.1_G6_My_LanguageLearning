@@ -189,7 +189,7 @@
 | 1.5   | 08/07/2024| Correção tabela        |  [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)    
 | `1.6`  | 20/04/2024| Adição da introdução e dos objetivos | Maria eduarda Marques    |   Felipe Direito    |
 | `1.7`  | 20/04/2024| Adição do tópico Estado composto Cadastrando, da imagem e da referência  | Maria eduarda Marques    |   Felipe Direito    |
-|
+
 
 
 </div>
