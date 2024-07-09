@@ -72,7 +72,9 @@
 <h6 align="center">Imagem 2: diagrama de pacotes.</h6>
 <div align="center">
 
-![DiagPacotes](../img/diag-pacotes.jpeg)
+<!-- ![DiagPacotes](../img/diag-pacotes.jpeg) -->
+<img src="../../Modelagem/img/diag-pacotes.jpeg" alt="legendaPacotes" style="width: 70%; height: auto;">
+
 
 </div>
 <h6 align="center">Fonte: Autoria própria . 2024.</h6>
@@ -112,6 +114,7 @@
 | `1.0`  | 20/04/2024| Criação do arquivo e adição de conteúdo na metodologia  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
 | `1.1`  | 20/04/2024| Adição de conteúdo nos tópicos introdução, objetivos, diagrama, legenda e conclusão  | Maria Eduarda Barbosa     |   Maria Eduarda Marques    |
 | `1.2`  | 08/07/2024| Adição da tabela de participantes e correção gramatical  | Marina Márcia     | João Lucas |
+| `1.3`  | 08/07/2024| Correções de layout  | Felipe Hansen     | Felipe Direito |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria eduarda</a>. 2024.</h6>
