@@ -18,7 +18,7 @@
       - [1.4.7.Entrevista](/Base/1.4.DesignSprint/1.4.7.ValidaçãoDoPrototipo.md)
      - [1.5. Glossário](./Base/1.5.Glossario.md)
   - [2. Correções Realizadas](/Base/correcoes/correcao.md)
-    - [2.1. Entrevista (corrigida)](/Base/correcoes/1.4.7.ValidaçãoDoPrototipo.md)
+    - [2.1. Entrevista (corrigida)](/Base/correcoes/entrevista.md)
 
 
 - **Modelagem**
