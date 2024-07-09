@@ -38,7 +38,7 @@
 
 ## **Diagrama**
 
-<h6 align="center">Figura 2: Diagrama de classes.</h6>
+<h6 align="center">Figura 1: Diagrama de classes.</h6>
 <div align="center">
 
 ![estadoCadastro](../img/diag-classes.jpg)
@@ -73,13 +73,14 @@
 
 ## **Legenda**
 
-<h6 align="center">Figura/Tabela n: Nome da figura/tabela.</h6>
+<h6 align="center">Figura 2: legenda do diagrama de classes.</h6>
 <div align="center">
-  
-(Coloque a Figura/Tabela aqui, lembrando que tem que haver um espaço acima e embaixo da Figura/Tabela para não quebrar a tabela no .md)
 
+![Legenda](https://raw.githubusercontent.com/UnBArqDsw2024-1/2024.1_G6_My_LanguageLearning/main/docs/img/Legenda%20Diagrama.png)
+  
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>; <a href="https://github.com/fulanodetal">SOBRENOME, Nome</a>. 2024.</h6>
+<p align="center">
+Fonte: <a href="https://github.com/JuliaSSouza">SOUZA, Julia</a>.2024. </p>
 
 ## **Links**
 <p align="justify">
@@ -105,6 +106,8 @@
 | `1.1`  | 08/07/2024| Adicionando o diagrama de classes e as explicação das relações de cada classe | Maria eduarda Marques    |   Maria Eduarda Barbosa  |
 | `1.2`  | 08/07/2024| Adicionando introdução do artefato e realizando pequeno ajuste na tabela de participação | Gabriela Lemos    |     |
 | `1.3`  | 08/07/2024| Adicionando a conclusão do artefato | João Lucas    |  Marina Márcia   |
+| `1.4`  | 08/07/2024| Adicao da legenda | [Julia Souza](https://github.com/JuliaSSouza)              |         [Felipe Aguiar Hansen](https://github.com/fhansen98)                                        |
+
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Mad01">Autoria Própria</a>. 2024.</h6>
