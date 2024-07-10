@@ -16,9 +16,9 @@
       - [1.4.5.5W2H](/Base/1.4.DesignSprint/1.4.5.W2H.md)
       - [1.4.6.PlanoDeRisco](/Base/1.4.DesignSprint/1.4.6.PlanoDeRisco.md)
       - [1.4.7.Entrevista](/Base/1.4.DesignSprint/1.4.7.ValidaçãoDoPrototipo.md)
-     - [1.5. Glossário](./Base/1.5.Glossario.md)
-  - [2. Correções Realizadas](/Base/correcoes/correcao.md)
-    - [2.1. Entrevista (corrigida)](/Base/correcoes/entrevista.md)
+    - [1.5. Glossário](./Base/1.5.Glossario.md)
+    - [1.6. Correções Realizadas](/Base/correcoes/correcao.md)
+      - [1.6.1 Entrevista (corrigida)](/Base/correcoes/entrevista.md)
 
 
 - **Modelagem**
@@ -32,6 +32,7 @@
         - [2.1.2.1. Diagrama de Sequência](/Modelagem/dinamico/UML_DiagramaSequencia.md)
         - [2.1.2.2. Diagrama de Estados](/Modelagem/dinamico/UML_DiagramaEstados.md)
     - [2.2. Participações - Modelagem](/Modelagem/2.2.ParticipacoesModelagem.md)
+    - [2.3. Correções Realizadas](/Modelagem/correcoesModelagem/correcaoMod.md)
 
 - **Padrões de Projeto**
 
