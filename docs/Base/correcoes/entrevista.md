@@ -143,7 +143,7 @@
 
 ## **Conclusão**
 <p align="justify">
-&emsp;&emsp; As informações detalhadas fornecidas foram fundamentais para a elaboração do protótipo e para o levantamento de novos requisitos para o nosso sistema. Abaixo na <b> tabela 3</b> pode ser possível visualizar as respostas obtidas com o entrevistado e no link a seguir se encontra o vídeo da entrevista realizada.
+&emsp;&emsp; As informações detalhadas fornecidas foram fundamentais para a elaboração do protótipo e para o levantamento de novos requisitos para o nosso sistema. Abaixo na <b> tabela 3.1 e 3.2</b> pode ser possível visualizar as respostas obtidas com o entrevistado e no link a seguir se encontra o vídeo da entrevista realizada.
 
 - [Entrevista](https://youtu.be/6944_-EwTDg)
 
@@ -151,7 +151,7 @@
 
 
 
-<h6 align="center">Tabela 3: Respostas da entrevista.</h6>
+<h6 align="center">Tabela 3.1: Respostas da entrevista.</h6>
 <div align="center">
   
 | Identificador da pergunta | Página do protótipo que a pergunta se refere | Resposta | 
@@ -164,6 +164,16 @@
 | P4 | Login | Falta a opção de recuperação de senha | 
 | P3 | Página de níveis | Não | 
 | P4 | Página de níveis  | Falta uma descrição do níveis e da linguagem que está aprendendo | 
+
+</div>
+<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>; <a href="https://github.com/EduardaSMarques">MARQUES, Maria Eduarda</a>. 2024.</h6>
+
+
+<h6 align="center">Tabela 3.2: Continuação das espostas da entrevista.</h6>
+<div align="center">
+  
+| Identificador da pergunta | Página do protótipo que a pergunta se refere | Resposta | 
+| ----------- | ------ | -------- |
 | P3 | Missões do dia | O símbolo não condiz com a funcionalidade | 
 | P4 | Missões do dia | Algo indicando o que cada símbolo é, um indicador ao passar o mouse | 
 | P3 | Raking | Não | 
