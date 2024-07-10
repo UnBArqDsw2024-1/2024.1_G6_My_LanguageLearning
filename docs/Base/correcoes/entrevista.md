@@ -155,16 +155,16 @@
 <div align="center">
   
 | Identificador da pergunta | Página do protótipo que a pergunta se refere | Resposta | 
-| ----------- | --- | -------- |
-| P1 | - | 21 anos | 
-| P2 | - | Pouca experiência | 
+| ----------- | ------ | -------- |
+| P1 | nenhuma | 21 anos | 
+| P2 | nenhuma | Pouca experiência | 
 | P3 | Cadastro | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha |   
 | P4 | Cadastro | Não | 
-| P3 | Login |  Falta legibilidade das letras e indicação de onde seria colocado o email e a senha | 
+| P3 | Login | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha | 
 | P4 | Login | Falta a opção de recuperação de senha | 
 | P3 | Página de níveis | Não | 
 | P4 | Página de níveis  | Falta uma descrição do níveis e da linguagem que está aprendendo | 
-| P3 | Missões do dia  | O símbolo não condiz com a funcionalidade | 
+| P3 | Missões do dia | O símbolo não condiz com a funcionalidade | 
 | P4 | Missões do dia | Algo indicando o que cada símbolo é, um indicador ao passar o mouse | 
 | P3 | Raking | Não | 
 | P4 | Raking | Algo indicando o que cada símbolo é, um indicador ao passar o mouse. Colocar como ganhar XP | 
@@ -172,7 +172,7 @@
 | P4 | Perfil | Um botão para seguir outra pessoa. E qual é a relação de amigos e seguidores. A banderinha do protótipo traz confusão | 
 | P3 | Agenda | Qual a mudança que o agendamento de estudo irá trazer, se é uma notificação, email ou alarme. | 
 | P4 | Agenda | Mostrar o conteúdo estudado e descrição | 
-| P5 | - | Não |
+| P5 | nenhuma | Não |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>; <a href="https://github.com/EduardaSMarques">MARQUES, Maria Eduarda</a>. 2024.</h6>  
