@@ -143,49 +143,40 @@
 
 ## **Conclusão**
 <p align="justify">
-&emsp;&emsp; As informações detalhadas fornecidas foram fundamentais para a elaboração do protótipo e para o levantamento de novos requisitos para o nosso sistema. Abaixo na <b> tabela 3.1 e 3.2</b> pode ser possível visualizar as respostas obtidas com o entrevistado e no link a seguir se encontra o vídeo da entrevista realizada.
+&emsp;&emsp; As informações detalhadas fornecidas foram fundamentais para a elaboração do protótipo e para o levantamento de novos requisitos para o nosso sistema. Abaixo na <b> tabela 3</b> pode ser possível visualizar as respostas obtidas com o entrevistado e no link a seguir se encontra o vídeo da entrevista realizada.
 
 - [Entrevista](https://youtu.be/6944_-EwTDg)
 
 </p>
 
 
-
-<h6 align="center">Tabela 3.1: Respostas da entrevista.</h6>
+<h6 align="center">Tabela 3: Respostas da entrevista.</h6>
 <div align="center">
   
 | Identificador da pergunta | Página do protótipo que a pergunta se refere | Resposta | 
-| ----------- | ------ | -------- |
-| P1 | nenhuma | 21 anos | 
-| P2 | nenhuma | Pouca experiência | 
-| P3 | Cadastro | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha |   
-| P4 | Cadastro | Não | 
-| P3 | Login | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha | 
-| P4 | Login | Falta a opção de recuperação de senha | 
-| P3 | Página de níveis | Não | 
-| P4 | Página de níveis  | Falta uma descrição do níveis e da linguagem que está aprendendo | 
-
-</div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>; <a href="https://github.com/EduardaSMarques">MARQUES, Maria Eduarda</a>. 2024.</h6>
-
-
-<h6 align="center">Tabela 3.2: Continuação das espostas da entrevista.</h6>
-<div align="center">
-  
-| Identificador da pergunta | Página do protótipo que a pergunta se refere | Resposta | 
-| ----------- | ------ | -------- |
-| P3 | Missões do dia | O símbolo não condiz com a funcionalidade | 
-| P4 | Missões do dia | Algo indicando o que cada símbolo é, um indicador ao passar o mouse | 
-| P3 | Raking | Não | 
-| P4 | Raking | Algo indicando o que cada símbolo é, um indicador ao passar o mouse. Colocar como ganhar XP | 
-| P3 | Perfil | Não | 
-| P4 | Perfil | Um botão para seguir outra pessoa. E qual é a relação de amigos e seguidores. A banderinha do protótipo traz confusão | 
-| P3 | Agenda | Qual a mudança que o agendamento de estudo irá trazer, se é uma notificação, email ou alarme. | 
-| P4 | Agenda | Mostrar o conteúdo estudado e descrição | 
-| P5 | nenhuma | Não |
+| ------------------------- | -------------------------------------------- | -------- |
+| P1                        | N/A                                          | 21 anos  | 
+| P2                        | N/A                                          | Pouca experiência | 
+| P3                        | Cadastro                                     | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha |   
+| P4                        | Cadastro                                     | Não | 
+| P3                        | Login                                        | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha | 
+| P4                        | Login                                        | Falta a opção de recuperação de senha | 
+| P3                        | Página de níveis                             | Não | 
+| P4                        | Página de níveis                             | Falta uma descrição do níveis e da linguagem que está aprendendo | 
+| P3                        | Missões do dia                               | O símbolo não condiz com a funcionalidade | 
+| P4                        | Missões do dia                               | Algo indicando o que cada símbolo é, um indicador ao passar o mouse | 
+| P3                        | Ranking                                      | Não | 
+| P4                        | Ranking                                      | Algo indicando o que cada símbolo é, um indicador ao passar o mouse. Colocar como ganhar XP | 
+| P3                        | Perfil                                       | Não | 
+| P4                        | Perfil                                       | Um botão para seguir outra pessoa. E qual é a relação de amigos e seguidores. A bandeirinha do protótipo traz confusão | 
+| P3                        | Agenda                                       | Qual a mudança que o agendamento de estudo irá trazer, se é uma notificação, email ou alarme. | 
+| P4                        | Agenda                                       | Mostrar o conteúdo estudado e descrição | 
+| P5                        | N/A                                          | Não |
 
 </div>
 <h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>; <a href="https://github.com/EduardaSMarques">MARQUES, Maria Eduarda</a>. 2024.</h6>  
+
+
 
 <p align="justify">
 <b>Obs.:</b> houve um problema para conseguir realizar a entrevista 1, teve problemas técnicos não só do lado da possível entrevistada mas também do lado dos entrevistadores, ambos não conseguiam compartilhar o protótipo, foi uma falha que não só atrapalhou mas também impediu o desenvolvimento da entrevista 1.
