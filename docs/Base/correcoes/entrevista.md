@@ -149,14 +149,13 @@
 
 </p>
 
-
 <h6 align="center">Tabela 3: Respostas da entrevista.</h6>
-<div align="center">
+
   
 | Identificador da pergunta | Página do protótipo que a pergunta se refere | Resposta | 
 | ------------------------- | -------------------------------------------- | -------- |
-| P1                        | N/A                                          | 21 anos  | 
-| P2                        | N/A                                          | Pouca experiência | 
+| P1                        | Não tem                                      | 21 anos  | 
+| P2                        | Não tem                                      | Pouca experiência | 
 | P3                        | Cadastro                                     | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha |   
 | P4                        | Cadastro                                     | Não | 
 | P3                        | Login                                        | Falta legibilidade das letras e indicação de onde seria colocado o email e a senha | 
@@ -171,10 +170,10 @@
 | P4                        | Perfil                                       | Um botão para seguir outra pessoa. E qual é a relação de amigos e seguidores. A bandeirinha do protótipo traz confusão | 
 | P3                        | Agenda                                       | Qual a mudança que o agendamento de estudo irá trazer, se é uma notificação, email ou alarme. | 
 | P4                        | Agenda                                       | Mostrar o conteúdo estudado e descrição | 
-| P5                        | N/A                                          | Não |
+| P5                        | Não tem                                      | Não |
 
-</div>
-<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>; <a href="https://github.com/EduardaSMarques">MARQUES, Maria Eduarda</a>. 2024.</h6>  
+
+<h6 align="center">Fonte: <a href="https://github.com/Madu01">BARBOSA, Maria Eduarda</a>; <a href="https://github.com/EduardaSMarques">MARQUES, Maria Eduarda</a>. 2024.</h6>
 
 
 
