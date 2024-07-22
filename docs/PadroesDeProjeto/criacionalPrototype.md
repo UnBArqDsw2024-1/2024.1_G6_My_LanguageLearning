@@ -30,6 +30,12 @@
 &emsp;&emsp;
 </p>
 
+## **Código do UML Prototype**
+
+<p align="justify">
+&emsp;&emsp;
+</p>
+
 ## **Bibliografia**
 
 > Prototype,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/prototype

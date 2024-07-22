@@ -30,6 +30,12 @@
 &emsp;&emsp;
 </p>
 
+## **Código do UML Decorator**
+
+<p align="justify">
+&emsp;&emsp;
+</p>
+
 ## **Bibliografia**
 
 > 
