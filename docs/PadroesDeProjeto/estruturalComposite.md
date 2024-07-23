@@ -2,20 +2,20 @@
 
 ## Participantes
 
-| Nome                                                        |
-| ----------------------------------------------------------- |
-|         |
+| Nome |
+| ---- |
+|      |
 
 ## **Introdução**
 
 <p align="justify">
-&emsp;&emsp;texto
+&emsp;&emsp;O padrão Composite é um padrão de projeto estrutural e é usado para tratar objetos individuais e composições de objetos de maneira uniforme. 
 </p>
 
 ## **Objetivo**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp; O objetivo deste padrão de projeto estrutural permite tratar objetos individuais e coleções de objetos de forma consistente. Isso é útil para quando se tem uma estrutura hierárquica, como uma árvore, onde se deseja tratar folhas e nós internos da mesma maneira.
 </p>
 
 ## **Metodologia**
@@ -27,7 +27,15 @@
 ## **UML Composite**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Composite.
+
+<h6 align="center">Figura 1: UML Composite.</h6>
+<div align="center">
+
+![composite](./img/diag-estrutural-composite.png)
+
+</div>
+<h6 align="center">Fonte: Autoria própria. 2024.</h6>
 </p>
 
 ## **Código do UML Composite**
@@ -37,17 +45,18 @@
 </p>
 
 Componente:
-```ruby 
+
+```ruby
 package compositenosso.componente;
 
 public interface QuestaoNivel {
 
     public void exibeQuestao ();
 }
-  ```
-
+```
 
 Folhas:
+
 ```ruby package compositenosso.leaf;
 
 import compositenosso.componente.QuestaoNivel;
@@ -89,7 +98,7 @@ public class QuestaoLacuna implements QuestaoNivel {
         System.out.println(resposta("Adapter") ? "Acertou a resposta!!!\n" : "Errou, tente novamente :(\n");
     }
 }
- ```
+```
 
 ```ruby package compositenosso.leaf;
 
@@ -136,7 +145,8 @@ public class QuestaoMultipla implements QuestaoNivel {
     }
 }
 
- ```
+```
+
 ```ruby package compositenosso.leaf;
 
 import compositenosso.componente.QuestaoNivel;
@@ -187,10 +197,10 @@ public class QuestaoVF implements QuestaoNivel {
         System.out.println(resposta("V") ? "Acertou a resposta!!!\n" : "Errou, tente novamente :(\n");
     }
 }
- ```
-
+```
 
 Composite:
+
 ```ruby package compositenosso.composite;
 
 import compositenosso.componente.QuestaoNivel;
@@ -217,10 +227,11 @@ public class QuadroDeQuestao implements QuestaoNivel {
         }
         System.out.println();
     }
-} 
+}
 ```
 
 Principal (main):
+
 ```ruby package compositenosso.teste;
 
 import compositenosso.componente.QuestaoNivel;
@@ -259,16 +270,17 @@ public class Main {
         lista1.exibeQuestao();
 
     }
-} 
+}
 ```
 
 ## **Bibliografia**
 
-> 
+>
 
 ## **Histórico de Versão**
 
-| Versão | Data       | Descrição            | Autor(es)                                           | Revisor(es) |
-| ------ | ---------- | -------------------- | --------------------------------------------------- | ----------- |
-| `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
-| `1.1`  | 22/07/2024 | adicionando código realizado pelo grupo | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
+| Versão | Data       | Descrição                                      | Autor(es)                                            | Revisor(es)                                        |
+| ------ | ---------- | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
+| `1.0`  | 22/07/2024 | Criação do documento e da estrutura            | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
+| `1.1`  | 22/07/2024 | adicionando código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
+| `1.2`  | 23/07/2024 | Adicionando introdução, objetivos e figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
