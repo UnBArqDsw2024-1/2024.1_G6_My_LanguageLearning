@@ -2,9 +2,22 @@
 
 ## Participantes
 
-| Nome |
-| ---- |
-|      |
+| Nome                                                        |
+| ----------------------------------------------------------- |
+| [Luis Henrique](https://github.com/luishenrrique)           |
+| [Marina Márcia](https://github.com/The-Boss-Nina)           |
+| [Laura Pinos](https://github.com/laurapinos)                |
+| [Maria Eduarda Barbosa](https://github.com/Madu01)          |
+| [Maria Eduarda Marques](https://github.com/EduardaSMarques) |
+| [Pedro Augusto](https://github.com/PedroSiq)                |
+| [Matheus Perillo](https://github.com/MatheusPerillo)        |
+| [João Lucas](https://github.com/Jlmsousa)                   |
+| [Júlia Souza](https://github.com/JuliaSSouza)               |
+| [Carolina Barbosa](https://github.com/CarolinaBarb)         |
+| [Felipe Direito](https://github.com/FelipeDireito)          |
+| [Felipe Hansen](https://github.com/FHansen98)               |
+
+
 
 ## **Introdução**
 
@@ -282,5 +295,6 @@ public class Main {
 | Versão | Data       | Descrição                                      | Autor(es)                                            | Revisor(es)                                        |
 | ------ | ---------- | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura            | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
-| `1.1`  | 22/07/2024 | adicionando código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
-| `1.2`  | 23/07/2024 | Adicionando introdução, objetivos e figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.1`  | 22/07/2024 | Adição dp código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
+| `1.2`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.3`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
