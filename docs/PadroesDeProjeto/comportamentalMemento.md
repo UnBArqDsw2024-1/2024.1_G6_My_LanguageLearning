@@ -41,7 +41,7 @@
 &emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Memento.
 
 <h6 align="center">Figura 1: UML Memento.</h6>
-<div align="center">
+<!-- <div align="center"> -->
 
 ![memento](./img/diag-comportamental-memento.png)
 
@@ -70,6 +70,108 @@
 </p>
 
 
+Cuidadora:
+
+```ruby
+package memento;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cuidadora {
+    private Originadora originadora;
+    private List<Memento> historico;
+
+    public Cuidadora(Originadora originadora) {
+        this.originadora = originadora;
+        this.historico = new ArrayList<>();
+    }
+
+    public void desfaz() {
+        if (!historico.isEmpty()) {
+            Memento memento = historico.remove(historico.size() - 1);
+            originadora.restauraNivel(memento);
+        }
+    }
+
+    public void addHistorico() {
+        historico.add(originadora.salvaNivel());
+    }
+}
+```
+
+Memento:
+
+```ruby
+package memento;
+
+public class Memento {
+    private final int pontuacao;
+
+    public Memento(int pontuacao) {
+        this.pontuacao = pontuacao;
+    }
+
+    public int getPontuacao() {
+        return pontuacao;
+    }
+}
+```
+
+Originadora:
+
+```ruby
+package memento;
+
+public class Originadora {
+    private int pontuacao;
+
+    public void setPontuacao(int pontuacao) {
+        this.pontuacao = pontuacao;
+    }
+
+    public int getPontuacao() {
+        return pontuacao;
+    }
+
+    public Memento salvaNivel() {
+        return new Memento(pontuacao);
+    }
+
+    public void restauraNivel(Memento lembranca) {
+        this.pontuacao = lembranca.getPontuacao();
+    }
+}
+```
+
+MementoPatterDemo:
+
+```ruby
+package memento;
+
+public class MementoPatternDemo {
+    public static void main(String[] args) {
+        Originadora originadora = new Originadora();
+        Cuidadora cuidadora = new Cuidadora(originadora);
+
+        originadora.setPontuacao(10);
+        cuidadora.addHistorico();
+
+        originadora.setPontuacao(20);
+        cuidadora.addHistorico();
+
+        originadora.setPontuacao(30);
+        System.out.println("Pontuação atual ( " + originadora.getPontuacao() + " ).");
+
+        cuidadora.desfaz();
+        System.out.println("Operação desfazer: Pontuação atual ( " + originadora.getPontuacao() + " ).");
+
+        cuidadora.desfaz();
+        System.out.println("Operação desfazer: Pontuação atual ( " + originadora.getPontuacao() + " ).");
+    }
+}
+```
+
 ## **Bibliografia**
 
 > Prototype,Refactoring Guru. Acesso em: 22 jul. 2024 (colocar link)
@@ -81,3 +183,4 @@
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.1`  | 22/07/2024 | Finalização do UML |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [Felipe Direito](https://github.com/FelipeDireito) e [Felipe Hansen](https://github.com/FHansen98) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01)  |
 | `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina)   |   [João Lucas](https://github.com/Jlmsousa)                   |
+| `1.3`  | 24/07/2024 | Adição do código do memento |  [João Lucas](https://github.com/Jlmsousa)                   | [Marina Márcia](https://github.com/The-Boss-Nina)   |
