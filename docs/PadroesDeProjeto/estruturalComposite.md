@@ -57,7 +57,6 @@
         <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
         <a href="https://github.com/FelipeDireito">DIREITO</a>,
         <a href="https://github.com/FHansen98">HANSEN</a>,
-        <a href="https://github.com/MatheusPerillo">PERILLO</a>.
         2024.
     </h6>
 </div>
