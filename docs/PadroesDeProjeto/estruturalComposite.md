@@ -315,8 +315,8 @@ public class Main {
 | Versão | Data       | Descrição                                      | Autor(es)                                            | Revisor(es)                                        |
 | ------ | ---------- | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura            | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
-| `1.1`  | 22/07/2024 | Adição dp código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
-| `1.2`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
-| `1.3`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
-| `1.4`  | 24/07/2024 | Correções da introdução, objetivo e imagem do composite |[João Lucas](https://github.com/Jlmsousa)  |  [Marina Márcia](https://github.com/The-Boss-Nina) |
-
+| `1.1`  | 22/07/2024 | Finalização do UML e código     |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [Felipe Direito](https://github.com/FelipeDireito) e [Felipe Hansen](https://github.com/FHansen98) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `1.2`  | 22/07/2024 | Adição do código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
+| `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
