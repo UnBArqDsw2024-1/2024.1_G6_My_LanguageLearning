@@ -47,15 +47,18 @@
 
 ![composite](./img/diag-estrutural-composite.png)
 
+<div>
+    <h6 align="center">Fonte: 
+        <a href="https://github.com/luishenrrique">COSTA</a>, 
+        <a href="https://github.com/The-Boss-Nina">SOUZA</a>, 
+        <a href="https://github.com/laurapinos">PINOS</a>, 
+        <a href="https://github.com/Madu01">BARBOSA</a>, 
+        <a href="https://github.com/EduardaSMarques">MARQUES</a>, 
+        <a href="https://github.com/Jlmsousa">SOUSA</a>, 
+        <a href="https://github.com/CarolinaBarb">BRITO</a>. 
+        2024.
+    </h6>
 </div>
-<h6 align="center">Fonte: 
-<a href="https://github.com/luishenrrique">COSTA</a>. <a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
-<a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
-<a href="https://github.com/laurapinos">PINOS</a>. 2024.</h6>      
-<a href="https://github.com/Madu01">BARBOSA</a>. 2024.</h6>
-<a href="https://github.com/EduardaSMarques">MARQUES</a>. 2024.</h6>
-<a href="https://github.com/Jlmsousa">SOUSA</a>. 2024.</h6>
-<a href="https://github.com/CarolinaBarb">BRITO</a>. 2024.</h6>
 </p>
 
 ## **Código do UML Composite**
