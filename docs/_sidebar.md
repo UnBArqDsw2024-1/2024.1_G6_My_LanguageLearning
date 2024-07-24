@@ -37,7 +37,7 @@
 - **Padrões de Projeto**
 
   - [3. Desenho de Software (Padrões de Projeto)](/PadroesDeProjeto/3.PadroesDeProjeto.md)
-    - [3.1. Módulo Padrões de Projeto GRASPs](/PadroesDeProjeto/3.1.GRASPs.md)
+    - [3.1. Módulo Padrões de Projeto GRASPs](/PadroesDeProjeto/3.1.GRAsPs.md)
     - [3.2. Módulo Padrões de Projeto GoFs](/PadroesDeProjeto/3.2.GoFs.md)
       - [3.2.1. GoFs Criacionais](/PadroesDeProjeto/3.2.1.GoFsCriacionais.md)
         - [3.2.1.1. Abstract Factory](/PadroesDeProjeto/criacionalAbstractFactory.md)
