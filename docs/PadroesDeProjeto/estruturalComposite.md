@@ -49,7 +49,7 @@
 
 </div>
 <h6 align="center">Fonte: 
-<a href="https://github.com/luishenrrique">COSTA</a>. 2024.</h6>
+<a href="https://github.com/luishenrrique">COSTA</a>. <a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
 <a href="https://github.com/The-Boss-Nina">SOUZA</a>. 2024.</h6>
 <a href="https://github.com/laurapinos">PINOS</a>. 2024.</h6>      
 <a href="https://github.com/Madu01">BARBOSA</a>. 2024.</h6>
