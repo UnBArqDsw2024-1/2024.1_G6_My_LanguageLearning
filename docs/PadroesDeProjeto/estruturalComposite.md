@@ -22,13 +22,13 @@
 ## **Introdução**
 
 <p align="justify">
-&emsp;&emsp;O padrão Composite é um padrão de projeto estrutural e é usado para tratar objetos individuais e composições de objetos de maneira uniforme. 
+&emsp;&emsp;O padrão Composite é um padrão de projeto estrutural e é usado para tratar objetos individuais e composições de objetos de maneira uniforme facilitando a gestão de estruturas hierárquicas.
 </p>
 
 ## **Objetivo**
 
 <p align="justify">
-&emsp;&emsp; O objetivo deste padrão de projeto estrutural permite tratar objetos individuais e coleções de objetos de forma consistente. Isso é útil para quando se tem uma estrutura hierárquica, como uma árvore, onde se deseja tratar folhas e nós internos da mesma maneira.
+&emsp;&emsp; O objetivo do padrão de projeto Composite, quando aplicado a uma solução educacional como o My_LanguageLearning, é fornecer uma maneira flexível e unificada de gerenciar a estrutura de questões de diferentes tipos, como múltipla escolha, lacuna e verdadeiro ou falso. Em uma plataforma como esta, uma questão pode ser vista como um componente que pode ter subcomponentes ou itens, como alternativas em uma questão de múltipla escolha, espaços a serem preenchidos em uma questão de lacuna ou opções de verdadeiro ou falso.
 </p>
 
 ## **Metodologia**
@@ -43,7 +43,7 @@
 &emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Composite.
 
 <h6 align="center">Figura 1: UML Composite.</h6>
-<div align="center">
+ <!-- <div align="center">  -->
 
 ![composite](./img/diag-estrutural-composite.png)
 
@@ -319,3 +319,4 @@ public class Main {
 | `1.2`  | 22/07/2024 | Adição do código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
 | `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
