@@ -305,6 +305,12 @@ public class Main {
 >
 
 ## **Histórico de Versão**
+<p align="justify">
+&emsp;&emsp;A tabela 1 representa o histórico de versão do documento.
+</p>
+
+<h6 align="center">Tabela 1: Histórico de Versão.</h6>
+<div align="center">
 
 | Versão | Data       | Descrição                                      | Autor(es)                                            | Revisor(es)                                        |
 | ------ | ---------- | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
