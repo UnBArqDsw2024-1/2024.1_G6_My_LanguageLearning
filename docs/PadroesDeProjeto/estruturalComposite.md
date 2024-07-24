@@ -17,8 +17,6 @@
 | [Felipe Direito](https://github.com/FelipeDireito)          |
 | [Felipe Hansen](https://github.com/FHansen98)               |
 
-
-
 ## **Introdução**
 
 <p align="justify">
@@ -58,7 +56,8 @@
         <a href="https://github.com/CarolinaBarb">BRITO</a>,
         <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
         <a href="https://github.com/FelipeDireito">DIREITO</a>,
-        <a href="https://github.com/FHansen98">HANSEN</a>.
+        <a href="https://github.com/FHansen98">HANSEN</a>,
+        <a href="https://github.com/MatheusPerillo">PERILLO</a>.
         2024.
     </h6>
 </div>
@@ -305,6 +304,7 @@ public class Main {
 >
 
 ## **Histórico de Versão**
+
 <p align="justify">
 &emsp;&emsp;A tabela 1 representa o histórico de versão do documento.
 </p>
@@ -312,11 +312,11 @@ public class Main {
 <h6 align="center">Tabela 1: Histórico de Versão.</h6>
 <div align="center">
 
-| Versão | Data       | Descrição                                      | Autor(es)                                            | Revisor(es)                                        |
-| ------ | ---------- | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
-| `1.0`  | 22/07/2024 | Criação do documento e da estrutura            | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
-| `1.1`  | 22/07/2024 | Finalização do UML e código     |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [João Lucas](https://github.com/Jlmsousa), [Felipe Direito](https://github.com/FelipeDireito) e [Felipe Hansen](https://github.com/FHansen98) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01)  |
-| `1.2`  | 22/07/2024 | Adição do código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
-| `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
-| `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
-| `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
+| Versão | Data       | Descrição                                              | Autor(es)                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Revisor(es)                                                                                                                                               |
+| ------ | ---------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `1.0`  | 22/07/2024 | Criação do documento e da estrutura                    | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                                                                                                                                                                                                                                                                                                                                      | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                         |
+| `1.1`  | 22/07/2024 | Finalização do UML e código                            | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [João Lucas](https://github.com/Jlmsousa), [Felipe Direito](https://github.com/FelipeDireito) e [Felipe Hansen](https://github.com/FHansen98) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.2`  | 22/07/2024 | Adição do código realizado pelo grupo                  | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                                                                                                                                                                                                                                                                                                                                      | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                         |
+| `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML    | [Matheus Perillo](https://github.com/MatheusPerillo)                                                                                                                                                                                                                                                                                                                                                                                                                    | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                        |
+| `1.4`  | 24/07/2024 | Adição do quadro de participantes                      | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                                                                                                                                                                                                                                                                                                                                       | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                        |
+| `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa)                                                                                                                                                                                                                                                                                                                                                                                                                               | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                         |
