@@ -1,0 +1,33 @@
+# **3.1. Módulo Padrões de Projeto GRAsPs**
+
+## **Introdução**
+
+<p align="justify">
+&emsp;&emsp;No desenvolvimento de software, a atribuição eficaz de responsabilidades é crucial para criar sistemas bem projetados e fáceis de manter. Os padrões GRASP (General Responsibility Assignment Software Patterns), formulados por Craig Larman, fornecem um conjunto de diretrizes para a alocação de responsabilidades entre objetos em um sistema de software. Esses padrões visam resolver problemas comuns no design de sistemas, promovendo uma estrutura organizada e uma comunicação clara entre os componentes do sistema.
+</p>
+<p align="justify"> 
+&emsp;&emsp;Os padrões GRASP abordam questões importantes como a definição de quem deve assumir determinadas responsabilidades e como os objetos devem interagir. Ao aplicar esses padrões, os desenvolvedores podem alcançar uma maior coesão e menor acoplamento, resultando em um código mais modular, flexível e fácil de manter. O projeto visa explorar e aplicar esses padrões para demonstrar sua eficácia na melhoria da qualidade do design e no desenvolvimento de sistemas de software mais robustos e adaptáveis.
+</p>
+
+## **Objetivo**
+
+<p align="justify">
+&emsp;&emsp;O objetivo deste projeto é melhorar a qualidade do design de software por meio da aplicação dos padrões GRASP. Esses padrões fornecem abordagens estruturadas para a atribuição de responsabilidades, ajudando a resolver problemas de design e promover boas práticas no desenvolvimento de software.
+</p>
+<p align="justify">
+&emsp;&emsp;A aplicação dos padrões GRASP visa aprimorar a coesão e reduzir o acoplamento entre os objetos, resultando em um sistema mais modular e fácil de manter. O projeto busca implementar um sistema de software utilizando esses padrões, avaliar seu impacto na qualidade do design e documentar as melhores práticas para futuros desenvolvimentos. Assim, o projeto pretende contribuir para a criação de sistemas mais robustos e flexíveis, que sejam capazes de se adaptar a mudanças e evoluções ao longo do tempo.
+</p>
+
+
+## **Histórico de Versão**
+
+<p align="justify">
+&emsp;&emsp;A tabela 01 representa o histórico de versão do documento.
+</p>
+
+<h6 align="center">Tabela 01: Histórico de Versão</h6>
+<div align="center">
+
+| Versão | Data       | Descrição            | Autor(es)                                           | Revisor(es) |
+| ------ | ---------- | -------------------- | --------------------------------------------------- | ----------- |
+| `1.0`  | 24/07/2024 | Criação do documento, adição da Introdução e objetivo | [Marina Márcia](https://github.com/The-Boss-Nina) | [João Lucas](https://github.com/Jlmsousa)    |
