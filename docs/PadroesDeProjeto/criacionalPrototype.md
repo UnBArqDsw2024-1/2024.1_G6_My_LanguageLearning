@@ -40,7 +40,13 @@
 
 ## **UML Prototype**
 
-Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Prototype.
+<p align="justify">
+&emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Prototype que visa a possibilidade de clonagens da classe principal CriadorPonto. 
+&emsp;&emsp; A classe base presente na Figura 1 é a CriadorPonto e ela possui seus métodos como: criaPontoNivel() e categoriaQuestao(tipo: int): questao.
+&emsp;&emsp;Temos uma interface chamada PontoPorNivel que define o método criaNivelDificuldade.
+&emsp;&emsp; As classes concretas são definidas por ConcretePontoFacil, ConcretePontoMedia, ConcretePontoDificil que implementam a interface PontoPorNivel. Essas classes possuem atributos como ponto e questao e métodos como criaPontoNivel() e categoriaQuestao(tipo:int): questao.
+&emsp;&emsp;Portanto, este diagrama mostra como o padrão criacional Prototype pode ser utilizado para criar novos tipos de objetos diferentes (ConcretePontoFacil, ConcretePontoMedia, ConcretePontoDificil) por meio da interface em comum (PontoPorNivel()), o que permite clonar objetos de maneira correta.
+</p>
 
 <h6 align="center">Figura 1: UML Prototype.</h6>
 
@@ -63,7 +69,7 @@ Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Prototype.
 
 ## **Código do UML Prototype**
 
-Interface PontoPorNivel
+`Interface PontoPorNivel`
 
 ```ruby
 public interface PontoPorNivel {
@@ -72,7 +78,7 @@ public interface PontoPorNivel {
 }
 ```
 
-Classe abstrata CriadorPonto
+`Classe abstrata CriadorPonto`
 
 ```ruby
 public abstract class CriadorPonto implements PontoPorNivel {
@@ -98,7 +104,7 @@ public abstract class CriadorPonto implements PontoPorNivel {
 }
 ```
 
-Classe ConcretePontoFacil
+`Classe ConcretePontoFacil`
 
 ```ruby
 public class ConcretePontoFacil extends CriadorPonto {
@@ -143,7 +149,7 @@ public class ConcretePontoFacil extends CriadorPonto {
 }
 ```
 
-Classe ConcretePontoMedia
+`Classe ConcretePontoMedia`
 
 ```ruby
 public class ConcretePontoMedia extends CriadorPonto {
@@ -188,7 +194,7 @@ public class ConcretePontoMedia extends CriadorPonto {
 }
 ```
 
-Classe ConcretePontoDificil
+`Classe ConcretePontoDificil`
 
 ```ruby
 public class ConcretePontoDificil extends CriadorPonto {
@@ -233,7 +239,7 @@ public class ConcretePontoDificil extends CriadorPonto {
 }
 ```
 
-Classe Main
+`Principal (Main)`
 
 ```ruby
 public class Main {
@@ -257,12 +263,24 @@ public class Main {
 }
 ```
 
+`Saída`
+
+<h6 align="center">Figura 2: Saída do código.</h6>
+
+![saidaPrototype](./img/saidaPrototype.jpg)
+
 <div>
     <h6 align="center">Fonte: 
         <a href="https://github.com/PedroSiq">SIQUEIRA</a>, 
         <a href="https://github.com/MatheusPerillo">PERILLO</a>, 2024.
     </h6>
 </div>
+
+### Saída
+
+<p align="justify">
+&emsp;&emsp; O retorno mostrado na Figura 2 contém a pontuação de cada questão, bem como o seu tipo, seja ele Verdadeiro ou Falso, Lacuna e Múltipla Escolha. Esse código demonstra a ideia do padrão do Prototype onde é possível realizar clones da classe abstrata principal CriadorPonto.
+</p>
 
 ## **Conclusão**
 
@@ -274,12 +292,13 @@ Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa esco
 
 ## **Histórico de Versão**
 
-| Versão | Data       | Descrição                         | Autor(es)                                                                                            | Revisor(es)                                         |
-| ------ | ---------- | --------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| `1.0`  | 22/07/2024 | Criação do documento              | [Laura Pinos](https://github.com/laurapinos)                                                         | [Marina Márcia](https://github.com/The-Boss-Nina)   |
-| `1.1`  | 22/07/2024 | Organização da estrutura padrão   | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                   | [Marina Márcia](https://github.com/The-Boss-Nina)   |
-| `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina)                                                    | [João Lucas](https://github.com/Jlmsousa)           |
-| `1.3`  | 25/07/2024 | Adição conclusão                  | [Júlia Souza](https://github.com/JuliaSSouza)                                                        | [Carolina Barbosa](https://github.com/CarolinaBarb) |
-| `1.4`  | 25/07/2024 | Adição da metodologia             | [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Marques](https://github.com)      | [Luis Henrique](https://github.com/luishenrrique)   |
-| `1.5`  | 25/07/2024 | Adição do objetivo                | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
-| `1.6`  | 25/07/2024 | Adição do código Prototype        | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| Versão | Data       | Descrição                                     | Autor(es)                                                                                            | Revisor(es)                                         |
+| ------ | ---------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `1.0`  | 22/07/2024 | Criação do documento                          | [Laura Pinos](https://github.com/laurapinos)                                                         | [Marina Márcia](https://github.com/The-Boss-Nina)   |
+| `1.1`  | 22/07/2024 | Organização da estrutura padrão               | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                   | [Marina Márcia](https://github.com/The-Boss-Nina)   |
+| `1.2`  | 24/07/2024 | Adição do quadro de participantes             | [Marina Márcia](https://github.com/The-Boss-Nina)                                                    | [João Lucas](https://github.com/Jlmsousa)           |
+| `1.3`  | 25/07/2024 | Adição conclusão                              | [Júlia Souza](https://github.com/JuliaSSouza)                                                        | [Carolina Barbosa](https://github.com/CarolinaBarb) |
+| `1.4`  | 25/07/2024 | Adição da metodologia                         | [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Marques](https://github.com)      | [Luis Henrique](https://github.com/luishenrrique)   |
+| `1.5`  | 25/07/2024 | Adição do objetivo                            | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `1.6`  | 25/07/2024 | Adição do código Prototype                    | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `1.7`  | 25/07/2024 | Adição de saída do código e explicação do UML | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
