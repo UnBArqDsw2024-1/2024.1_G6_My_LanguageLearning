@@ -20,13 +20,13 @@
 ## **Introdução**
 
 <p align="justify">
-&emsp;&emsp; O Decorator é um padrão de projeto estrutural focado em componentes concretos e componentes decoradores. É facilmente compreendido frontend onde temos uma página estática como componente concreto. Para adicionar funcionalidades ou elementos decorativos (como botões, etc.), podemos usar componentes decoradores que podem ser facilmente reutilizados.
+&emsp;&emsp; O Decorator é um padrão de projeto estrutural focado em componentes concretos e componentes decoradores. É facilmente compreendido para um frontend onde temos uma página estática como componente concreto. Para adicionar funcionalidades ou elementos decorativos (como botões, etc.), podemos usar componentes decoradores que podem ser reutilizados.
 </p>
 
 ## **Objetivo**
 
 <p align="justify">
-&emsp;&emsp; 
+&emsp;&emsp; O objetivo do Decorator para o nosso projeto é modelar a estrutura visual da aplicação. Isto é feito com possibilidades de alteração de cores, contraste e tema, e incluem uma otimização para a acessibilidade de pessoas com alguma deficiencia visual.
 </p>
 
 ## **Metodologia**
@@ -138,5 +138,5 @@ Principal:
 | Versão | Data       | Descrição            | Autor(es)                                           | Revisor(es) |
 | ------ | ---------- | -------------------- | --------------------------------------------------- | ----------- |
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
-| `1.1`| 24/07/2024 | Adiciona UML e introdução | [Felipe Direito](https://github.com/FelipeDireito)  |  [Felipe Hansen](https://github.com/FHansen98)  |
+| `1.1`| 24/07/2024 | Adiciona UML, introdução e objetivo | [Felipe Direito](https://github.com/FelipeDireito)  |  [Felipe Hansen](https://github.com/FHansen98)  |
 | `1.2`| 24/07/2024 | Adiciona Começo do Código | [Felipe Hansen](https://github.com/FHansen98)  |  [Felipe Direito](https://github.com/FelipeDireito)  |
