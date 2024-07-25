@@ -34,7 +34,9 @@
 ## **Metodologia**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;A metodologia foi baseada em reuniões online. As primeiras reuniões focaram no estudo detalhado do diagrama de classes apresentado. A equipe assistiu à videoaula da professora Milene, responsável pela disciplina do projeto, o que forneceu uma base teórica sólida. Durante essas reuniões, foram discutidos os conceitos principais e as melhores práticas para a implementação do diagrama. Com base nas discussões e estudos, os integrantes do grupo começaram a esboçar o diagrama UML. Utilizando o Lucidchart, foram definidos os elementos principais do diagrama, como as classes QuestaoNivel, QuestaoMultipla, QuestaoLacuna, QuestaoVF, e QuadroDeQuestao. As ideias foram coletadas e combinadas, resultando em um esboço inicial do diagrama.
+
+&emsp;&emsp;Foi realizada uma reunião presencial no dia 19/07, ao final da aula de arquitetura, para consolidar as ideias e revisar o progresso do diagrama UML. No mesmo dia, após a aula de Paradigmas, a equipe abordou a professora Milene para obter orientações adicionais. As recomendações fornecidas pela professora foram fundamentais para ajustar e aprimorar o diagrama UML, contribuindo significativamente para o avanço do projeto.
 </p>
 
 ## **UML Composite**
@@ -70,7 +72,8 @@
         <a href="https://github.com/CarolinaBarb">BRITO</a>,
         <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
         <a href="https://github.com/FelipeDireito">DIREITO</a>,
-        <a href="https://github.com/FHansen98">HANSEN</a>.
+        <a href="https://github.com/FHansen98">HANSEN</a>,
+        <a href="https://github.com/PedroSiq">SIQUEIRA</a>. 
         2024.
     </h6>
 </div>
@@ -328,12 +331,37 @@ public class Main {
 
 
 
+<div>
+    <h6 align="center">Fonte: 
+        <a href="https://github.com/luishenrrique">COSTA</a>, 
+        <a href="https://github.com/The-Boss-Nina">SOUZA</a>, 
+        <a href="https://github.com/laurapinos">PINOS</a>, 
+        <a href="https://github.com/Madu01">BARBOSA</a>, 
+        <a href="https://github.com/EduardaSMarques">MARQUES</a>, 
+        <a href="https://github.com/Jlmsousa">SOUSA</a>, 
+        <a href="https://github.com/CarolinaBarb">BRITO</a>,
+        <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
+        <a href="https://github.com/FelipeDireito">DIREITO</a>,
+        <a href="https://github.com/FHansen98">HANSEN</a>. 
+        2024.
+    </h6>
+</div>
+
+</p>
+
+## **Conclusão**
+
+O padrão de projeto Composite nos permite gerenciar estruturas hierárquicas em sistemas orientados a objetos. Ele  agrupa objetos que fazem parte de uma relação parte-todo de maneira que possam ser tratados de forma uniforme. Além disso. esse padrão é útil para diminuir o acoplamento entre os objetos de um sistema, o que facilita a manutenção e evolução do software.
+
+Nós usamos o padrão Composite para gerenciar diferentes tipos de questões (como múltipla escolha, lacuna e verdadeiro ou falso) e suas respectivas partes (como alternativas e respostas corretas). Isso permite que o sistema trate tanto as questões individuais quanto as composições de questões de maneira uniforme, melhorando a coesão e facilitando a extensão do sistema com novos tipos de questões no futuro.
+
+O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, simplificando a gestão dos componentes e promovendo a reutilização de código e consistência no tratamento de diferentes tipos de objetos no sistema.
+
 ## **Bibliografia**
 
 >> <a href="https://Link_da_fonte">[1]</a> SERRANO, Milene. Arquitetura e Desenho de Software, AULA - GOFS ESTRUTURAIS. 2024. UnB sigaa. Disponível em: <https://sigaa.unb.br/sigaa/portais/discente/discente.jsf>. Acesso em: 17 jul. 2024.
 
 >> <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/composite>. Acesso em: 17 jul. 2024.
-
 
 ## **Histórico de Versão**
 <p align="justify">
@@ -346,9 +374,12 @@ public class Main {
 | Versão | Data       | Descrição                                      | Autor(es)                                            | Revisor(es)                                        |
 | ------ | ---------- | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura            | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
-| `1.1`  | 22/07/2024 | Finalização do UML e código     |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [João Lucas](https://github.com/Jlmsousa), [Felipe Direito](https://github.com/FelipeDireito) e [Felipe Hansen](https://github.com/FHansen98) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `1.1`  | 22/07/2024 | Finalização do UML e código     |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza), [Felipe Direito](https://github.com/FelipeDireito), [Felipe Hansen](https://github.com/FHansen98) e [Pedro Augusto](https://github.com/PedroSiq) (Participou somente da reunião presencial do dia 19/07.) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01) 
 | `1.2`  | 22/07/2024 | Adição do código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
 | `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
-| `1.X`  | 25/07/2024 | Adição de conteúdo nos tópicos de desenvolvimento: UML Composite, Código do UML Composite e saída  | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
+| `1.6`  | 25/07/2024 | Adição conclusão | [Julia Souza](https://github.com/JuliaSSouza) |  [Carolina Barbosa](https://github.com/CarolinaBarb) |
+| `1.7`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.8`  | 25/07/2024 | Adição de conteúdo nos tópicos de desenvolvimento: UML Composite, Código do UML Composite e saída  | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
+
