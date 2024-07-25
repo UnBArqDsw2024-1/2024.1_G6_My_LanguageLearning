@@ -34,7 +34,9 @@
 ## **Metodologia**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;A metodologia foi baseada em reuniões online. As primeiras reuniões focaram no estudo detalhado do diagrama de classes apresentado. A equipe assistiu à videoaula da professora Milene, responsável pela disciplina do projeto, o que forneceu uma base teórica sólida. Durante essas reuniões, foram discutidos os conceitos principais e as melhores práticas para a implementação do diagrama. Com base nas discussões e estudos, os integrantes do grupo começaram a esboçar o diagrama UML. Utilizando o Lucidchart, foram definidos os elementos principais do diagrama, como as classes QuestaoNivel, QuestaoMultipla, QuestaoLacuna, QuestaoVF, e QuadroDeQuestao. As ideias foram coletadas e combinadas, resultando em um esboço inicial do diagrama.
+
+&emsp;&emsp;Foi realizada uma reunião presencial no dia 19/07, ao final da aula de arquitetura, para consolidar as ideias e revisar o progresso do diagrama UML. No mesmo dia, após a aula de Paradigmas, a equipe abordou a professora Milene para obter orientações adicionais. As recomendações fornecidas pela professora foram fundamentais para ajustar e aprimorar o diagrama UML, contribuindo significativamente para o avanço do projeto.
 </p>
 
 ## **UML Composite**
@@ -348,3 +350,4 @@ O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, si
 | `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
 | `1.6`  | 25/07/2024 | Adição conclusão | [Julia Souza](https://github.com/JuliaSSouza) |  [Carolina Barbosa](https://github.com/CarolinaBarb) |
+| `1.7`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
