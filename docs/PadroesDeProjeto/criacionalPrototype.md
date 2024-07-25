@@ -34,7 +34,9 @@
 ## **Metodologia**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp; A metodologia foi baseada em reuniões online. Nas primeiras, focamos em estudar o conteúdo do padrão escolhido pela equipe, além de assistirmos à videoaula da professora Milene, responsável pela disciplina do projeto. Durante essa fase inicial, fizemos um esboço do diagrama, juntando ideias dos envolvidos. Foi realizada no dia 19/07 uma reunião presencial, no final da aula de arquitetura. Recebemos orientações da professora Milene nesse mesmo dia após uma abordagem a mesma ao sair da aula de Paradigmas, o que contribuiu significativamente para o progresso do projeto.
+
+&emsp;&emsp; É importante mencionar que o diagrama deste documento foi criado no site Lucidchart.com, seguindo as regras estabelecidas pela UML.
 </p>
 
 ## **UML Prototype**
@@ -63,4 +65,5 @@ Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa esco
 | `1.0`  | 22/07/2024 | Criação do documento | [Laura Pinos](https://github.com/laurapinos) |     [Marina Márcia](https://github.com/The-Boss-Nina)    |
 | `1.1`  | 22/07/2024 | Organização da estrutura padrão | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |    [João Lucas](https://github.com/Jlmsousa)              |
-| `1.3`  | 25/07/2024 | Adição conclusão | [Julia Souza](https://github.com/JuliaSSouza) |  [Carolina Barbosa](https://github.com/CarolinaBarb) |
+| `1.3`  | 25/07/2024 |	Adição conclusão | [Júlia Souza](https://github.com/JuliaSSouza) | [Carolina Barbosa](https://github.com/CarolinaBarb)         |
+| `1.3`  | 25/07/2024 |	Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Luis Henrique](https://github.com/luishenrrique)  |
