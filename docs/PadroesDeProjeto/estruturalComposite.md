@@ -300,6 +300,14 @@ public class Main {
 }
 ```
 
+## **Conclusão**
+
+O padrão de projeto Composite nos permite gerenciar estruturas hierárquicas em sistemas orientados a objetos. Ele  agrupa objetos que fazem parte de uma relação parte-todo de maneira que possam ser tratados de forma uniforme. Além disso. esse padrão é útil para diminuir o acoplamento entre os objetos de um sistema, o que facilita a manutenção e evolução do software.
+
+Nós usamos o padrão Composite para gerenciar diferentes tipos de questões (como múltipla escolha, lacuna e verdadeiro ou falso) e suas respectivas partes (como alternativas e respostas corretas). Isso permite que o sistema trate tanto as questões individuais quanto as composições de questões de maneira uniforme, melhorando a coesão e facilitando a extensão do sistema com novos tipos de questões no futuro.
+
+O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, simplificando a gestão dos componentes e promovendo a reutilização de código e consistência no tratamento de diferentes tipos de objetos no sistema.
+
 ## **Bibliografia**
 
 >
@@ -320,3 +328,4 @@ public class Main {
 | `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
+| `1.6`  | 25/07/2024 | Adição conclusão | [Julia Souza](https://github.com/JuliaSSouza) |  [Carolina Barbosa](https://github.com/CarolinaBarb) |
