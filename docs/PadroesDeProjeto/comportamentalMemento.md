@@ -172,6 +172,12 @@ public class MementoPatternDemo {
 }
 ```
 
+## **Conclusão**
+O padrão de projeto comportamental Memento oferece uma solução eficaz para a restauração do estado de um objeto sem violar seu encapsulamento. Este padrão é útil em situações onde é necessário desfazer operações ou restaurar estados anteriores de um objeto de forma segura e eficiente.
+
+O padrão Memento foi aplicado para permitir que o estado das lições e pontuações dos usuários pudesse ser salvo e restaurado conforme necessário. Isso é útil para funcionalidades como desfazer ações, onde o estado anterior precisa ser recuperado de forma precisa. Em conclusão, o padrão Memento se mostrou uma solução eficaz para a gestão de estados em sistemas complexos.
+
+
 ## **Bibliografia**
 
 > Prototype,Refactoring Guru. Acesso em: 22 jul. 2024 (colocar link)
@@ -184,3 +190,4 @@ public class MementoPatternDemo {
 | `1.1`  | 22/07/2024 | Finalização do UML |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [Felipe Direito](https://github.com/FelipeDireito) e [Felipe Hansen](https://github.com/FHansen98) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01)  |
 | `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina)   |   [João Lucas](https://github.com/Jlmsousa)                   |
 | `1.3`  | 24/07/2024 | Adição do código do memento |  [João Lucas](https://github.com/Jlmsousa)                   | [Marina Márcia](https://github.com/The-Boss-Nina)   |
+| `1.4`  | 25/07/2024 | Adição conclusão | [Julia Souza](https://github.com/JuliaSSouza) |  [Carolina Barbosa](https://github.com/CarolinaBarb) |
