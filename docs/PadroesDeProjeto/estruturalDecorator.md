@@ -42,7 +42,8 @@
 ## **UML Decorator**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;O UML desenvolvido foi inspirado nos exemplo do site Guru <a href="https://Link_da_fonte">[2]</a> e outro do slide da página 59 da professora dessa disciplina <a href="https://Link_da_fonte">[1]</a>. 
+
 </p>
 
 ## **Código do UML Decorator**
@@ -53,7 +54,10 @@
 
 ## **Bibliografia**
 
->  Decorator,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/decorator
+>> <a href="https://Link_da_fonte">[1]</a> SERRANO, Milene. Arquitetura e Desenho de Software, AULA - GOFS ESTRUTURAIS. 2024. UnB sigaa. Disponível em: <https://sigaa.unb.br/sigaa/portais/discente/discente.jsf>. Acesso em: 25 jul. 2024.
+
+>> <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/composite>. Acesso em: 25 jul. 2024.
+
 
 ## **Histórico de Versão**
 
@@ -62,3 +66,5 @@
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.1`  | 25/07/2024 | Adição dos participantes no documento | [Marina Márcia](https://github.com/The-Boss-Nina) |  [João Lucas](https://github.com/Jlmsousa)     |
 | `1.2`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.3`  | 22/07/2024 | Adicionando Fontes | [Maria Eduarda Barbosa](https://github.com/Madu01) |   [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
+
