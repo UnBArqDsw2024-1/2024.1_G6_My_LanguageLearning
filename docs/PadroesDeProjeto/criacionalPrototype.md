@@ -65,3 +65,5 @@ Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa esco
 | `1.0`  | 22/07/2024 | Criação do documento | [Laura Pinos](https://github.com/laurapinos) |     [Marina Márcia](https://github.com/The-Boss-Nina)    |
 | `1.1`  | 22/07/2024 | Organização da estrutura padrão | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |    [João Lucas](https://github.com/Jlmsousa)              |
+| `1.3`  | 25/07/2024 |	Adição conclusão | [Júlia Souza](https://github.com/JuliaSSouza) | [Carolina Barbosa](https://github.com/CarolinaBarb)         |
+| `1.3`  | 25/07/2024 |	Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Luis Henrique](https://github.com/luishenrrique)  |
