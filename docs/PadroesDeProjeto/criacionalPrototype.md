@@ -34,9 +34,9 @@
 ## **Metodologia**
 
 <p align="justify">
-&emsp;&emsp; A metodologia foi baseada em reuniões online. Nas primeiras, focamos em estudar o conteúdo do padrão escolhido pela equipe, além de assistirmos à videoaula da professora Milene, responsável pela disciplina do projeto. Durante essa fase inicial, fizemos um esboço do diagrama, juntando ideias dos envolvidos. Foi realizada no dia 19/07 uma reunião presencial, no final da aula de arquitetura. Recebemos orientações da professora Milene nesse mesmo dia após uma abordagem a mesma ao sair da aula de Paradigmas, o que contribuiu significativamente para o progresso do projeto.
+&emsp;&emsp; A metodologia foi baseada em reuniões online. As primeiras reuniões focaram no estudo detalhado do padrão comportamental Memento. A equipe assistiu à videoaula da professora Milene, responsável pela disciplina do projeto, o que forneceu uma base teórica sólida sobre o padrão. Durante essas reuniões, foram discutidos os conceitos principais e as melhores práticas para a implementação do Memento. Com base nas discussões e estudos, os integrantyes do grupo começaram a esboçar o diagrama UML. Utilizando o Lucidchart, foram definidos os elementos principais do diagrama, para a implementação do Memento. As ideias foram coletadas e combinadas, resultando em um esboço inicial do diagrama.
 
-&emsp;&emsp; É importante mencionar que o diagrama deste documento foi criado no site Lucidchart.com, seguindo as regras estabelecidas pela UML.
+&emsp;&emsp; Foi realizada uma reunião presencial no dia 19/07, ao final da aula de arquitetura, para consolidar as ideias e revisar o progresso do diagrama UML. No mesmo dia, após a aula de Paradigmas da mesma, a equipe abordou a professora Milene para obter orientações adicionais. As recomendações fornecidas pela professora foram fundamentais para ajustar e aprimorar o diagrama UML, contribuindo significativamente para o avanço do projeto.
 </p>
 
 ## **UML Prototype**
@@ -66,4 +66,4 @@ Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa esco
 | `1.1`  | 22/07/2024 | Organização da estrutura padrão | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |    [João Lucas](https://github.com/Jlmsousa)              |
 | `1.3`  | 25/07/2024 |	Adição conclusão | [Júlia Souza](https://github.com/JuliaSSouza) | [Carolina Barbosa](https://github.com/CarolinaBarb)         |
-| `1.3`  | 25/07/2024 |	Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Luis Henrique](https://github.com/luishenrrique)  |
+| `1.3`  | 25/07/2024 |	Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Marques](https://github.com)   | [Luis Henrique](https://github.com/luishenrrique)  |
