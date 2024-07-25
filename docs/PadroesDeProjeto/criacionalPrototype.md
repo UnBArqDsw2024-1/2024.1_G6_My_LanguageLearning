@@ -26,7 +26,7 @@
 ## **Objetivo**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp; O objetivo do padrão de projeto Prototype é permitir a criação de novos objetos através da clonagem de objetos existentes, em vez de criar novos objetos do zero. Isso pode ser especialmente útil em situações onde a criação de um objeto é complexa ou custosa em termos de tempo e recursos. Ele é particularmente útil em sistemas onde os objetos a serem criados são semelhantes entre si e onde a criação de novos objetos pode ser um gargalo de desempenho.
 </p>
 
 ## **Metodologia**
@@ -60,10 +60,11 @@ Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa esco
 
 ## **Histórico de Versão**
 
-| Versão | Data       | Descrição                         | Autor(es)                                                                                       | Revisor(es)                                         |
-| ------ | ---------- | --------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| `1.0`  | 22/07/2024 | Criação do documento              | [Laura Pinos](https://github.com/laurapinos)                                                    | [Marina Márcia](https://github.com/The-Boss-Nina)   |
-| `1.1`  | 22/07/2024 | Organização da estrutura padrão   | [Maria Eduarda Barbosa](https://github.com/Madu01)                                              | [Marina Márcia](https://github.com/The-Boss-Nina)   |
-| `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina)                                               | [João Lucas](https://github.com/Jlmsousa)           |
-| `1.3`  | 25/07/2024 | Adição conclusão                  | [Júlia Souza](https://github.com/JuliaSSouza)                                                   | [Carolina Barbosa](https://github.com/CarolinaBarb) |
-| `1.3`  | 25/07/2024 | Adição da metodologia             | [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Marques](https://github.com) | [Luis Henrique](https://github.com/luishenrrique)   |
+| Versão | Data       | Descrição                         | Autor(es)                                                                                            | Revisor(es)                                         |
+| ------ | ---------- | --------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `1.0`  | 22/07/2024 | Criação do documento              | [Laura Pinos](https://github.com/laurapinos)                                                         | [Marina Márcia](https://github.com/The-Boss-Nina)   |
+| `1.1`  | 22/07/2024 | Organização da estrutura padrão   | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                   | [Marina Márcia](https://github.com/The-Boss-Nina)   |
+| `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina)                                                    | [João Lucas](https://github.com/Jlmsousa)           |
+| `1.3`  | 25/07/2024 | Adição conclusão                  | [Júlia Souza](https://github.com/JuliaSSouza)                                                        | [Carolina Barbosa](https://github.com/CarolinaBarb) |
+| `1.4`  | 25/07/2024 | Adição da metodologia             | [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Marques](https://github.com)      | [Luis Henrique](https://github.com/luishenrrique)   |
+| `1.5`  | 25/07/2024 | Adição do objetivo                | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
