@@ -53,7 +53,7 @@
 
 ## **Bibliografia**
 
-> 
+>  Decorator,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/decorator
 
 ## **Histórico de Versão**
 

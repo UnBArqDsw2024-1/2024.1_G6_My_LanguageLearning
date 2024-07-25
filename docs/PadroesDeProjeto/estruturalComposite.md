@@ -331,7 +331,7 @@ O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, si
 
 ## **Bibliografia**
 
->Prototype,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/composite
+> Composite,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/composite
 
 ## **Histórico de Versão**
 <p align="justify">

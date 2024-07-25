@@ -71,7 +71,7 @@
 
 ## **Bibliografia**
 
-> 
+> Abstract Factory,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/abstract-factory
 
 ## **Histórico de Versão**
 
