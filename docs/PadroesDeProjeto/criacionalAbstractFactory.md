@@ -76,3 +76,4 @@
 | ------ | ---------- | -------------------- | --------------------------------------------------- | ----------- |
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.1`  | 25/07/2024 | Adição dos participantes no documento | [Marina Márcia](https://github.com/The-Boss-Nina) |  [João Lucas](https://github.com/Jlmsousa)     |
+| `1.6`  | 25/07/2024 | Adição de saída do código e explicação | [Luis Henrique](https://github.com/luishenrrique) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)  |
