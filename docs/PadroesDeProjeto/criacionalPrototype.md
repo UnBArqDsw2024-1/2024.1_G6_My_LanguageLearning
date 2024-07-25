@@ -63,10 +63,6 @@ Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Prototype.
 
 ## **Código do UML Prototype**
 
-<p align="justify">
-&emsp;&emsp;
-</p>
-
 Interface PontoPorNivel
 
 ```ruby
