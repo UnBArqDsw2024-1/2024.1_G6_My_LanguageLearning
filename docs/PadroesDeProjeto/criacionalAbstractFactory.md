@@ -17,33 +17,36 @@
 | [Felipe Direito](https://github.com/FelipeDireito)          |
 | [Felipe Hansen](https://github.com/FHansen98)               |
 
-
-
 ## **Introdução**
 
 <p align="justify">
-&emsp;&emsp;texto
+
+&emsp;&emsp;Dentro dos padrões de projeto GoF (Gang of Four), descritos por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides no livro “Design Patterns: Elements of Reusable Object-Oriented Software”, em 1994, há a categoria de padrões criacionais, nos quais os seus padrões de design buscam criar objetos de maneira eficiente, mediante ao contexto onde está inserido.
+
+</p>
+
+<p align="justify">
+&emsp;&emsp; O padrão de projeto criacional Abstract Factory permite que seja produzido famílias de objetos relacionados sem precisar especificar suas classes concretas.
 </p>
 
 ## **Objetivo**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp; Por se tratar de uma ferramenta valosiosa para a criação de sistemas modulares, flexíveis e adaptáveis, seu objetivo é bastante útil quando se precisa lidar com famílias de objetos que estão relacionados.
 </p>
 
 ## **Metodologia**
 
 <p align="justify">
-&emsp;&emsp;Foram realizadas reuniões para debater sobre em qual contexto do nosso sistema se encaixaria o GoF de Abstract Factory, além da equipe estudar sobre o conteúdo, seja em sala de aula ou por vídeos e slides. Foram duas reuniões principais, uma no contêiner da FGA e outra online, além de mais três reuniões online para desenvolver o código com base no UML desenvolvido a respeito desse GoF.  
+&emsp;&emsp;Foram realizadas reuniões para debater sobre em qual contexto do nosso sistema se encaixaria o GoF de Abstract Factory, além da equipe estudar sobre o conteúdo, seja em sala de aula ou por vídeos e slides. Foram duas reuniões principais, uma no contêiner da FGA e outra online, além de mais três reuniões online para desenvolver o código com base no UML desenvolvido a respeito desse GoF.
 
 &emsp;&emsp;A equipe também identificou os GRASPs presentes, sendo um deles chamado de Invenção Pura ou Fabricação Própria. Para mais detalhes a respeito disso, acesse: <a href="https://unbarqdsw2024-1.github.io/2024.1_G6_My_LanguageLearning/#/PadroesDeProjeto/3.1.GRAsPs">Explicação dos GRASPs presentes nos GoFs.</a>
 
 &emsp;&emsp;Vale ressaltar que a equipe teve dificuldades em desenvolver o diagrama. Ele foi alterado algumas vezes, pois, ao passar para o código desenvolvido na linguagem Java, foram percebidas falhas de lógica por causa do UML. É importante também mencionar que nem todos os integrantes da equipe participaram da elaboração do UML e/ou do desenvolvimento do código. O diagrama do Abstract Factory foi desenvolvido no site Lucidchart.com, seguindo os padrões da UML.
 
 &emsp;&emsp;O UML desenvolvido foi inspirado no site Guru <a href="https://Link_da_fonte">[2]</a> e outro do slide da página 31 da professora dessa disciplina <a href="https://Link_da_fonte">[1]</a>. Ambos podem serem observados pelo links presentes em bibliografia.
+
 </p>
-
-
 
 ## **UML Abstract Factory**
 
@@ -78,6 +81,7 @@
 </p>
 
 RankingFactory:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -87,6 +91,7 @@ public interface RankingFactory {
 ```
 
 ConcreteEspanholFactoryR:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -104,6 +109,7 @@ public class ConcreteEspanholFactoryR implements RankingFactory {
 ```
 
 ConcreteInglesFactoryR:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -121,6 +127,7 @@ public class ConcreteInglesFactoryR implements RankingFactory {
 ```
 
 AbstractRanking:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -132,6 +139,7 @@ public abstract class AbstractRanking {
 ```
 
 RankingIngles:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -162,6 +170,7 @@ public class RankingIngles extends AbstractRanking {
 ```
 
 RankingEspanhol:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -193,6 +202,7 @@ public class RankingEspanhol extends AbstractRanking {
 ```
 
 LinguagemFactory:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -203,6 +213,7 @@ public interface LinguagemFactory {
 ```
 
 ConcreteInglesFactoryL:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -214,6 +225,7 @@ public class ConcreteInglesFactoryL implements LinguagemFactory {
 ```
 
 ConcreteEspanholFactoryL:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -225,6 +237,7 @@ public class ConcreteEspanholFactoryL implements LinguagemFactory {
 ```
 
 AbstractQuestao:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -238,6 +251,7 @@ public abstract class AbstractQuestao {
 ```
 
 QuestaoIngles:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -256,6 +270,7 @@ public class QuestaoIngles extends AbstractQuestao {
 ```
 
 QuestaoEspanhol:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -275,6 +290,7 @@ public class QuestaoEspanhol extends AbstractQuestao {
 ```
 
 Cliente:
+
 ```ruby
 package abstractfactorynosso;
 
@@ -360,7 +376,7 @@ public class Cliente {
 &emsp;&emsp;A saída do código está na Figura 2, que mostra o resultado no terminal e demonstra o código funcionando conforme esperado. Ele exibiu uma questão que foi criada em uma classe concreta e, ao fornecer uma respota a questão, é possível observar que há pontuação relacionada se acertar a resposta da questão.
 
 &emsp;&emsp;Esta saída é apenas um teste, uma forma de mostrar que o sistema está funcionando. No resultado final, não será assim, será utilizado para quando o usuário for consumir a fábrica de questões pois estarão sendo construidas, e a pontuação é fundamental nesse contexto. Quando o usuário acerta a questão ele atualiza a pontuação e é feito o rankeamento. O ranking também foi gerado de uma fábrica. Porque, ele tentará realizar as questões e receberá uma nova pontuação e consequentemente será atualizado sua posição no ranking.
- 
+
 </p>
 
 <h6 align="center">Figura 2: Saída do código do GoF de criação Abstract Factory.</h6>
@@ -371,21 +387,20 @@ public class Cliente {
 </div>
 <h6 align="center">Fonte: Autoria própria, 2024</a>.
 
-
-
 ## **Bibliografia**
 
->> <a href="https://Link_da_fonte">[1]</a> SERRANO, Milene. Arquitetura e Desenho de Software, AULA - GOFS CRIACIONAIS. 2024. UnB sigaa. Disponível em: <https://sigaa.unb.br/sigaa/portais/discente/discente.jsf>. Acesso em: 17 jul. 2024.
+> > <a href="https://Link_da_fonte">[1]</a> SERRANO, Milene. Arquitetura e Desenho de Software, AULA - GOFS CRIACIONAIS. 2024. UnB sigaa. Disponível em: <https://sigaa.unb.br/sigaa/portais/discente/discente.jsf>. Acesso em: 17 jul. 2024.
 
->> <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/abstract-factory>. Acesso em: 17 jul. 2024.
+> > <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/abstract-factory>. Acesso em: 17 jul. 2024.
 
 ## **Histórico de Versão**
 
-| Versão | Data       | Descrição            | Autor(es)                                           | Revisor(es) |
-| ------ | ---------- | -------------------- | --------------------------------------------------- | ----------- |
-| `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
-| `1.1`  | 25/07/2024 | Adição dos participantes no documento | [Marina Márcia](https://github.com/The-Boss-Nina) |  [João Lucas](https://github.com/Jlmsousa)     |
-| `1.2` | 25/04/2024 | Adicionando uml    | [Maria Eduarda Marques](https://github.com)     |  [Julia Souza](https://github.com/JuliaSSouza), [Luis Henrique](https://github.com/luishenrrique)   |
-| `1.3` | 25/04/2024 | Adicionando código ao documento | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques),  [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza) | [Felipe Direito](https://github.com/FelipeDireito), [Felipe Hansen](https://github.com/FHansen98)
-| `1.4`  | 25/07/2024 | Adição de conteúdo em metodologia | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)   |
-| `1.5`  | 25/07/2024 | Adição de saída do código e explicação | [Luis Henrique](https://github.com/luishenrrique) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)  |
+| Versão | Data       | Descrição                              | Autor(es)                                                                                                                                                                                                                                                                                                       | Revisor(es)                                                                                       |
+| ------ | ---------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `1.0`  | 22/07/2024 | Criação do documento e da estrutura    | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                                                                                                                                                                              | [Marina Márcia](https://github.com/The-Boss-Nina)                                                 |
+| `1.1`  | 25/07/2024 | Adição dos participantes no documento  | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                                                                                                                                                                               | [João Lucas](https://github.com/Jlmsousa)                                                         |
+| `1.2`  | 25/04/2024 | Adicionando uml                        | [Maria Eduarda Marques](https://github.com)                                                                                                                                                                                                                                                                     | [Julia Souza](https://github.com/JuliaSSouza), [Luis Henrique](https://github.com/luishenrrique)  |
+| `1.3`  | 25/04/2024 | Adicionando código ao documento        | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza) | [Felipe Direito](https://github.com/FelipeDireito), [Felipe Hansen](https://github.com/FHansen98) |
+| `1.4`  | 25/07/2024 | Adição de conteúdo em metodologia      | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                                                                                                                                                                              | [Maria Eduarda Marques](https://github.com/EduardaSMarques)                                       |
+| `1.5`  | 25/07/2024 | Adição de saída do código e explicação | [Luis Henrique](https://github.com/luishenrrique)                                                                                                                                                                                                                                                               | [Maria Eduarda Marques](https://github.com/EduardaSMarques)                                       |
+| `1.6`  | 25/07/2024 | Adição da introdução e objetivo        | [Matheus Perillo](https://github.com/MatheusPerillo)                                                                                                                                                                                                                                                            | [Pedro Siqueira](https://github.com/PedroSiq)                                                     |
