@@ -44,7 +44,13 @@
 ## **UML Decorator**
 
 <p align="justify">
-&emsp;&emsp;O UML desenvolvido foi inspirado nos exemplo do site Guru <a href="https://Link_da_fonte">[2]</a> e outro do slide da página 59 da professora dessa disciplina <a href="https://Link_da_fonte">[1]</a>. 
+&emsp;&emsp;O UML desenvolvido foi inspirado nos exemplo do site Guru <a href="https://refactoring.guru/design-patterns/composite">[2]</a> e outro do slide da página 59 da professora dessa disciplina <a href="https://sigaa.unb.br/sigaa/portais/discente/discente.jsf">[1]</a>. 
+
+&emsp;&emsp; Explicando o diagrama temos as seguintes classes: `TelaTemaContraste` que serve para mudar o contraste da tela de acordo com o tema escolhido. É uma ótima funcionalidade para ajudar pessoas com daltonismo, por exemplo, facilitando a visualização dos objetos na tela. A próxima classe é a `TelaTemaEscuro` que define justamente o tema base da aplicação. Essas duas estão ligadas ao `DecoratorTela` que faz a gestão dessas cores.
+
+&emsp;&emsp; A `Tela` é o componente principal da aplicação e dará origem às classes do decorator, que permitirá a alterações dos objetos visíveis da aplicação ou manterá a `TelaBase` sem alteração alguma, mantendo o tema e a cor padrão da aplicação.
+
+&emsp;&emsp;
 
 </p>
 
