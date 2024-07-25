@@ -40,15 +40,164 @@
 
 ## **UML Prototype**
 
-<p align="justify">
-&emsp;&emsp;
-</p>
+Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Prototype.
+
+<h6 align="center">Figura 1: UML Prototype.</h6>
+
+![Prototype](./img/diag-criacional-prototype.png)
+
+<div>
+    <h6 align="center">Fonte: 
+        <a href="https://github.com/luishenrrique">COSTA</a>, 
+        <a href="https://github.com/The-Boss-Nina">SOUZA</a>, 
+        <a href="https://github.com/laurapinos">PINOS</a>, 
+        <a href="https://github.com/Madu01">BARBOSA</a>, 
+        <a href="https://github.com/EduardaSMarques">MARQUES</a>, 
+        <a href="https://github.com/Jlmsousa">SOUSA</a>, 
+        <a href="https://github.com/CarolinaBarb">BRITO</a>,
+        <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
+        <a href="https://github.com/FelipeDireito">DIREITO</a>,
+        <a href="https://github.com/FHansen98">HANSEN</a>, 2024.
+    </h6>
+</div>
 
 ## **Código do UML Prototype**
 
 <p align="justify">
 &emsp;&emsp;
 </p>
+
+Interface PontoPorNivel
+
+```ruby
+public interface PontoPorNivel {
+  PontoPorNivel clone();
+  void criaNivelDificuldade();
+}
+```
+
+Classe abstrata CriadorPonto
+
+```ruby
+public abstract class CriadorPonto implements PontoPorNivel {
+  public int ponto;
+  public String questao;
+
+  public CriadorPonto(int ponto, String questao) {
+      this.ponto = ponto;
+      this.questao = questao;
+  }
+
+  public CriadorPonto(CriadorPonto source) {
+      this.ponto = source.ponto;
+      this.questao = source.questao;
+  }
+
+  @Override
+  public abstract CriadorPonto clone();
+
+  public abstract int criaPontoNivel();
+
+  public abstract String categoriaQuestao(int tipo);
+}
+```
+
+Classe ConcretePontoFacil
+
+```ruby
+public class ConcretePontoFacil extends CriadorPonto {
+
+  public ConcretePontoFacil(int ponto, String questao) {
+      super(ponto, questao);
+  }
+
+  public ConcretePontoFacil(ConcretePontoFacil source) {
+      super(source);
+  }
+
+  @Override
+  public ConcretePontoFacil clone() {
+      return new ConcretePontoFacil(this);
+  }
+
+  @Override
+  public int criaPontoNivel() {
+      return this.ponto;
+  }
+
+  @Override
+  public String categoriaQuestao(int tipo) {
+      return this.questao;
+  }
+}
+```
+
+Classe ConcretePontoMedia
+
+```ruby
+public class ConcretePontoMedia extends CriadorPonto {
+
+  public ConcretePontoMedia(int ponto, String questao) {
+      super(ponto, questao);
+  }
+
+  public ConcretePontoMedia(ConcretePontoMedia source) {
+      super(source);
+  }
+
+  @Override
+  public ConcretePontoMedia clone() {
+      return new ConcretePontoMedia(this);
+  }
+
+  @Override
+  public int criaPontoNivel() {
+      return this.ponto;
+  }
+
+  @Override
+  public String categoriaQuestao(int tipo) {
+      return this.questao;
+  }
+}
+```
+
+Class ConcretePontoDificil
+
+```ruby
+public class ConcretePontoDificil extends CriadorPonto {
+
+  public ConcretePontoDificil(int ponto, String questao) {
+      super(ponto, questao);
+  }
+
+  public ConcretePontoDificil(ConcretePontoDificil source) {
+      super(source);
+  }
+
+  @Override
+  public ConcretePontoDificil clone() {
+      return new ConcretePontoDificil(this);
+  }
+
+  @Override
+  public int criaPontoNivel() {
+      return this.ponto;
+  }
+
+  @Override
+  public String categoriaQuestao(int tipo) {
+      return this.questao;
+  }
+}
+```
+
+<div>
+    <h6 align="center">Fonte: 
+        <a href="https://github.com/PedroSiq">SIQUEIRA</a>, 
+        <a href="https://github.com/MatheusPerillo">PERILLO</a>, 2024.
+    </h6>
+</div>
 
 ## **Conclusão**
 
