@@ -48,7 +48,15 @@
 ## **UML Abstract Factory**
 
 <p align="justify">
-&emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Abstract Factory.
+&emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes, o UML do Abstract Factory, possuindo 13 classes. A classe RankingFactory define um método criaRanking(), responsável por criar objetos de ranking. Existem duas implementações concretas desta classe: ConcreteEspanholFactoryR e ConcreteInglesFactoryR. A primeira cria instâncias de RankingEspanhol, enquanto a segunda cria instâncias de RankingIngles. Ambas as fábricas concretas são responsáveis por encapsular a lógica de criação dos rankings específicos para cada idioma.
+    
+&emsp;&emsp; Já a classe LinguagemFactory define o método criaQuestao(), que é implementado por duas classes concretas: ConcreteInglesFactoryL e ConcreteEspanholFactoryL. ConcreteInglesFactoryL cria instâncias de QuestaoIngles, enquanto ConcreteEspanholFactoryL cria instâncias de QuestaoEspanhol. Essas fábricas concretas são responsáveis por criar questões específicas para cada idioma.
+
+&emsp;&emsp; A classe abstrata AbstractRanking define a estrutura básica de um ranking com métodos abstratos pontos(), exibeRanking(), e calculaUsuarioRanking(int pontuacao). RankingIngles e RankingEspanhol são subclasses concretas que implementam esses métodos para manipular e exibir a pontuação dos clientes em seus respectivos idiomas.
+
+&emsp;&emsp; Mas de forma análoga, a classe abstrata AbstractQuestao define os métodos exibeQuestao() e resultado(String resposta). QuestaoIngles e QuestaoEspanhol são subclasses concretas que implementam esses métodos para exibir questões e verificar respostas em inglês e espanhol.
+
+&emsp;&emsp; E por último temos a classe Cliente é a principal consumidora das fábricas abstratas. Ela possui referências às classes LinguagemFactory e RankingFactory para criar objetos de questões e rankings. Além disso, Cliente mantém a pontuação dos clientes e gerencia a lógica de realização das questões e exibição dos rankings. No método realizarQuestao(), uma questão é exibida e a resposta do usuário é verificada. Se a resposta estiver correta, a pontuação do cliente é atualizada e o ranking é ajustado. O método exibirRanking() exibe o ranking atual para o cliente.
 
 <h6 align="center">Figura 1: UML Abstract Factory.</h6>
 <!-- <div align="center"> -->
@@ -77,7 +85,7 @@
 &emsp;&emsp;
 </p>
 
-RankingFactory:
+`RankingFactory:`
 ```ruby
 package abstractfactorynosso;
 
@@ -86,7 +94,7 @@ public interface RankingFactory {
 }
 ```
 
-ConcreteEspanholFactoryR:
+`ConcreteEspanholFactoryR:`
 ```ruby
 package abstractfactorynosso;
 
@@ -103,7 +111,7 @@ public class ConcreteEspanholFactoryR implements RankingFactory {
 }
 ```
 
-ConcreteInglesFactoryR:
+`ConcreteInglesFactoryR:`
 ```ruby
 package abstractfactorynosso;
 
@@ -120,7 +128,7 @@ public class ConcreteInglesFactoryR implements RankingFactory {
 }
 ```
 
-AbstractRanking:
+`AbstractRanking:`
 ```ruby
 package abstractfactorynosso;
 
@@ -131,7 +139,7 @@ public abstract class AbstractRanking {
 }
 ```
 
-RankingIngles:
+`RankingIngles:`
 ```ruby
 package abstractfactorynosso;
 
@@ -161,7 +169,7 @@ public class RankingIngles extends AbstractRanking {
 }
 ```
 
-RankingEspanhol:
+`RankingEspanhol:`
 ```ruby
 package abstractfactorynosso;
 
@@ -192,7 +200,7 @@ public class RankingEspanhol extends AbstractRanking {
 
 ```
 
-LinguagemFactory:
+`LinguagemFactory:`
 ```ruby
 package abstractfactorynosso;
 
@@ -202,7 +210,7 @@ public interface LinguagemFactory {
 }
 ```
 
-ConcreteInglesFactoryL:
+`ConcreteInglesFactoryL:`
 ```ruby
 package abstractfactorynosso;
 
@@ -213,7 +221,7 @@ public class ConcreteInglesFactoryL implements LinguagemFactory {
 }
 ```
 
-ConcreteEspanholFactoryL:
+`ConcreteEspanholFactoryL:`
 ```ruby
 package abstractfactorynosso;
 
@@ -224,7 +232,7 @@ public class ConcreteEspanholFactoryL implements LinguagemFactory {
 }
 ```
 
-AbstractQuestao:
+`AbstractQuestao:`
 ```ruby
 package abstractfactorynosso;
 
@@ -237,7 +245,7 @@ public abstract class AbstractQuestao {
 
 ```
 
-QuestaoIngles:
+`QuestaoIngles:`
 ```ruby
 package abstractfactorynosso;
 
@@ -255,7 +263,7 @@ public class QuestaoIngles extends AbstractQuestao {
 
 ```
 
-QuestaoEspanhol:
+`QuestaoEspanhol:`
 ```ruby
 package abstractfactorynosso;
 
@@ -274,7 +282,7 @@ public class QuestaoEspanhol extends AbstractQuestao {
 
 ```
 
-Cliente:
+`Cliente:`
 ```ruby
 package abstractfactorynosso;
 
@@ -354,6 +362,17 @@ public class Cliente {
     }
 }
 ```
+<div>
+    <h6 align="center">Fonte: 
+        <a href="https://github.com/luishenrrique">COSTA</a>, 
+        <a href="https://github.com/The-Boss-Nina">SOUZA</a>, 
+        <a href="https://github.com/Madu01">BARBOSA</a>, 
+        <a href="https://github.com/EduardaSMarques">MARQUES</a>, 
+        <a href="https://github.com/Jlmsousa">SOUSA</a>, 
+        <a href="https://github.com/JuliaSSouza">SANT'ANA</a>.
+        2024.
+    </h6>
+</div>
 
 ### Saída
 
@@ -389,3 +408,4 @@ public class Cliente {
 | `1.3` | 25/04/2024 | Adicionando código ao documento | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques),  [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza) | [Felipe Direito](https://github.com/FelipeDireito), [Felipe Hansen](https://github.com/FHansen98)
 | `1.4`  | 25/07/2024 | Adição de conteúdo em metodologia | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)   |
 | `1.5`  | 25/07/2024 | Adição de saída do código e explicação | [Luis Henrique](https://github.com/luishenrrique) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)  |
+| `1.6`  | 25/07/2024 | Adicionando explicação do uml e suas classes | [Maria Eduarda Marques](https://github.com/EduardaSMarques)  | [Maria Eduarda Barbosa](https://github.com/Madu01) e [Luis Henrique](https://github.com/luishenrrique) | 
