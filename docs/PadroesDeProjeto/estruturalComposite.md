@@ -40,7 +40,17 @@
 ## **UML Composite**
 
 <p align="justify">
-&emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Composite.
+&emsp;&emsp;O UML do CompositefFoi utilizado para o desenvolvimento do código que está na linguagem java, de modo que facilite para possíveis manuntenções ou atualizações. Logo abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Composite.  
+
+&emsp;&emsp;Uma explicação mais detalhada sobre o diagrama da Figura 1, ele possui 5 classes, contendo métodos e atributos. Na classe `QuestaoNivel`, que é um interface, contém um método chamado `exibeQuestao`, o qual será erdado pelos filhos. Ele tem a função de exibir a questão na tela para o usuário e imprimir se o usuário acertou ou não a questão. 
+
+&emsp;&emsp;A outra classe, chamada `QuadroDeQuestao`, contém um atributo privado do tipo array que vai armazenar as questões que estão classificadas pelas outras classes. Essa classe possui os métodos de adicionar a questão ou de exibi-la. 
+
+&emsp;&emsp;Na classe `QuestaoLacuna`, que é uma das filhas da `QuestaoNivel`, possui atributos privados e métodos públicos. O método `resposta` verifica se a resposta do usuário está correta, retornando `false` para errada e `true` para correta. No método `nivelAtual`, retorna o nível (fase) em que o usuário está e, no `exibeQuestao`, mostra na tela a pergunta e se acertou. Esses métodos estão também nas outras classes com a mesma função, apenas diferenciando para cada tipo de questão. No caso, tem a questão de lacuna, a de múltipla escolha e a de verdadeiro ou falso, todas representadas por classes com suas particularidades.
+
+&emsp;&emsp;Esse UMl foi inspirado em dois diagramas, um do site Guru <a href="https://Link_da_fonte">[2]</a> e outro do slide da página 52 da professora dessa disciplina <a href="https://Link_da_fonte">[1]</a>. Ambos podem serem vizualizados pelo links referentes em bibliografia.
+</p>
+
 
 <h6 align="center">Figura 1: UML Composite.</h6>
  <!-- <div align="center">  -->
@@ -68,10 +78,12 @@
 ## **Código do UML Composite**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;O código logo abaixo, foi criado apartir do UMl da Figura 1, seguindo a estrutura seja na nomeclatura das classes e métodos como também no padrão estrutural representado nela. Na estrutura do Composite existe ao componente e as folhas além do prórpio composite. Logo abaixo mostra a organização de acordo com essa estrutura referente, além da main que é onde vai iniciar a compilar o código.
+
+&emsp;&emsp;O resultado do código presente na Figura 2, é uma saída no terminal, contendo as perguntas e repostas do usuário de forma que dê para vizualizar se ele acertou ou errou. Essa saída é apenas um teste para demonstrar e provar ao leitor que o código está funcionando com a estrutura do GoF de Composite, posteriormente vai ser atualizado para ser uma tela com uma estrurua melhor. 
 </p>
 
-Componente:
+`Componente:`
 
 ```ruby
 package compositenosso.componente;
@@ -82,7 +94,7 @@ public interface QuestaoNivel {
 }
 ```
 
-Folhas:
+`Folhas:`
 
 ```ruby package compositenosso.leaf;
 
@@ -226,7 +238,7 @@ public class QuestaoVF implements QuestaoNivel {
 }
 ```
 
-Composite:
+`Composite:`
 
 ```ruby package compositenosso.composite;
 
@@ -257,7 +269,7 @@ public class QuadroDeQuestao implements QuestaoNivel {
 }
 ```
 
-Principal (main):
+`Principal (main):`
 
 ```ruby package compositenosso.teste;
 
@@ -299,10 +311,24 @@ public class Main {
     }
 }
 ```
+### Saída
+
+<h6 align="center">Figura 2: Saída do código do GoF de composite.</h6>
+<div align="center">
+
+![saidaComposite](img/saidaComposite.jpeg)
+
+</div>
+<h6 align="center">Fonte: Autoria própria, 2024</a>.
+
+
 
 ## **Bibliografia**
 
->
+>> <a href="https://Link_da_fonte">[1]</a> SERRANO, Milene. Arquitetura e Desenho de Software, AULA - GOFS ESTRUTURAIS. 2024. UnB sigaa. Disponível em: <https://sigaa.unb.br/sigaa/portais/discente/discente.jsf>. Acesso em: 25 jul. 2024.
+
+>> <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/composite>. Acesso em: 25 jul. 2024.
+
 
 ## **Histórico de Versão**
 <p align="justify">
@@ -320,3 +346,4 @@ public class Main {
 | `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
 | `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
+| `1.X`  | 25/07/2024 | Adição de conteúdo nos tópicos de desenvolvimento: UML Composite, Código do UML Composite e saída  | [Maria Eduarda Barbosa](https://github.com/Madu01) |        |
