@@ -67,8 +67,8 @@ Interface PontoPorNivel
 
 ```ruby
 public interface PontoPorNivel {
-  PontoPorNivel clone();
-  void criaNivelDificuldade();
+    PontoPorNivel clone();
+    void criaNivelDificuldade();
 }
 ```
 
@@ -76,25 +76,25 @@ Classe abstrata CriadorPonto
 
 ```ruby
 public abstract class CriadorPonto implements PontoPorNivel {
-  public int ponto;
-  public String questao;
+    public int ponto;
+    public String questao;
 
-  public CriadorPonto(int ponto, String questao) {
-      this.ponto = ponto;
-      this.questao = questao;
-  }
+    public CriadorPonto(int ponto, String questao) {
+        this.ponto = ponto;
+        this.questao = questao;
+    }
 
-  public CriadorPonto(CriadorPonto source) {
-      this.ponto = source.ponto;
-      this.questao = source.questao;
-  }
+    public CriadorPonto(CriadorPonto source) {
+        this.ponto = source.ponto;
+        this.questao = source.questao;
+    }
 
-  @Override
-  public abstract CriadorPonto clone();
+    @Override
+    public abstract CriadorPonto clone();
 
-  public abstract int criaPontoNivel();
+    public abstract int criaPontoNivel();
 
-  public abstract String categoriaQuestao(int tipo);
+    public abstract String categoriaQuestao(int tipo);
 }
 ```
 
@@ -103,28 +103,43 @@ Classe ConcretePontoFacil
 ```ruby
 public class ConcretePontoFacil extends CriadorPonto {
 
-  public ConcretePontoFacil(int ponto, String questao) {
-      super(ponto, questao);
-  }
+    public ConcretePontoFacil(int ponto, String questao) {
+        super(ponto, questao);
+    }
 
-  public ConcretePontoFacil(ConcretePontoFacil source) {
-      super(source);
-  }
+    public ConcretePontoFacil(ConcretePontoFacil source) {
+        super(source);
+    }
 
-  @Override
-  public ConcretePontoFacil clone() {
-      return new ConcretePontoFacil(this);
-  }
+    @Override
+    public ConcretePontoFacil clone() {
+        return new ConcretePontoFacil(this);
+    }
 
-  @Override
-  public int criaPontoNivel() {
-      return this.ponto;
-  }
+    @Override
+    public int criaPontoNivel() {
+        this.ponto = 5;
+        return this.ponto;
+    }
 
-  @Override
-  public String categoriaQuestao(int tipo) {
-      return this.questao;
-  }
+    @Override
+    public String categoriaQuestao(int tipo) {
+        switch (tipo) {
+            case 1:
+                return "Verdadeiro ou Falso";
+            case 2:
+                return "Múltipla Escolha";
+            case 3:
+                return "Lacuna";
+            default:
+                return "Não existe esta categoria";
+        }
+    }
+
+    @Override
+    public void criaNivelDificuldade() {
+        System.out.println("Fácil");
+    }
 }
 ```
 
@@ -133,58 +148,112 @@ Classe ConcretePontoMedia
 ```ruby
 public class ConcretePontoMedia extends CriadorPonto {
 
-  public ConcretePontoMedia(int ponto, String questao) {
-      super(ponto, questao);
-  }
+    public ConcretePontoMedia(int ponto, String questao) {
+        super(ponto, questao);
+    }
 
-  public ConcretePontoMedia(ConcretePontoMedia source) {
-      super(source);
-  }
+    public ConcretePontoMedia(ConcretePontoMedia source) {
+        super(source);
+    }
 
-  @Override
-  public ConcretePontoMedia clone() {
-      return new ConcretePontoMedia(this);
-  }
+    @Override
+    public ConcretePontoMedia clone() {
+        return new ConcretePontoMedia(this);
+    }
 
-  @Override
-  public int criaPontoNivel() {
-      return this.ponto;
-  }
+    @Override
+    public int criaPontoNivel() {
+        this.ponto = 10;
+        return this.ponto;
+    }
 
-  @Override
-  public String categoriaQuestao(int tipo) {
-      return this.questao;
-  }
+    @Override
+    public String categoriaQuestao(int tipo) {
+        switch (tipo) {
+            case 1:
+                return "Verdadeiro ou Falso";
+            case 2:
+                return "Múltipla Escolha";
+            case 3:
+                return "Lacuna";
+            default:
+                return "Não existe esta categoria";
+        }
+    }
+
+    @Override
+    public void criaNivelDificuldade() {
+        System.out.println("Médio");
+    }
 }
 ```
 
-Class ConcretePontoDificil
+Classe ConcretePontoDificil
 
 ```ruby
 public class ConcretePontoDificil extends CriadorPonto {
 
-  public ConcretePontoDificil(int ponto, String questao) {
-      super(ponto, questao);
-  }
+    public ConcretePontoDificil(int ponto, String questao) {
+        super(ponto, questao);
+    }
 
-  public ConcretePontoDificil(ConcretePontoDificil source) {
-      super(source);
-  }
+    public ConcretePontoDificil(ConcretePontoDificil source) {
+        super(source);
+    }
 
-  @Override
-  public ConcretePontoDificil clone() {
-      return new ConcretePontoDificil(this);
-  }
+    @Override
+    public ConcretePontoDificil clone() {
+        return new ConcretePontoDificil(this);
+    }
 
-  @Override
-  public int criaPontoNivel() {
-      return this.ponto;
-  }
+    @Override
+    public int criaPontoNivel() {
+        this.ponto = 15;
+        return this.ponto;
+    }
 
-  @Override
-  public String categoriaQuestao(int tipo) {
-      return this.questao;
-  }
+    @Override
+    public String categoriaQuestao(int tipo) {
+        switch (tipo) {
+            case 1:
+                return "Verdadeiro ou Falso";
+            case 2:
+                return "Múltipla Escolha";
+            case 3:
+                return "Lacuna";
+            default:
+                return "Não existe esta categoria";
+        }
+    }
+
+    @Override
+    public void criaNivelDificuldade() {
+        System.out.println("Difícil");
+    }
+}
+```
+
+Classe Main
+
+```ruby
+public class Main {
+    public static void main(String[] args) {
+        ConcretePontoFacil pontuacaoFacil = new ConcretePontoFacil(0, "");
+        ConcretePontoMedia pontuacaoMedia = new ConcretePontoMedia(0, "");
+        ConcretePontoDificil pontuacaoDificil = new ConcretePontoDificil(0, "");
+
+        ConcretePontoFacil clonePontuacaoFacil = pontuacaoFacil.clone();
+        ConcretePontoMedia clonePontuacaoMedia = pontuacaoMedia.clone();
+        ConcretePontoDificil clonePontuacaoDificil = pontuacaoDificil.clone();
+
+        clonePontuacaoFacil.criaNivelDificuldade();
+        clonePontuacaoMedia.criaNivelDificuldade();
+        clonePontuacaoDificil.criaNivelDificuldade();
+
+        System.out.println("Pontuação Fácil: " + clonePontuacaoFacil.criaPontoNivel() + ", Questão: " + clonePontuacaoFacil.categoriaQuestao(1));
+        System.out.println("Pontuação Médio: " + clonePontuacaoMedia.criaPontoNivel() + ", Questão: " + clonePontuacaoMedia.categoriaQuestao(2));
+        System.out.println("Pontuação Difícil: " + clonePontuacaoDificil.criaPontoNivel() + ", Questão: " + clonePontuacaoDificil.categoriaQuestao(3));
+    }
 }
 ```
 
@@ -213,3 +282,4 @@ Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa esco
 | `1.3`  | 25/07/2024 | Adição conclusão                  | [Júlia Souza](https://github.com/JuliaSSouza)                                                        | [Carolina Barbosa](https://github.com/CarolinaBarb) |
 | `1.4`  | 25/07/2024 | Adição da metodologia             | [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Marques](https://github.com)      | [Luis Henrique](https://github.com/luishenrrique)   |
 | `1.5`  | 25/07/2024 | Adição do objetivo                | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `1.6`  | 25/07/2024 | Adição do código Prototype        | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
