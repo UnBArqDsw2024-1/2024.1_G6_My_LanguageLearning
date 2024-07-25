@@ -57,6 +57,7 @@
         <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
         <a href="https://github.com/FelipeDireito">DIREITO</a>,
         <a href="https://github.com/FHansen98">HANSEN</a>,
+        <a href="https://github.com/PedroSiq">SIQUEIRA</a>. 
         2024.
     </h6>
 </div>
@@ -298,9 +299,35 @@ public class Main {
 }
 ```
 
+<div>
+    <h6 align="center">Fonte: 
+        <a href="https://github.com/luishenrrique">COSTA</a>, 
+        <a href="https://github.com/The-Boss-Nina">SOUZA</a>, 
+        <a href="https://github.com/laurapinos">PINOS</a>, 
+        <a href="https://github.com/Madu01">BARBOSA</a>, 
+        <a href="https://github.com/EduardaSMarques">MARQUES</a>, 
+        <a href="https://github.com/Jlmsousa">SOUSA</a>, 
+        <a href="https://github.com/CarolinaBarb">BRITO</a>,
+        <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
+        <a href="https://github.com/FelipeDireito">DIREITO</a>,
+        <a href="https://github.com/FHansen98">HANSEN</a>. 
+        2024.
+    </h6>
+</div>
+
+</p>
+
+## **Conclusão**
+
+O padrão de projeto Composite nos permite gerenciar estruturas hierárquicas em sistemas orientados a objetos. Ele agrupa objetos que fazem parte de uma relação parte-todo de maneira que possam ser tratados de forma uniforme. Além disso. esse padrão é útil para diminuir o acoplamento entre os objetos de um sistema, o que facilita a manutenção e evolução do software.
+
+Nós usamos o padrão Composite para gerenciar diferentes tipos de questões (como múltipla escolha, lacuna e verdadeiro ou falso) e suas respectivas partes (como alternativas e respostas corretas). Isso permite que o sistema trate tanto as questões individuais quanto as composições de questões de maneira uniforme, melhorando a coesão e facilitando a extensão do sistema com novos tipos de questões no futuro.
+
+O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, simplificando a gestão dos componentes e promovendo a reutilização de código e consistência no tratamento de diferentes tipos de objetos no sistema.
+
 ## **Bibliografia**
 
->
+> Prototype,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/composite
 
 ## **Histórico de Versão**
 
