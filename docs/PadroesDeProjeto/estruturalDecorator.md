@@ -22,26 +22,34 @@
 ## **Introdução**
 
 <p align="justify">
-&emsp;&emsp;texto
+&emsp;&emsp; O Decorator é um padrão de projeto estrutural focado em componentes concretos e componentes decoradores. É facilmente compreendido para um frontend onde temos uma página estática como componente concreto. Para adicionar funcionalidades ou elementos decorativos (como botões, etc.), podemos usar componentes decoradores que podem ser reutilizados.
 </p>
 
 ## **Objetivo**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp; O objetivo do Decorator para o nosso projeto é modelar a estrutura visual da aplicação. Com ele, podemos facilmente alterar cores, contraste e tema, além de otimizar a acessibilidade para pessoas com deficiências visuais.
+
+&emsp;&emsp;Além disso, o Decorator permite adicionar funcionalidades de forma dinâmica e flexível sem modificar o código original da aplicação. Isso significa que podemos implementar diferentes estilos e temas caso seja necessário.
 </p>
 
 ## **Metodologia**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp; A metodologia foi baseada em reuniões online. As primeiras reuniões focaram no estudo detalhado do diagrama de classes apresentado. A equipe assistiu à videoaula da professora Milene, responsável pela disciplina do projeto, o que forneceu uma base teórica sólida. Durante essas reuniões, foram discutidos os conceitos principais e as melhores práticas para a implementação do diagrama. Com base nas discussões e estudos, os integrantes do grupo começaram a esboçar o diagrama UML. Utilizando o Lucidchart, foram definidos os elementos principais do diagrama, como as classes ComponentTela, ConcreteTelaBase, DecoratorTela, TelaTemaEscuro, e TelaTemaContraste. As ideias foram coletadas e combinadas, resultando em um esboço inicial do diagrama.
+
+&emsp;&emsp; Foi realizada uma reunião presencial no dia 19/07, ao final da aula de arquitetura, para consolidar as ideias e revisar o progresso do diagrama UML. No mesmo dia, após a aula de Paradigmas, a equipe abordou a professora Milene para obter orientações adicionais. As recomendações fornecidas pela professora foram fundamentais para ajustar e aprimorar o diagrama UML, contribuindo significativamente para o avanço do projeto.
 </p>
 
 ## **UML Decorator**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;O UML desenvolvido foi inspirado nos exemplo do site Guru <a href="https://Link_da_fonte">[2]</a> e outro do slide da página 59 da professora dessa disciplina <a href="https://Link_da_fonte">[1]</a>. 
+
 </p>
+
+![decorator](./img/diag-estrutural-decorator.jpeg)
+
 
 ## **Código do UML Decorator**
 
@@ -49,13 +57,191 @@
 &emsp;&emsp;
 </p>
 
+Componente:
+
+```ruby
+package src.component;
+
+public interface Tela {
+    public void modoVisualCor ();
+
+    public String tipoTema();
+}
+
+
+```
+
+Tela Base:
+
+```ruby
+package src.concreteComponent;
+import src.component.Tela;
+
+public class TelaBase implements Tela {
+
+    private int brilho, cor;
+    public TelaBase(int brilho, int cor){
+        this.brilho = brilho;
+        this.cor = cor;
+    }
+    @Override
+    public void modoVisualCor(){
+        System.out.println("Parâmetros Tela: brilho: " + brilho + ", cor: " + cor);
+    }
+
+    @Override
+    public String tipoTema(){
+        return "Tema Padrão";
+    }
+}
+```
+
+
+Decorator:
+```ruby
+package src.decorator;
+
+import src.component.Tela;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DecoratorTela implements Tela {
+    private List<Tela> temas = new ArrayList();
+
+    public DecoratorTela(Tela tema) {
+        this.addTela(tema);
+    }
+
+    public void addTela(Tela tema){
+        this.temas.add(tema);
+    }
+    public void removeTela(Tela tema){
+        this.temas.remove(tema);
+    }
+
+    @Override
+    public void modoVisualCor() {
+        for(Tela tema : this.temas){
+            tema.modoVisualCor();
+//            tema.tipoTema();
+        }
+    }
+    @Override
+    public String tipoTema() {
+        for(Tela tema : this.temas){
+            tema.tipoTema();
+            return "Tema:";
+        }
+        return "";
+    }
+}
+
+```
+
+Decorator Tela:
+```ruby
+package src.concreteDecoratorTela;
+import src.decorator.DecoratorTela;
+import src.component.Tela;
+
+public class TelaTemaEscuro extends DecoratorTela {
+    private String tipoEscuro = "Escuro";
+
+    public TelaTemaEscuro(Tela tema){
+        super (tema);
+    }
+
+    @Override
+    public void modoVisualCor() {
+        super.modoVisualCor();
+        System.out.println("Componente decorado (TelaTemaEscuro)");
+    }
+
+    @Override
+    public String tipoTema() {
+        super.tipoTema();
+        return "Alterou o tema para " + this.tipoEscuro;
+    }
+}
+
+```
+
+```ruby
+package src.concreteDecoratorTela;
+
+import src.decorator.DecoratorTela;
+import src.component.Tela;
+
+public class TelaTemaContraste extends DecoratorTela {
+    private String tipoContraste = "Contraste";
+
+    public TelaTemaContraste(Tela tela){
+        super(tela);
+    }
+
+    public void modoVisualCor() {
+        super.modoVisualCor();
+        System.out.println("Componente decorado (TelaTemaContraste)");
+    }
+
+    @Override
+    public String tipoTema() {
+        super.tipoTema();
+        return "Alterou o tema para " + this.tipoContraste;
+    }
+}
+
+```
+
+Principal:
+```ruby
+package src.teste;
+import src.component.Tela;
+import src.concreteComponent.TelaBase;
+import src.concreteDecoratorTela.TelaTemaEscuro;
+import src.concreteDecoratorTela.TelaTemaContraste;
+
+public class Teste {
+    public static void main(String[] args) {
+
+        TelaBase tema = new TelaBase(50, 54);
+        Tela tema1 = (Tela) tema;
+        Tela tema2 = new TelaTemaContraste(tema1);
+        Tela tema3 = new TelaTemaContraste(tema2);
+        Tela tema4 = new TelaTemaEscuro(tema3);
+
+        tema4.modoVisualCor();
+        System.out.println(tema3.tipoTema());
+        System.out.println(tema4.tipoTema());
+    }
+}
+
+```
+
+Resposta:
+
+![resposta](./img/resposta-codigo-decorator.jpeg)
+<div>
+    <h6 align="center"> Resposta do Código. Fonte: Intellij, 2024.
+    </h6>
+</div>
+
 ## **Bibliografia**
 
-> 
+>> <a href="https://Link_da_fonte">[1]</a> SERRANO, Milene. Arquitetura e Desenho de Software, AULA - GOFS ESTRUTURAIS. 2024. UnB sigaa. Disponível em: <https://sigaa.unb.br/sigaa/portais/discente/discente.jsf>. Acesso em: 25 jul. 2024.
+
+>> <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/composite>. Acesso em: 25 jul. 2024.
+
 
 ## **Histórico de Versão**
 
 | Versão | Data       | Descrição            | Autor(es)                                           | Revisor(es) |
 | ------ | ---------- | -------------------- | --------------------------------------------------- | ----------- |
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
-| `1.1`  | 25/07/2024 | Adição dos participantes no documento | [Marina Márcia](https://github.com/The-Boss-Nina) |  [João Lucas](https://github.com/Jlmsousa)     |
+| `1.1`| 24/07/2024 | Adiciona UML e introdução | [Felipe Direito](https://github.com/FelipeDireito)  |  [Felipe Hansen](https://github.com/FHansen98)  |
+| `1.2`| 24/07/2024 | Adiciona começo do código | [Felipe Hansen](https://github.com/FHansen98)  |  [Felipe Direito](https://github.com/FelipeDireito)  |
+| `1.3`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.4`  | 22/07/2024 | Adicionando Fontes | [Maria Eduarda Barbosa](https://github.com/Madu01) |   [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
+| `1.5`| 25/07/2024 | Finalizando código | [Felipe Hansen](https://github.com/FHansen98)  |  [Luis Henrique Luz Costa ](https://github.com/luishenrrique)   |
+| `1.6`| 25/07/2024 | Finalizando documento e objetivo | [Felipe Direito](https://github.com/FelipeDireito)  |  [Felipe Hansen](https://github.com/FHansen98) |
