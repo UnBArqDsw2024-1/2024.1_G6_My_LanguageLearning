@@ -51,6 +51,9 @@
 &emsp;&emsp;
 </p>
 
+## **Conclusão**
+Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa escolha por oferecer uma solução eficaz para a criação de novos objetos através da clonagem de objetos existentes. Este padrão permite que objetos sejam copiados sem fazer o código depender de suas classes concretas, promovendo assim a reutilização de código e a consistência no tratamento de diferentes tipos de objetos no sistema.
+
 ## **Bibliografia**
 
 > Prototype,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/prototype
@@ -62,4 +65,3 @@
 | `1.0`  | 22/07/2024 | Criação do documento | [Laura Pinos](https://github.com/laurapinos) |     [Marina Márcia](https://github.com/The-Boss-Nina)    |
 | `1.1`  | 22/07/2024 | Organização da estrutura padrão | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |    [João Lucas](https://github.com/Jlmsousa)              |
-| `1.3`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) |   [Maria Eduarda Barbosa](https://github.com/Madu01)             |
