@@ -32,13 +32,27 @@
 ## **Metodologia**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;A metodologia foi baseada em reuniões online. As primeiras reuniões focaram no estudo detalhado do diagrama de classes apresentado. A equipe assistiu à videoaula da professora Milene, responsável pela disciplina do projeto, o que forneceu uma base teórica sólida. Durante essas reuniões, foram discutidos os conceitos principais e as melhores práticas para a implementação do diagrama. Com base nas discussões e estudos, os integrantes do grupo começaram a esboçar o diagrama UML. Utilizando o Lucidchart, foram definidos os elementos principais do diagrama, como as classes QuestaoNivel, QuestaoMultipla, QuestaoLacuna, QuestaoVF, e QuadroDeQuestao. As ideias foram coletadas e combinadas, resultando em um esboço inicial do diagrama.
+
+&emsp;&emsp;Foi realizada uma reunião presencial no dia 19/07, ao final da aula de arquitetura, para consolidar as ideias e revisar o progresso do diagrama UML. No mesmo dia, após a aula de Paradigmas, a equipe abordou a professora Milene para obter orientações adicionais. As recomendações fornecidas pela professora foram fundamentais para ajustar e aprimorar o diagrama UML, contribuindo significativamente para o avanço do projeto.
 </p>
 
 ## **UML Composite**
 
 <p align="justify">
-&emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Composite.
+&emsp;&emsp;O UML do CompositefFoi utilizado para o desenvolvimento do código que está na linguagem java, de modo que facilite para possíveis manuntenções ou atualizações. Logo abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Composite.  
+
+&emsp;&emsp;Uma explicação mais detalhada sobre o diagrama da Figura 1, ele possui 5 classes, contendo métodos e atributos. Na classe `QuestaoNivel`, que é um interface, contém um método chamado `exibeQuestao`, o qual será erdado pelos filhos. Ele tem a função de exibir a questão na tela para o usuário e imprimir se o usuário acertou ou não a questão. 
+
+&emsp;&emsp;A outra classe, chamada `QuadroDeQuestao`, contém um atributo privado do tipo array que vai armazenar as questões que estão classificadas pelas outras classes. Essa classe possui os métodos de adicionar a questão ou de exibi-la. 
+
+&emsp;&emsp;Na classe `QuestaoLacuna`, que é uma das filhas da `QuestaoNivel`, possui atributos privados e métodos públicos. O método `resposta` verifica se a resposta do usuário está correta, retornando `false` para errada e `true` para correta. No método `nivelAtual`, retorna o nível (fase) em que o usuário está e, no `exibeQuestao`, mostra na tela a pergunta e se acertou. Esses métodos estão também nas outras classes com a mesma função, apenas diferenciando para cada tipo de questão. No caso, tem a questão de lacuna, a de múltipla escolha e a de verdadeiro ou falso, todas representadas por classes com suas particularidades.
+
+&emsp;&emsp;Esse UMl foi inspirado em dois diagramas, um do site Guru <a href="https://Link_da_fonte">[2]</a> e outro do slide da página 52 da professora dessa disciplina <a href="https://Link_da_fonte">[1]</a>. Ambos podem serem vizualizados pelo links referentes em bibliografia.
+
+&emsp;&emsp;A ideia principal é que o sistema possa utilizar diversos tipos de questões de forma mais eficiente.
+</p>
+
 
 <h6 align="center">Figura 1: UML Composite.</h6>
  <!-- <div align="center">  -->
@@ -67,10 +81,11 @@
 ## **Código do UML Composite**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;O código logo abaixo, foi criado apartir do UMl da Figura 1, seguindo a estrutura seja na nomeclatura das classes e métodos como também no padrão estrutural representado nela. Na estrutura do Composite existe ao componente e as folhas além do prórpio composite. Logo abaixo mostra a organização de acordo com essa estrutura referente, além da main que é onde vai iniciar a compilar o código.
+
 </p>
 
-Componente:
+`Componente:`
 
 ```ruby
 package compositenosso.componente;
@@ -81,7 +96,7 @@ public interface QuestaoNivel {
 }
 ```
 
-Folhas:
+`Folhas:`
 
 ```ruby package compositenosso.leaf;
 
@@ -225,7 +240,7 @@ public class QuestaoVF implements QuestaoNivel {
 }
 ```
 
-Composite:
+`Composite:`
 
 ```ruby package compositenosso.composite;
 
@@ -256,7 +271,7 @@ public class QuadroDeQuestao implements QuestaoNivel {
 }
 ```
 
-Principal (main):
+`Principal (main):`
 
 ```ruby package compositenosso.teste;
 
@@ -298,6 +313,21 @@ public class Main {
     }
 }
 ```
+### Saída
+
+<p align="justify">
+&emsp;&emsp;O resultado do código presente na Figura 2, é uma saída no terminal, contendo as perguntas e repostas do usuário de forma que dê para vizualizar se ele acertou ou errou. Essa saída é apenas um teste para demonstrar e provar ao leitor que o código está funcionando com a estrutura do GoF de Composite, posteriormente vai ser atualizado para ser uma tela com uma estrurua melhor. 
+</p>
+
+<h6 align="center">Figura 2: Saída do código do GoF de composite.</h6>
+<div align="center">
+
+![saidaComposite](img/saidaComposite.jpeg)
+
+</div>
+<h6 align="center">Fonte: Autoria própria, 2024</a>.
+
+
 
 <div>
     <h6 align="center">Fonte: 
@@ -327,7 +357,10 @@ O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, si
 
 ## **Bibliografia**
 
-> Prototype,Refactoring Guru. Acesso em: 22 jul. 2024 https://refactoring.guru/pt-br/design-patterns/composite
+>> <a href="https://Link_da_fonte">[1]</a> SERRANO, Milene. Arquitetura e Desenho de Software, AULA - GOFS ESTRUTURAIS. 2024. UnB sigaa. Disponível em: <https://sigaa.unb.br/sigaa/portais/discente/discente.jsf>. Acesso em: 17 jul. 2024.
+
+>> <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/composite>. Acesso em: 17 jul. 2024.
+
 
 ## **Histórico de Versão**
 
@@ -338,12 +371,20 @@ O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, si
 <h6 align="center">Tabela 1: Histórico de Versão.</h6>
 <div align="center">
 
-| Versão | Data       | Descrição                                              | Autor(es)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Revisor(es)                                                                                                                                               |
-| ------ | ---------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `1.0`  | 22/07/2024 | Criação do documento e da estrutura                    | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                         |
-| `1.1`  | 22/07/2024 | Finalização do UML e código                            | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza), [Felipe Direito](https://github.com/FelipeDireito), [Felipe Hansen](https://github.com/FHansen98) e [Pedro Augusto](https://github.com/PedroSiq) (Participou somente da reunião presencial do dia 19/07.) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01) |
-| `1.2`  | 22/07/2024 | Adição do código realizado pelo grupo                  | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                         |
-| `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML    | [Matheus Perillo](https://github.com/MatheusPerillo)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                        |
-| `1.4`  | 24/07/2024 | Adição do quadro de participantes                      | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                                                                        |
-| `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | [Marina Márcia](https://github.com/The-Boss-Nina)                                                                                                         |
-| `1.6`  | 25/07/2024 | Adição conclusão                                       | [Julia Souza](https://github.com/JuliaSSouza)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | [Carolina Barbosa](https://github.com/CarolinaBarb)                                                                                                       |
+| Versão | Data       | Descrição                                      | Autor(es)                                            | Revisor(es)                                        |
+| ------ | ---------- | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
+| `1.0`  | 22/07/2024 | Criação do documento e da estrutura            | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
+| `1.1`  | 22/07/2024 | Finalização do UML e código     |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza), [Felipe Direito](https://github.com/FelipeDireito), [Felipe Hansen](https://github.com/FHansen98) e [Pedro Augusto](https://github.com/PedroSiq) (Participou somente da reunião presencial do dia 19/07.) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01) 
+| `1.2`  | 22/07/2024 | Adição do código realizado pelo grupo        | [Maria Eduarda Barbosa](https://github.com/Madu01)   | [Marina Márcia](https://github.com/The-Boss-Nina)  |
+| `1.3`  | 23/07/2024 | Adição da introdução, dos objetivos e da figura UML | [Matheus Perillo](https://github.com/MatheusPerillo) | [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.4`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina) |  [Maria Eduarda Barbosa](https://github.com/Madu01) |
+| `1.5`  | 24/07/2024 | Correção da introdução, objetivo e imagem do composite | [João Lucas](https://github.com/Jlmsousa) |  [Marina Márcia](https://github.com/The-Boss-Nina) |
+| `1.6`  | 25/07/2024 | Adição conclusão | [Julia Souza](https://github.com/JuliaSSouza) |  [Carolina Barbosa](https://github.com/CarolinaBarb) |
+| `1.7`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Luis Henrique](https://github.com/luishenrrique)  |
+| `1.8`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
+| `1.9`  | 25/07/2024 | Adição de conteúdo nos tópicos de desenvolvimento: UML Composite, Código do UML Composite e saída  | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
+| `2.0`  | 25/07/2024 | Adição conclusão                                       | [Julia Souza](https://github.com/JuliaSSouza)
+| `2.1`  | 25/07/2024 | Adição do objetivo                            | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `2.2`  | 25/07/2024 | Adição do código Prototype                    | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `2.3`  | 25/07/2024 | Adição de saída do código e explicação do UML | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+

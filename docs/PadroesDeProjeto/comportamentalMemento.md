@@ -44,7 +44,14 @@
 ## **UML Memento**
 
 <p align="justify">
-&emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Memento.
+&emsp;&emsp;Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Memento. 
+
+&emsp;&emsp;O UML do GoF comportamental de Memento foi inspirado utilizando como base dois UMLs, um do site Guru <a href="https://Link_da_fonte">[1]</a> e outro de um exemplo mostrado pela professora dessa disciplina. Ambos podem ser visualizados pelos links referentes na bibliografia.
+
+&emsp;&emsp;Explicando o UML, ele possui três classes: a `Originadora`, o `Memento` e a `Cuidadora`. A `Originadora` tem um atributo privado e dois métodos públicos: um que salva o memento, criando-o com a pontuação atual, e outro que restaura a pontuação anterior. Na classe `Memento`, ele tem dois métodos: um que retorna a pontuação e outro que armazena essa pontuação. Na `Cuidadora`, que possui dois atributos (um do tipo array), há o método `desfazer` que reverte a pontuação atual para a anterior, e o método que adiciona no array os estados de pontuação do nível.
+
+&emsp;&emsp;A ideia principal do UML é que a `Originadora` salva e restaura as pontuações, o `Memento` armazena os estados anteriores ao atual e a `Cuidadora` mantém esse histórico de mementos, podendo desfazer para as pontuações anteriores.
+</p>
 
 <h6 align="center">Figura 1: UML Memento.</h6>
 <!-- <div align="center"> -->
@@ -72,11 +79,11 @@
 ## **Código do UML Memento**
 
 <p align="justify">
-&emsp;&emsp;
+&emsp;&emsp;Esse código, desenvolvido na linguagem java, segue o UML da Figura 1, o main presente serve para dar o início para a compilação.
 </p>
 
 
-Cuidadora:
+`Cuidadora:`
 
 ```ruby
 package memento;
@@ -106,7 +113,7 @@ public class Cuidadora {
 }
 ```
 
-Memento:
+`Memento:`
 
 ```ruby
 package memento;
@@ -124,7 +131,7 @@ public class Memento {
 }
 ```
 
-Originadora:
+`Originadora:`
 
 ```ruby
 package memento;
@@ -150,12 +157,12 @@ public class Originadora {
 }
 ```
 
-MementoPatterDemo:
+`Main:`
 
 ```ruby
 package memento;
 
-public class MementoPatternDemo {
+public class Main {
     public static void main(String[] args) {
         Originadora originadora = new Originadora();
         Cuidadora cuidadora = new Cuidadora(originadora);
@@ -194,6 +201,22 @@ public class MementoPatternDemo {
     </h6>
 </div>
 
+### Saída
+
+&emsp;&emsp;A saída do código está na Figura 2, que mostra o resultado no terminal e demonstra o código funcionando conforme esperado. Ele exibiu a pontuação atual e, ao realizar a operação de desfazer, foi possível observar que a pontuação realmente retornou aos estados anteriores.
+
+&emsp;&emsp;Esta saída é apenas um teste, uma forma de mostrar que o sistema está funcionando. No resultado final, não será assim, será utilizado para quando o usuário precisar voltar a níveis (fases) em que já havia feito questões, e a pontuação é fundamental nesse contexto. Por isso, foi implementado especificamente para a pontuação. Quando o usuário retorna a um nível (fase) para refazê-lo, a pontuação atual é desfeita e será somada ao número resultante do desfazer para o estado anterior. Porque, ele tentará realizar as questões e receberá uma nova pontuação.
+ 
+</p>
+
+<h6 align="center">Figura 2: Saída do código do GoF de Memento.</h6>
+<div align="center">
+
+![saidaComposite](img/saidaMemento.jpeg)
+
+</div>
+<h6 align="center">Fonte: Autoria própria, 2024</a>.
+
 ## **Conclusão**
 O padrão de projeto comportamental Memento oferece uma solução eficaz para a restauração do estado de um objeto sem violar seu encapsulamento. Este padrão é útil em situações onde é necessário desfazer operações ou restaurar estados anteriores de um objeto de forma segura e eficiente.
 
@@ -208,7 +231,7 @@ O padrão Memento foi aplicado para permitir que o estado das lições e pontua�
 
 > <a href="https://Link_da_fonte">[3]</a> Refactoring Guru. Memento. Disponível em: https://refactoring.guru/design-patterns/memento. Acesso em: 25 jul. 2024 
 
-
+> <a href="https://Link_da_fonte">[4]</a> REFACTORING GURU. Design Patterns: Memento. Disponível em: <https://refactoring.guru/design-patterns/memento>. Acesso em: 17 jul. 2024.
 
 
 ## **Histórico de Versão**
@@ -217,8 +240,10 @@ O padrão Memento foi aplicado para permitir que o estado das lições e pontua�
 | ------ | ---------- | -------------------- | --------------------------------------------------- | ----------- |
 | `1.0`  | 22/07/2024 | Criação do documento e da estrutura | [Maria Eduarda Barbosa](https://github.com/Madu01) |    [Marina Márcia](https://github.com/The-Boss-Nina)       |
 | `1.1`  | 22/07/2024 | Finalização do UML |   [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina), [Laura Pinos](https://github.com/laurapinos), [João Lucas](https://github.com/Jlmsousa), [Julia Souza](https://github.com/JuliaSSouza), [Maria Eduarda Barbosa](https://github.com/Madu01), [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Carolina Barbosa](https://github.com/CarolinaBarb), [Felipe Direito](https://github.com/FelipeDireito) e [Felipe Hansen](https://github.com/FHansen98) | [Luis Henrique](https://github.com/luishenrrique), [Marina Márcia](https://github.com/The-Boss-Nina) e [Maria Eduarda Barbosa](https://github.com/Madu01)  |
-| `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina)   |   [João Lucas](https://github.com/Jlmsousa)                   |
+| `1.2`  | 24/07/2024 | Adição do quadro de participantes | [Marina Márcia](https://github.com/The-Boss-Nina)   |   [João Lucas](https://github.com/Jlmsousa), [Maria Eduarda Marques](https://github.com) |
 | `1.3`  | 24/07/2024 | Adição do código do memento |  [João Lucas](https://github.com/Jlmsousa)                   | [Marina Márcia](https://github.com/The-Boss-Nina)   |
-| `1.4` | 20/04/2024 | Adicionando metodologia      | [Maria Eduarda Marques](https://github.com)     |  [Maria Eduarda Barbosa](https://github.com/Madu01)   |
+| `1.4` | 20/04/2024 | Adicionando metodologia      | [Maria Eduarda Marques](https://github.com)     |  [Maria Eduarda Barbosa](https://github.com/Madu01), [Luis Henrique](https://github.com/luishenrrique)   |
 | `1.5`  | 25/07/2024 | Adição conclusão | [Julia Souza](https://github.com/JuliaSSouza) |  [Carolina Barbosa](https://github.com/CarolinaBarb) |
+| `1.6`  | 25/07/2024 | Adição de conteúdo nos tópicos de desenvolvimento: UML Composite, Código do UML Composite e saída  | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
+
 
