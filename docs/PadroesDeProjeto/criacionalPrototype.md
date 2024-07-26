@@ -267,7 +267,12 @@ public class Main {
 }
 ```
 
-`Saída`
+### Saída
+
+&emsp;&emsp; O retorno mostrado na Figura 2 contém a pontuação de cada questão, bem como o seu tipo, seja ele Verdadeiro ou Falso, Lacuna e Múltipla Escolha. Esse código demonstra a ideia do padrão do Prototype onde é possível realizar clones da classe abstrata principal CriadorPonto.
+
+<h6 align="center">Figura 2: Saída do código do GoF criacional prototype.</h6>
+<div align="center">
 
 ![saidaPrototype](./img/saidaPrototype.jpg)
 
@@ -277,12 +282,6 @@ public class Main {
         <a href="https://github.com/MatheusPerillo">PERILLO</a>. 2024.
     </h6>
 </div>
-
-### Saída
-
-<p align="justify">
-&emsp;&emsp; O retorno mostrado na Figura 2 contém a pontuação de cada questão, bem como o seu tipo, seja ele Verdadeiro ou Falso, Lacuna e Múltipla Escolha. Esse código demonstra a ideia do padrão do Prototype onde é possível realizar clones da classe abstrata principal CriadorPonto.
-</p>
 
 ## **Conclusão**
 
