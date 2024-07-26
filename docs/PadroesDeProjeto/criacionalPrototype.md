@@ -289,9 +289,10 @@ public class Main {
     </h6>
 </div>
 
+
 ## **Conclusão**
 
-Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa escolha por oferecer uma solução eficaz para a criação de novos objetos através da clonagem de objetos existentes. Este padrão permite que objetos sejam copiados sem fazer o código depender de suas classes concretas, promovendo assim a reutilização de código e a consistência no tratamento de diferentes tipos de objetos no sistema.
+&emsp;&emsp;Em conclusão. o uso do padrão de projeto criacional Prototype foi uma boa escolha por oferecer uma solução eficaz para a criação de novos objetos através da clonagem de objetos existentes. Este padrão permite que objetos sejam copiados sem fazer o código depender de suas classes concretas, promovendo assim a reutilização de código e a consistência no tratamento de diferentes tipos de objetos no sistema.
 
 ## **Bibliografia**
 
