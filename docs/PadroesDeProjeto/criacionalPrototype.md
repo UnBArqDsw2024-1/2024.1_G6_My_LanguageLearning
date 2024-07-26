@@ -269,8 +269,6 @@ public class Main {
 
 `Saída`
 
-<h6 align="center">Figura 2: Saída do código.</h6>
-
 ![saidaPrototype](./img/saidaPrototype.jpg)
 
 <div>
