@@ -74,11 +74,7 @@
 
 ## **Código do UML Decorator**
 
-<p align="justify">
-&emsp;&emsp;
-</p>
-
-Componente:
+`Componente:`
 
 ```ruby
 package src.component;
@@ -92,7 +88,7 @@ public interface Tela {
 
 ```
 
-Tela Base:
+`Tela Base:`
 
 ```ruby
 package src.concreteComponent;
@@ -118,7 +114,7 @@ public class TelaBase implements Tela {
 ```
 
 
-Decorator:
+`Decorator:`
 ```ruby
 package src.decorator;
 
@@ -160,7 +156,7 @@ public class DecoratorTela implements Tela {
 
 ```
 
-Decorator Tela:
+`Decorator Tela:`
 ```ruby
 package src.concreteDecoratorTela;
 import src.decorator.DecoratorTela;
@@ -215,7 +211,7 @@ public class TelaTemaContraste extends DecoratorTela {
 
 ```
 
-Principal:
+`Principal:`
 ```ruby
 package src.teste;
 import src.component.Tela;
@@ -247,7 +243,7 @@ public class Teste {
     </h6>
 </div>
 
-Resposta:
+`Resposta:`
 
 ![resposta](./img/resposta-codigo-decorator.jpeg)
 <div>

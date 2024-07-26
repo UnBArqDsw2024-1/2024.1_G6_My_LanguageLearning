@@ -276,7 +276,7 @@ public class Main {
 <div>
     <h6 align="center">Fonte: 
         <a href="https://github.com/PedroSiq">SIQUEIRA</a>, 
-        <a href="https://github.com/MatheusPerillo">PERILLO</a>, 2024.
+        <a href="https://github.com/MatheusPerillo">PERILLO</a>. 2024.
     </h6>
 </div>
 
