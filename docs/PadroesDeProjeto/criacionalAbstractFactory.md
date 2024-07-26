@@ -404,7 +404,7 @@ public class Cliente {
 ![saidaComposite](img/saida-criacional.jpeg)
 
 </div>
-<h6 align="center">Fonte: Autoria própria, 2024</a>.
+<h6 align="center">Fonte: <a href="https://github.com/luishenrrique">COSTA</a>.
 
 ## **Bibliografia**
 
@@ -424,5 +424,4 @@ public class Cliente {
 | `1.4`  | 25/07/2024 | Adição de conteúdo em metodologia | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)   |
 | `1.5`  | 25/07/2024 | Adição de saída do código e explicação | [Luis Henrique](https://github.com/luishenrrique) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)  |
 | `1.6`  | 25/07/2024 | Adicionando explicação do uml e suas classes | [Maria Eduarda Marques](https://github.com/EduardaSMarques)  | [Maria Eduarda Barbosa](https://github.com/Madu01) e [Luis Henrique](https://github.com/luishenrrique) | 
-| `1.7`  | 25/07/2024 | Adição da introdução e objetivo        | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq)                                                                                                                                                                                                                                                            | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                     |
-
+| `1.7`  | 25/07/2024 | Adição da introdução e objetivo        | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq)   |   [Marina Márcia](https://github.com/The-Boss-Nina)  |                                                                                                                                                                                                                                                     | [Maria Eduarda Barbosa](https://github.com/Madu01)                                                     |
