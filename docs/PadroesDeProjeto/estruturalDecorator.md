@@ -240,13 +240,6 @@ public class Teste {
 
 ```
 
- <div>
-    <h6 align="center">Fonte: 
-         <a href="https://github.com/FelipeDireito">DIREITO</a>,
-         <a href="https://github.com/FHansen98">HANSEN</a>. 2024.
-    </h6>
-</div>
-
 ## **Saída**:
 
 &emsp;&emsp; O resultado do código presente na Figura 2, é uma saída no terminal, contendo os logs presentes em cada classe quando realizada alguma operação de troca de tema. Essa saída é apenas um teste para demonstrar que os códigos estão atualizando seus parâmetros, por exemplo: brilho, contraste e tema, quando solicitados. Essa saída demonstra que o código está funcionando e de acordo com a estrutura do GoF de Decorator. Posteriormente o código será usada para atualizar os temas e parâmetros da tela.
@@ -258,8 +251,10 @@ public class Teste {
 ![resposta](./img/resposta-codigo-decorator.jpeg)
 </div>
 
-<div>
-    <h6 align="center"> Resposta do Código. Fonte: Intellij, 2024.
+ <div>
+    <h6 align="center">Fonte: 
+         <a href="https://github.com/FelipeDireito">DIREITO</a>,
+         <a href="https://github.com/FHansen98">HANSEN</a>. 2024.
     </h6>
 </div>
 
