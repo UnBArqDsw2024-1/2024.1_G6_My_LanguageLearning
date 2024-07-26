@@ -281,8 +281,9 @@ public class Main {
 <div align="center">
 
 ![saidaPrototype](./img/saidaPrototype.jpg)
+</div>
 
-<div>
+ <div>
     <h6 align="center">Fonte: 
         <a href="https://github.com/PedroSiq">SIQUEIRA</a>, 
         <a href="https://github.com/MatheusPerillo">PERILLO</a>. 2024.
