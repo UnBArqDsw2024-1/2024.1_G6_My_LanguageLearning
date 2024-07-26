@@ -42,9 +42,13 @@
 
 <p align="justify">
 &emsp;&emsp; Abaixo, na figura 1, foi desenvolvido pelos participantes o UML do Prototype que visa a possibilidade de clonagens da classe principal CriadorPonto. 
+
 &emsp;&emsp; A classe base presente na Figura 1 é a CriadorPonto e ela possui seus métodos como: criaPontoNivel() e categoriaQuestao(tipo: int): questao.
+
 &emsp;&emsp;Temos uma interface chamada PontoPorNivel que define o método criaNivelDificuldade.
+
 &emsp;&emsp; As classes concretas são definidas por ConcretePontoFacil, ConcretePontoMedia, ConcretePontoDificil que implementam a interface PontoPorNivel. Essas classes possuem atributos como ponto e questao e métodos como criaPontoNivel() e categoriaQuestao(tipo:int): questao.
+
 &emsp;&emsp;Portanto, este diagrama mostra como o padrão criacional Prototype pode ser utilizado para criar novos tipos de objetos diferentes (ConcretePontoFacil, ConcretePontoMedia, ConcretePontoDificil) por meio da interface em comum (PontoPorNivel()), o que permite clonar objetos de maneira correta.
 </p>
 
