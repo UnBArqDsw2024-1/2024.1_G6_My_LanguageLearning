@@ -239,6 +239,12 @@ public class Teste {
 }
 
 ```
+ <div>
+    <h6 align="center">Fonte: 
+         <a href="https://github.com/FelipeDireito">DIREITO</a>,
+         <a href="https://github.com/FHansen98">HANSEN</a>. 2024.
+    </h6>
+</div>
 
 ## **Saída**:
 
