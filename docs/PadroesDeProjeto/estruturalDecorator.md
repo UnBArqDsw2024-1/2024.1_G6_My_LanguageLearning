@@ -54,8 +54,12 @@
 
 </p>
 
+<h6 align="center">Figura 2: Saída do código do GoF de decorator.</h6>
+<div align="center">
+
 ![decorator](./img/diag-estrutural-decorator.jpeg)
 
+</div>
 <div>
     <h6 align="center">Fonte: 
         <a href="https://github.com/luishenrrique">COSTA</a>, 
@@ -243,13 +247,31 @@ public class Teste {
     </h6>
 </div>
 
-`Resposta:`
+## **Saída**:
+
+&emsp;&emsp; O resultado do código presente na Figura 2, é uma saída no terminal, contendo os logs presentes em cada classe quando realizada alguma operação de troca de tema. Essa saída é apenas um teste para demonstrar que os códigos estão atualizando seus parâmetros, por exemplo: brilho, contraste e tema, quando solicitados. Essa saída demonstra que o código está funcionando e de acordo com a estrutura do GoF de Decorator. Posteriormente o código será usada para atualizar os temas e parâmetros da tela.
+
+
+<h6 align="center">Figura 2: Saída do código do GoF de decorator.</h6>
+<div align="center">
 
 ![resposta](./img/resposta-codigo-decorator.jpeg)
+</div>
+
 <div>
     <h6 align="center"> Resposta do Código. Fonte: Intellij, 2024.
     </h6>
 </div>
+
+## **Conclusão** 
+
+
+&emsp;&emsp; O padrão de projeto Decorator demonstrou ser uma abordagem eficaz e flexível para a modelagem da estrutura visual da aplicação, permitindo a adição dinâmica de funcionalidades sem modificar o código original. Sua aplicabilidade no frontend é evidente, proporcionando a capacidade de alterar temas, cores e contrastes para otimizar a acessibilidade, especialmente para pessoas com deficiências visuais.
+
+Nós usamos o padrão Decorator para gerenciar diferentes tipos de temas. Classes como TelaTemaContraste e TelaTemaEscuro foram fundamentais para fornecer funcionalidades específicas de acessibilidade e personalização de tema, enquanto DecoratorTela gerenciou essas funcionalidades de forma eficiente.rando a coesão e facilitando a extensão do sistema com novos tipos de questões no futuro.
+
+Em resumo, o padrão Decorator não apenas atendeu aos objetivos propostos para o projeto, como também forneceu uma base robusta e escalável para futuras expansões e personalizações da aplicação, comprovando ser uma escolha estratégica e eficiente para o desenvolvimento frontend.
+
 
 ## **Bibliografia**
 
@@ -269,3 +291,4 @@ public class Teste {
 | `1.4`  | 22/07/2024 | Adicionando Fontes | [Maria Eduarda Barbosa](https://github.com/Madu01) |   [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
 | `1.5`| 25/07/2024 | Finalizando código | [Felipe Hansen](https://github.com/FHansen98)  |  [Luis Henrique Luz Costa ](https://github.com/luishenrrique)   |
 | `1.6`| 25/07/2024 | Finalizando documento e objetivo | [Felipe Direito](https://github.com/FelipeDireito)  |  [Felipe Hansen](https://github.com/FHansen98) |
+| `1.7`| 25/07/2024 | Adicionando conclusão e resposta da saída | [Felipe Hansen](https://github.com/FHansen98)  |  [Felipe Direito](https://github.com/FelipeDireito)   |
