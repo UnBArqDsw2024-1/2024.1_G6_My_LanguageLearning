@@ -382,9 +382,11 @@ public class Cliente {
     <h6 align="center">Fonte: 
         <a href="https://github.com/luishenrrique">COSTA</a>, 
         <a href="https://github.com/The-Boss-Nina">SOUZA</a>, 
+        <a href="https://github.com/laurapinos">PINOS</a>, 
         <a href="https://github.com/Madu01">BARBOSA</a>, 
         <a href="https://github.com/EduardaSMarques">MARQUES</a>, 
         <a href="https://github.com/Jlmsousa">SOUSA</a>, 
+        <a href="https://github.com/CarolinaBarb">BRITO</a>,
         <a href="https://github.com/JuliaSSouza">SANT'ANA</a>.
         2024.
     </h6>
@@ -404,7 +406,7 @@ public class Cliente {
 ![saidaComposite](img/saida-criacional.jpeg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/luishenrrique">COSTA</a>.
+<h6 align="center">Fonte: <a href="https://github.com/luishenrrique">COSTA. 2024</a>.
 
 ## **Bibliografia**
 

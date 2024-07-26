@@ -56,6 +56,21 @@
 
 ![decorator](./img/diag-estrutural-decorator.jpeg)
 
+<div>
+    <h6 align="center">Fonte: 
+        <a href="https://github.com/luishenrrique">COSTA</a>, 
+        <a href="https://github.com/The-Boss-Nina">SOUZA</a>, 
+        <a href="https://github.com/laurapinos">PINOS</a>, 
+        <a href="https://github.com/Madu01">BARBOSA</a>, 
+        <a href="https://github.com/EduardaSMarques">MARQUES</a>, 
+        <a href="https://github.com/Jlmsousa">SOUSA</a>, 
+        <a href="https://github.com/CarolinaBarb">BRITO</a>,
+        <a href="https://github.com/JuliaSSouza">SANT'ANA</a>,
+        <a href="https://github.com/FelipeDireito">DIREITO</a>,
+        <a href="https://github.com/FHansen98">HANSEN</a>. 
+        2024.
+    </h6>
+</div>
 
 ## **Código do UML Decorator**
 
@@ -224,6 +239,13 @@ public class Teste {
 }
 
 ```
+
+ <div>
+    <h6 align="center">Fonte: 
+         <a href="https://github.com/FelipeDireito">DIREITO</a>,
+         <a href="https://github.com/FHansen98">HANSEN</a>. 2024.
+    </h6>
+</div>
 
 Resposta:
 
