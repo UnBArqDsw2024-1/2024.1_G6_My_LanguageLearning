@@ -222,7 +222,7 @@ public class Main {
 ![saidaComposite](img/saidaMemento.jpeg)
 
 </div>
-<h6 align="center">Fonte: <a href="https://github.com/luishenrrique">COSTA.</a>
+<h6 align="center">Fonte: <a href="https://github.com/luishenrrique">COSTA</a>.
                           2024.
 </h6>                         
 </div>
