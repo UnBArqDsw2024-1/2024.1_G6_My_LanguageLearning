@@ -17,8 +17,6 @@
 | [Felipe Direito](https://github.com/FelipeDireito)          |
 | [Felipe Hansen](https://github.com/FHansen98)               |
 
-
-
 ## **Introdução**
 
 <p align="justify">
@@ -351,7 +349,7 @@ public class Main {
 
 ## **Conclusão**
 
-O padrão de projeto Composite nos permite gerenciar estruturas hierárquicas em sistemas orientados a objetos. Ele  agrupa objetos que fazem parte de uma relação parte-todo de maneira que possam ser tratados de forma uniforme. Além disso. esse padrão é útil para diminuir o acoplamento entre os objetos de um sistema, o que facilita a manutenção e evolução do software.
+O padrão de projeto Composite nos permite gerenciar estruturas hierárquicas em sistemas orientados a objetos. Ele agrupa objetos que fazem parte de uma relação parte-todo de maneira que possam ser tratados de forma uniforme. Além disso. esse padrão é útil para diminuir o acoplamento entre os objetos de um sistema, o que facilita a manutenção e evolução do software.
 
 Nós usamos o padrão Composite para gerenciar diferentes tipos de questões (como múltipla escolha, lacuna e verdadeiro ou falso) e suas respectivas partes (como alternativas e respostas corretas). Isso permite que o sistema trate tanto as questões individuais quanto as composições de questões de maneira uniforme, melhorando a coesão e facilitando a extensão do sistema com novos tipos de questões no futuro.
 
@@ -363,7 +361,9 @@ O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, si
 
 >> <a href="https://Link_da_fonte">[2]</a> REFACTORING GURU. Design Patterns: Composite. Disponível em: <https://refactoring.guru/design-patterns/composite>. Acesso em: 17 jul. 2024.
 
+
 ## **Histórico de Versão**
+
 <p align="justify">
 &emsp;&emsp;A tabela 1 representa o histórico de versão do documento.
 </p>
@@ -383,3 +383,8 @@ O uso do padrão Composite nos permitiu uma estrutura flexível e escalável, si
 | `1.7`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques), [Luis Henrique](https://github.com/luishenrrique)  |
 | `1.8`  | 25/07/2024 | Adição da metodologia | [Marina Márcia](https://github.com/The-Boss-Nina) | [Maria Eduarda Marques](https://github.com/EduardaSMarques)    |
 | `1.9`  | 25/07/2024 | Adição de conteúdo nos tópicos de desenvolvimento: UML Composite, Código do UML Composite e saída  | [Maria Eduarda Barbosa](https://github.com/Madu01) |  [Maria Eduarda Marques](https://github.com/EduardaSMarques)      |
+| `2.0`  | 25/07/2024 | Adição conclusão                                       | [Julia Souza](https://github.com/JuliaSSouza)
+| `2.1`  | 25/07/2024 | Adição do objetivo                            | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `2.2`  | 25/07/2024 | Adição do código Prototype                    | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+| `2.3`  | 25/07/2024 | Adição de saída do código e explicação do UML | [Matheus Perillo](https://github.com/MatheusPerillo) e [Pedro Siqueira](https://github.com/PedroSiq) | [Maria Eduarda Barbosa](https://github.com/Madu01)  |
+
