@@ -21,8 +21,9 @@
 | 190094320 | Pedro Augusto Santos Siqueira             | [PedroSiq](https://github.com/PedroSiq)                 | <img src="https://avatars.githubusercontent.com/u/86636146?v=4" width=50>  |
 
 ## Sobre 
-O projeto My Language Learning consiste em uma aplicação web que visa auxiliar na aprendizagem de novos idiomas. 
-
+O projeto My Language Learning consiste em uma aplicação web que visa auxiliar na aprendizagem de novos idiomas.
+ 
+<!-- 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots em termos de artefatos da Primeira Entrega.
 
@@ -51,3 +52,4 @@ Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados
 
 ## Informações Complementares 
 Quaisquer outras informações adicionais podem ser descritas nessa seção.
+ -->
