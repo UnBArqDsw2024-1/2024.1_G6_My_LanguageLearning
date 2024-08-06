@@ -55,9 +55,10 @@
   - [4. Desenho de Software (Arquitetura & Reutilização de Software)](/ArquiteturaReutilizacao/4.ArquiteturaReutilizacao.md)
     - [4.1. Módulo Estilos e Padrões Arquiteturais](/ArquiteturaReutilizacao/4.1.PadroesArquiteturais.md)
       - [4.1.1. Visão Lógica](/ArquiteturaReutilizacao/4.1.1.VisaoLogica.md)
-      - [4.1.2. Visão Processo](/ArquiteturaReutilizacao/4.1.2.VisaoProcesso.md)
-      - [4.1.3. Visão Implementação](/ArquiteturaReutilizacao/4.1.3.VisaoImplementacao.md)
-      - [4.1.4. Visão Implantação](/ArquiteturaReutilizacao/4.1.4.VisaoImplantacao.md)
+      - [4.1.2. Visão de Processos](/ArquiteturaReutilizacao/4.1.2.VisaoProcesso.md)
+      - [4.1.3. Visão de Implementação](/ArquiteturaReutilizacao/4.1.3.VisaoImplementacao.md)
+      - [4.1.4. Visão de Implantação](/ArquiteturaReutilizacao/4.1.4.VisaoImplantacao.md)
+      - [4.1.5. Visão de Dados](/ArquiteturaReutilizacao/4.1.5.VisaoDados.md)
     - [4.2. Módulo Reutilização de Software](/ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md)
     - [4.3. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md)
 
