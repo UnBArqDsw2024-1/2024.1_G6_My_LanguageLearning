@@ -1,34 +1,43 @@
-<mat-tab-group>
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">question_answer</mat-icon>
-      Questões
-    </ng-template>
-    Questões
-  </mat-tab>
+<mat-card appearance="outlined">
+  <mat-card-content>
 
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">shield</mat-icon>
-       Missões
-    </ng-template>
-    Missões
-  </mat-tab>
+    <mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">question_answer</mat-icon>
+          Questões
+        </ng-template>
+        Questões
+        <app-questoes></app-questoes>
+      </mat-tab>
 
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">clear_all</mat-icon>
-      Ranking
-    </ng-template>
-    Ranking
-  </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">shield</mat-icon>
+           Missões
+        </ng-template>
+        Missões
+      </mat-tab>
 
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">person</mat-icon>
-      Perfil
-    </ng-template>
-    Perfil
-  </mat-tab>
-</mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">clear_all</mat-icon>
+          Ranking
+        </ng-template>
+        Ranking
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">person</mat-icon>
+          Perfil
+        </ng-template>
+        Perfil
+      </mat-tab>
+    </mat-tab-group>
+
+  </mat-card-content>
+</mat-card>
+
+
 

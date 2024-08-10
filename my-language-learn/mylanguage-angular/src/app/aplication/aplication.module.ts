@@ -5,17 +5,19 @@ import { AplicationRoutingModule } from './aplication-routing.module';
 import { AppMaterialModule } from '../shared/app-material/app-material.module';
 import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './containers/home/home.component';
+import { QuestoesComponent } from "./containers/questoes/questoes.component";
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    QuestoesComponent
   ],
   imports: [
     CommonModule,
     AplicationRoutingModule,
     AppMaterialModule,
     SharedModule
-  ]
+]
 })
 export class AplicationModule { }
