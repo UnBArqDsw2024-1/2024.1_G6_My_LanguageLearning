@@ -60,6 +60,8 @@
       - [4.1.4. Visão de Implantação](/ArquiteturaReutilizacao/4.1.4.VisaoImplantacao.md)
       - [4.1.5. Visão de Dados](/ArquiteturaReutilizacao/4.1.5.VisaoDados.md)
     - [4.2. Módulo Reutilização de Software](/ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md)
+      - [4.2.1. Frontend](/ArquiteturaReutilizacao/4.2.1.Frontend.md)
+      - [4.2.2. Backend](/ArquiteturaReutilizacao/4.2.2.Backend.md)
     - [4.3. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md)
 
 - **Reuniões**
@@ -69,4 +71,5 @@
   - [5.2.Reunião 3](/Reunioes/5.2.Reuniao03.md)
   - [5.3.Reunião 4](/Reunioes/5.3.Reuniao04.md)
   - [5.4.Reunião 5](/Reunioes/5.4.Reuniao05.md)
-  - [5.5.Reunião 6](/Reunioes/5.5.Reuniao6.md)
+  - [5.5.Reunião 6](/Reunioes/5.5.Reuniao06.md)
+  - [5.6.Reunião 7](/Reunioes/5.6.Reuniao07.md)
