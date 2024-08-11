@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './questoes.component.scss'
 })
 export class QuestoesComponent {
-
+  onButtonClick() {
+    console.log("string")
+  }
 }
