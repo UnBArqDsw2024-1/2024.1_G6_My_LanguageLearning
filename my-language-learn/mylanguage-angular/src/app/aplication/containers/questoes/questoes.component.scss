@@ -2,25 +2,25 @@
     font-size: 20px;    /* Adjust font size */
     padding: 16px 24px; /* Adjust padding for larger buttons */
     height: 60px;       /* Adjust height */
-    background-color: dimgray;
   }
-  
+
 .button-icon {
     font-size: 30px;    /* Adjust font size */
     padding: 16px 24px; /* Adjust padding for larger buttons */
     height: 60px;       /* Adjust height */
     margin-left: 7%;
-    background-color: white;
+    background-color: rgba(44, 185, 139, 1);
   }
 
-  .button-icon:hover {
-    background-color: darkgray;
-  }
+.button-icon:hover {
+  background-color: rgba(44, 185, 139, 1);
+  color: lightgray;
+}
 
 .title {
-    text-align: left;
-    margin-left: 7%;
-    color: white;
-    font-size: 3em;
-  }
-  
+  text-align: center;
+  margin-left: 7%;
+  color: rgba(15, 63, 189, 1);
+  font-size: 4em;
+  padding-top: 45px;
+}
