@@ -1,0 +1,18 @@
+.body.mat-typography {
+  background: linear-gradient(to right, #A5DDCB, #95C1F6) !important;
+}
+
+.button-row {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.button-row button {
+  background: #01D5FE;
+  color: black;
+  font-size: large;
+  width: 200px;
+}

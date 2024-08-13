@@ -6,10 +6,12 @@ import { AppMaterialModule } from '../shared/app-material/app-material.module';
 import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './containers/home/home.component';
 import { QuestoesComponent } from "./containers/questoes/questoes.component";
+import { InicioComponent } from './containers/inicio/inicio.component';
 
 
 @NgModule({
   declarations: [
+    InicioComponent,
     HomeComponent,
     QuestoesComponent
   ],
