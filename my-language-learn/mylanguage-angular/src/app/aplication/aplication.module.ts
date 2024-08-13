@@ -7,13 +7,19 @@ import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './containers/home/home.component';
 import { QuestoesComponent } from "./containers/questoes/questoes.component";
 import { InicioComponent } from './containers/inicio/inicio.component';
+import { LoginComponent } from './containers/login/login.component';
+import { CadastrarComponent } from './containers/cadastrar/cadastrar.component';
+import { LinguagemComponent } from './containers/linguagem/linguagem.component';
 
 
 @NgModule({
   declarations: [
     InicioComponent,
     HomeComponent,
-    QuestoesComponent
+    QuestoesComponent,
+    LoginComponent,
+    CadastrarComponent,
+    LinguagemComponent
   ],
   imports: [
     CommonModule,
