@@ -62,9 +62,10 @@
     - [4.2. Módulo Reutilização de Software](/ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md)
       - [4.2.1. Frontend](/ArquiteturaReutilizacao/4.2.1.Frontend.md)
       - [4.2.2. Backend](/ArquiteturaReutilizacao/4.2.2.Backend.md)
-    - [4.3. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md)
-    - 4.4. Atividades Extra
-      - [4.4.1. MVP](/ArquiteturaReutilizacao/4.4.1.MVP.md)
+    - 4.3. Versão Final Essencial
+      - [4.3.1. MVP](/ArquiteturaReutilizacao/4.3.1.MVP.md)
+    - [4.4. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.4.ParticipacoesArqReutilizacao.md)
+
 
 - **Reuniões**
 - 
