@@ -1,6 +1,12 @@
 <h1 align="center"> Language Learning </h1>
 <h3 align="center"> 2024.1 </h3>
 
+<div align="center">
+
+![logo](imgLogoArq.png)
+
+</div>
+
 ## 💡 Sobre
 
 Website que ensina um idioma. Criado pela equipe 6 da disciplina de arquitetura e desenho de software, Engenharia de Software, UnB.

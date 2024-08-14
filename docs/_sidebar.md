@@ -63,6 +63,8 @@
       - [4.2.1. Frontend](/ArquiteturaReutilizacao/4.2.1.Frontend.md)
       - [4.2.2. Backend](/ArquiteturaReutilizacao/4.2.2.Backend.md)
     - [4.3. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md)
+    - 4.4. Atividades Extra
+      - [4.4.1. MVP](/ArquiteturaReutilizacao/4.4.1.MVP.md)
 
 - **Reuniões**
 - 
