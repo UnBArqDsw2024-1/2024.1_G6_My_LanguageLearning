@@ -1,6 +1,8 @@
 package com.my_language_learn;
 
+import com.my_language_learn.model.Questoes;
 import com.my_language_learn.model.Usuario;
+import com.my_language_learn.repository.QuestaoRepository;
 import com.my_language_learn.repository.UsuarioRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,7 +17,7 @@ public class MylanguagelearnSpringApplication {
 	}
 
 	@Bean
-	CommandLineRunner initDatabase(UsuarioRepository usuarioRepository) {
+	CommandLineRunner initDatabase(UsuarioRepository usuarioRepository, QuestaoRepository questaoRepository) {
 		return args -> {
 			usuarioRepository.deleteAll();
 
@@ -31,6 +33,16 @@ public class MylanguagelearnSpringApplication {
 			c1.setEmail("maria@gmail.com");
 			c1.setSenha("123456");
 			usuarioRepository.save(c1);
+
+			questaoRepository.deleteAll();
+
+			Questoes q = new Questoes();
+
+			q.setEnunciado("Testandoi primeira questẽaos ãs");
+			q.setResposta("True");
+			q.setNivel(1);
+			q.setValor(120);
+			questaoRepository.save(q);
 		};
 	}
 
