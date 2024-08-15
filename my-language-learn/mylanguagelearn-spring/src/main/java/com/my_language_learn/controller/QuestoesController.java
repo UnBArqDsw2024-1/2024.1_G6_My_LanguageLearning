@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/questoes")
-
+@CrossOrigin(origins = "http://localhost:4200")
 public class QuestoesController {
     QuestaoRepository questaoRepository;
 
