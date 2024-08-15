@@ -5,24 +5,35 @@
 
 
   <mat-card-content>
-    <span>Nome de usuário<br></span>
-    <mat-form-field>
-      <input matInput>
-    </mat-form-field>
+    <form [formGroup]="form">
+      <span>Nome de usuário<br></span>
+      <mat-form-field>
+        <input matInput formControlName="nome">
+      </mat-form-field>
 
-    <span><br>Email<br></span>
-    <mat-form-field>
-      <input matInput>
-    </mat-form-field>
+      <span><br>Email<br></span>
+      <mat-form-field>
+        <input matInput formControlName="email">
+      </mat-form-field>
 
-    <span><br>Senha<br></span>
-    <mat-form-field>
-      <input matInput>
-    </mat-form-field>
+      <span><br>Senha<br></span>
+      <mat-form-field>
+        <input matInput formControlName="senha" [type]="hide() ? 'password' : 'text'" />
+        <button
+          mat-icon-button
+          matSuffix
+          (click)="clickEvent($event)"
+          [attr.aria-label]="'Hide password'"
+          [attr.aria-pressed]="hide()"
+        >
+          <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+    </form>
   </mat-card-content>
 
 
   <mat-card-actions>
-    <button mat-flat-button>Cadastrar</button>
+    <button mat-flat-button (click)="onSubmit ()">Cadastrar</button>
   </mat-card-actions>
 </mat-card>

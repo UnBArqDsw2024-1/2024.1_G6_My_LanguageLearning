@@ -10,6 +10,7 @@ import { InicioComponent } from './containers/inicio/inicio.component';
 import { LoginComponent } from './containers/login/login.component';
 import { CadastrarComponent } from './containers/cadastrar/cadastrar.component';
 import { LinguagemComponent } from './containers/linguagem/linguagem.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { LinguagemComponent } from './containers/linguagem/linguagem.component';
     CommonModule,
     AplicationRoutingModule,
     AppMaterialModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule
 ]
 })
 export class AplicationModule { }

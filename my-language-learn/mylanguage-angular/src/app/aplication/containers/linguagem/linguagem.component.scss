@@ -40,3 +40,25 @@ mat-card-actions button {
   background: #01D5FE;
   color: black;
 }
+
+.button-row {
+  padding-top: 100px;
+  margin: 2em auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+button {
+  font-size: larger;
+
+  width: 421px;
+  height: 101px;
+  border-radius: none;
+}
+
+.button-row button {
+  background: #01D5FE;
+  color: black;
+}
