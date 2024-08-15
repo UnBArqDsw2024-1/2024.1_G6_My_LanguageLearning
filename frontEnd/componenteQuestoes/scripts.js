@@ -12,10 +12,10 @@ function confereR1(nomeCampo, respostCorreta) {
     const mensagem = document.getElementById(`mensagem-${nomeCampo}`);
     if (selecionado === respostCorreta) {
         mensagem.textContent = 'Resposta Correta! +5xp';
-        mensagem.style.color = 'green';
+        mensagem.setAttribute('status', 'correta');
     } else {
         mensagem.textContent = 'Resposta Errada! +0xp';
-        mensagem.style.color = 'red';
+        mensagem.setAttribute('status', 'errada');
     }
     mensagem.style.display = 'block';
 }
