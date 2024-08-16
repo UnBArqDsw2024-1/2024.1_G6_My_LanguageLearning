@@ -1,0 +1,57 @@
+<div class="container">
+    <h1>Nível 1</h1>
+  
+    <!-- Questão 1 -->
+    <div class="questao">
+      <div class="header">
+        <div class="numero-circulo">1</div>
+        <p><b>Carne em inglês é beafi.</b></p>
+      </div>
+      <input type="radio" id="vf1" name="vf" value="V">
+      <label for="vf1">V</label>
+      <input type="radio" id="vf2" name="vf" value="F">
+      <label for="vf2">F</label>
+      <br>
+      <button (click)="confereR1('vf', 'F')">Responder</button>
+      <p class="mensagem" id="mensagem-vf"></p>
+    </div>
+  
+    <!-- Questão 2 -->
+    <div class="questao">
+      <div class="header">
+        <div class="numero-circulo">2</div>
+        <p><b>How do you say “Você consegue me ajudar?” in English:</b></p>
+      </div>
+      <div class="alternativa">
+        <div class="left-column">
+          <input type="radio" id="alt1" name="alternativa" value="A">
+          <label for="alt1"><b>A)</b> Help me?</label><br>
+          <input type="radio" id="alt2" name="alternativa" value="B">
+          <label for="alt2"><b>B)</b> You can me help?</label><br>
+        </div>
+        <div class="right-column">
+          <input type="radio" id="alt3" name="alternativa" value="C">
+          <label for="alt3"><b>C)</b> Can you help me?</label><br>
+          <input type="radio" id="alt4" name="alternativa" value="D">
+          <label for="alt4"><b>D)</b> Can me help you?</label><br>
+        </div>
+      </div>
+      <br>
+      <button (click)="confereR2('alternativa', 'C')">Responder</button>
+      <p class="mensagem" id="mensagem-alternativa"></p>
+    </div>
+  
+    <!-- Questão 3 -->
+    <div class="questao">
+      <div class="header">
+        <div class="numero-circulo">3</div>
+        <p><b>In English, who is the doctor of the animals?</b><br>The answer has just one word.</p>
+      </div>
+      <input type="text" id="resposta-aberta" placeholder="Responda aqui...">
+      <button (click)="confereAbertaN1()">Responder</button>
+      <p class="mensagem" id="mensagem-aberta"></p>
+    </div>
+  
+    <button class="botaoRetornar" (click)="retornarHome()">Retornar para os níveis</button>
+  </div>
+  

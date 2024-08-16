@@ -1,0 +1,42 @@
+mat-card {
+  width: 1200px;
+  height: 600px;
+  margin: 3em auto;
+  background-color: #95C1F6;
+}
+
+span {
+  color: #005CCC;
+  font-size: 1.5em;
+}
+
+mat-card-header {
+  height: 150px;
+  justify-content: center;
+}
+
+mat-card-title {
+  font-size: 85px;
+  margin-top: 45px;
+  color: #005CCC;
+}
+
+mat-card-content {
+  text-align: center;
+}
+
+mat-card-actions {
+  width: 300px;
+  margin: 2em auto;
+}
+
+mat-form-field {
+  width: 500px;
+}
+
+mat-card-actions button {
+  font-size: 1.5em;
+  width: 300px;
+  background: #01D5FE;
+  color: black;
+}

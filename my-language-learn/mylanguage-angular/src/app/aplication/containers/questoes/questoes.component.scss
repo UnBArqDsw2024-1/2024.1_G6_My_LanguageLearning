@@ -1,0 +1,26 @@
+.button-row {
+    font-size: 20px;    /* Adjust font size */
+    padding: 16px 24px; /* Adjust padding for larger buttons */
+    height: 60px;       /* Adjust height */
+  }
+
+.button-icon {
+    font-size: 30px;    /* Adjust font size */
+    padding: 16px 24px; /* Adjust padding for larger buttons */
+    height: 60px;       /* Adjust height */
+    margin-left: 7%;
+    background-color: rgba(44, 185, 139, 1);
+  }
+
+.button-icon:hover {
+  background-color: rgba(44, 185, 139, 1);
+  color: lightgray;
+}
+
+.title {
+  text-align: center;
+  margin-left: 7%;
+  color: rgba(15, 63, 189, 1);
+  font-size: 4em;
+  padding-top: 45px;
+}
