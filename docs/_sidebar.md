@@ -1,3 +1,4 @@
+
 <!-- docs/_sidebar.md -->
 
 <!-- - [Home](/docs/README.md) -->
@@ -60,8 +61,6 @@
       - [4.1.4. Visão de Implantação](/ArquiteturaReutilizacao/4.1.4.VisaoImplantacao.md)
       - [4.1.5. Visão de Dados](/ArquiteturaReutilizacao/4.1.5.VisaoDados.md)
     - [4.2. Módulo Reutilização de Software](/ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md)
-      - [4.2.1. Frontend](/ArquiteturaReutilizacao/4.2.1.Frontend.md)
-      - [4.2.2. Backend](/ArquiteturaReutilizacao/4.2.2.Backend.md)
     - 4.3. Versão Final Essencial
       - [4.3.1. MVP](/ArquiteturaReutilizacao/4.3.1.MVP.md)
     - [4.4. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.4.ParticipacoesArqReutilizacao.md)
