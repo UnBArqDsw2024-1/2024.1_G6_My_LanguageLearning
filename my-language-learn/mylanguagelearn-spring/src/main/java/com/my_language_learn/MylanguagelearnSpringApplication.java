@@ -38,8 +38,8 @@ public class MylanguagelearnSpringApplication {
 
 			Questoes q = new Questoes();
 
-			q.setEnunciado("Testandoi primeira questẽaos ãs");
-			q.setResposta("True");
+			q.setEnunciado("Carne em inglês é beafi.");
+			q.setResposta("False");
 			q.setNivel(1);
 			q.setValor(120);
 			questaoRepository.save(q);

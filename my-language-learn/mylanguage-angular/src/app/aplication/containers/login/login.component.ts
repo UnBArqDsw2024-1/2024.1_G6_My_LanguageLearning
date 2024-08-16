@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -13,6 +14,7 @@ export class LoginComponent {
   hide = signal(true);
 
   constructor (
+    private router: Router,
     private formBuilder: FormBuilder
   ) {
     this.form = this.formBuilder.group ({
@@ -30,6 +32,7 @@ export class LoginComponent {
   onSubmit () {
     console.log ("Logar");
     console.log (this.form.value)
+    this.router.navigate(['/home'])
   }
 
 }
